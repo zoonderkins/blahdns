@@ -24,24 +24,29 @@ curl -H 'content-type: application/dns-message' -vL -v 'https://doh-de.blahdns.c
 
 curl -H 'content-type: application/dns-message' -vL -v 'https://doh-ch.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
 
-// Kdig TLS with port 853, port 443 force include SNI (updated on July 19, 2019)
+// Kdig on Ubuntu, Debian
+apt install knot-dnsutils
 
-kdig example.com @108.61.201.119 +tls
-kdig example.com @2001:19f0:7001:1ded:5400:1ff:fe90:945b +tls
-kdig example.com @159.69.198.101 +tls
-kdig example.com @2a01:4f8:1c1c:6b4b::1 +tls
-kdig example.com @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls
+// Kdig TLS with port 853, port 443 force include SNI (updated on August 1, 2019)
 
-kdig example.com @108.61.201.119 +tls -p 443 +tls-sni=dot-jp.blahdns.com
-kdig example.com @159.69.198.101 +tls -p 443 +tls-sni=dot-de.blahdns.com
-kdig example.com @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls +tls-sni=dot-ch.blahdns.com
+kdig @108.61.201.119 +tls example.com
+kdig @2001:19f0:7001:1ded:5400:1ff:fe90:945b +tls example.com 
+kdig @159.69.198.101 +tls example.com 
+kdig @2a01:4f8:1c1c:6b4b::1 +tls example.com 
+kdig @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls example.com 
+
+kdig @108.61.201.119 +tls -p 443 +tls-sni=dot-jp.blahdns.com example.com 
+kdig @159.69.198.101 +tls -p 443 +tls-sni=dot-de.blahdns.com example.com 
+kdig @2a01:4f8:1c1c:6b4b::1 +tls -p 443 +tls-sni=dot-de.blahdns.com example.com 
+kdig @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls +tls-sni=dot-ch.blahdns.com example.com 
 
 // TLS certificate validation 
 kdig -d @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls-sni=dot-ch.blahdns.com +tls-ca +tls-host=dot-ch.blahdns.com example.com
 kdig -d @108.61.201.119 -p 443 +tls-sni=dot-jp.blahdns.com +tls-ca +tls-host=dot-jp.blahdns.com example.com
 kdig -d @2001:19f0:7001:1ded:5400:1ff:fe90:945b -p 443 +tls-sni=dot-jp.blahdns.com +tls-ca +tls-host=dot-jp.blahdns.com example.com
 kdig -d @159.69.198.101 -p 443 +tls-sni=dot-de.blahdns.com +tls-ca +tls-host=dot-de.blahdns.com example.com
-kdig -d @159.69.198.101 -p 443 +tls-sni=dot-de.blahdns.com +tls-ca +tls-host=dot-de.blahdns.com example.com
+kdig -d @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 -p 443 +tls-sni=dot-de.blahdns.com +tls-ca +tls-host=dot-de.blahdns.com example.com
+
 ```
 
 ## Mac OSX Mojave use Openssl TLS 1.3 

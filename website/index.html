@@ -41,9 +41,9 @@
     
       No logs | No EDNS Client-Subnet | OpenNIC TLDs | DNSSEC ready | Filtered some ads, trackers, malware
       <ul class="w3-left-align">
-          <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will required strict SNI, without SNI will drop by default. </li>
+          <li class="w3-text-red"> Switzerland server is online July 29, 2019, IPv6 ONLY, DoT port 443, 853 </li>
+        <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will required strict SNI, without SNI will drop by default. </li>
         <li class="w3-text-red">If you are developer, this DNS will block analytics, crashlytics, admob, baidu stats, Pls be aware. </li>
-        <li class="w3-text-purple"> Start from Jan 1 2019, our serivce only support DoT, DoH, DNScryptv2 </li>
 
         <li><a href="https://stats.blahdns.com" target="_blank"><strong>Server status</strong></a></li>
         <li>If you encounter problem, please submit it on <a href="https://github.com/ookangzheng/blahdns" target="_blank">Github</a></li>
@@ -76,11 +76,11 @@
               <p>IPv6-stamp:</p>
               <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAIFsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
               <h3>DNS-over-TLS</h3>
-              <p>IP: <br>
+              <p>IPv6 ONLY: <br>
                 <textarea readonly rows="2" cols="20" maxlength="50">2a0a:e5c0:2:2:0:c8ff:fe68:bf48</textarea>
                 <p>tls_auth_name: <br>
                   <textarea readonly rows="1" cols="50" maxlength="50">dot-ch.blahdns.com</textarea>
-                  port: 853
+                  port: 443, 853
                 </p>
                 <h3>DNSCrypt v2</h3>
                 port: 8443
@@ -98,7 +98,7 @@
       <div class="w3-third">
         <div class="w3-card white">
           <div class="w3-container w3-indigo">
-            <h3>Japan🇯🇵</h3>
+            <h3>Japan 🇯🇵</h3>
           </div>
 
           <ul class="w3-ul w3-border-top">
@@ -138,7 +138,7 @@
       <div class="w3-third">
         <div class="w3-card white">
           <div class="w3-container w3-theme">
-            <h3>Germany🇩🇪</h3>
+            <h3>Germany 🇩🇪</h3>
           </div>
 
           <ul class="w3-ul w3-border-top">
@@ -383,6 +383,7 @@ Cipher    : TLS_AES_256_GCM_SHA384
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'TLS')">Common question</button>
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'News')">News</button>
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'troubleshooting')">Troubleshoot</button>
+          <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'donation')">Donation</button>
         </div>
 
         <div id="TLS" class="w3-container city w3-animate-opacity">
@@ -430,6 +431,22 @@ Cipher    : TLS_AES_256_GCM_SHA384
             </p>
             
         </div>
+        
+        <!-- Donation -->
+        <div id="donation" class="w3-container city w3-animate-opacity">
+            <p>
+                <ul>
+                    <li>
+                        Thanks for mikaela 10 EUR
+                    </li>
+                    <li>
+                        Thanks for Tim 331 TWD
+                    </li>
+                </ul>
+            </p>
+            
+        </div>
+        
       </div>
 
     </div>
@@ -466,15 +483,20 @@ Cipher    : TLS_AES_256_GCM_SHA384
           |
           <script src="https://liberapay.com/ookangzheng/widgets/button.js"></script>
           <noscript><a href="https://liberapay.com/ookangzheng/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-          |
           <!--<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/elk6NqZhi">-->
           <!--  <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg">-->
           <!--  <span style="margin-left:5px">Buy me a coffee</span></a>-->
-          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F2H8HS44QAV8N&source=url"><img style="height:40px" src="https://camo.githubusercontent.com/f896f7d176663a1559376bb56aac4bdbbbe85ed1/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" alt="Donate with PayPal button" /></a>
+          <!-- hi@blahdns.com -->
+         
 
-          |
+          <a href="https://paypal.me/okz5289tw/100"><img style="height:40px" src="https://camo.githubusercontent.com/f896f7d176663a1559376bb56aac4bdbbbe85ed1/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" alt="Donate with PayPal button" /></a>
           
-          🧘‍♂ <a href="https://qr.allpay.com.tw/ZoYHr">贊助</a>
+<!--          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
+<!--<input type="hidden" name="cmd" value="_s-xclick" />-->
+<!--<input type="hidden" name="hosted_button_id" value="KC33GK5CT2Q9Y" />-->
+<!--<input type="image" src="https://www.paypalobjects.com/en_US/TW/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />-->
+<!--<img alt="" border="0" src="https://www.paypal.com/en_TW/i/scr/pixel.gif" width="1" height="1" />-->
+<!--</form>-->
         </p>
 
         <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">

@@ -1,9 +1,13 @@
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
-* Switzerland server is online, DoT added Port 853 (July 19, 2019) 🥂 
+* Japan server has been reinstall and updated to Vultr High frequency VPS for faster speed at August 2, 2019 🥳
 
-* Germany and Japan server certs both renewed at June 25, 2019 🥳
+* Germany server has been reinstall at August 2, 2019 🥳
+
+* Switzerland server is online, DoT added Port 443, 853 (July 19, 2019) 🥂 
+
+* Germany and Japan server certs both renewed at August 2, 2019 🥳
 
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
@@ -14,35 +18,26 @@
 * No ECS, DNSSEC ready, No logs, OpenNIC 
 
 ## Server status
-* Server status [UPTimeRobot](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
+* Server status [UpTimeRobot](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
 
 ## Server architecture
 
 ```bash
 Server (August 2, 2019 -- Germany, Japan)
 |-- Let's Encrypt SSL
-<<<<<<< HEAD
-|-- Knot-resolver (Rpz, OpenNIC, Icann)
-=======
 |-- Knot-resolver (OpenNIC, ICANN)
->>>>>>> a1b78f4... Update README.md
 |   |-- DNSCryptv2 (dnsdist, port 8443)
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
 
-<<<<<<< HEAD
-Server (July 29, 2019 -- Switzerland)
-|-- Let's Encrypt SSL
-|-- Knot-resolver (Rpz, OpenNIC, Icann)
-=======
 Server (August 2, 2019 -- Switzerland)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN, forward-upstream to quad9)
->>>>>>> a1b78f4... Update README.md
 |   |-- DNSCryptv2 (dnsdist, port 8443)
-|   |-- DoT (dnsdist, port 853, TLS 1.3)
-|   |-- DoH (dnsdist, port 443, TLS 1.3)
+|   |-- doh-server (DoH, GET, POST -- m13253)
+|   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
+|-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
 ```
 
 ## Config file / Client
@@ -57,8 +52,7 @@ Server (August 2, 2019 -- Switzerland)
   * DNS-over-HTTPS:
     * https://doh-ch.blahdns.com/dns-query
     * IPv6: sdns://AgMAAAAAAAAAIFsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    
-  * DNS-over-TLS: dot-ch.blahdns.com, ports 853
+  * DNS-over-TLS: dot-ch.blahdns.com, ports 853, 443 
   * DNSCrypt v2, port 8443:
     * IPv6: sdns://AQMAAAAAAAAAJVsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
     
