@@ -1,0 +1,26 @@
+;; ANSWER SECTION:
+.			86400	IN	NS	ns2.opennic.glue.
+.			86400	IN	NS	ns6.opennic.glue.
+.			86400	IN	NS	ns5.opennic.glue.
+.			86400	IN	NS	ns8.opennic.glue.
+.			86400	IN	NS	ns9.opennic.glue.
+.			86400	IN	NS	ns10.opennic.glue.
+.			86400	IN	NS	ns4.opennic.glue.
+
+;; ADDITIONAL SECTION:
+ns2.opennic.glue.	7200	IN	A	161.97.219.84
+ns2.opennic.glue.	7200	IN	AAAA	2001:470:4212:10::100:53:10
+ns4.opennic.glue.	7200	IN	A	163.172.168.171
+ns5.opennic.glue.	7200	IN	A	94.103.153.176
+ns5.opennic.glue.	7200	IN	AAAA	2a02:990:219:1:ba:1337:cafe:3
+ns6.opennic.glue.	7200	IN	A	207.192.71.13
+ns8.opennic.glue.	7200	IN	A	178.63.116.152
+ns8.opennic.glue.	7200	IN	AAAA	2a01:4f8:141:4281::999
+ns9.opennic.glue.	7200	IN	A	174.138.48.29
+ns9.opennic.glue.	7200	IN	AAAA	2604:a880:800:a1::2a:2001
+ns10.opennic.glue.	7200	IN	A	188.226.146.136
+ns10.opennic.glue.	7200	IN	AAAA	2001:470:1f04:ebf::2
+
+;; Query time: 212 msec
+;; SERVER: 174.138.48.29#53(174.138.48.29)
+;; WHEN: Wed Oct 31 15:28:13 CST 2018

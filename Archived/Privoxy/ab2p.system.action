@@ -1,0 +1,24 @@
+#AbBlock system actions -- don't edit --
+{+set-image-blocker{blank} \
+ +filter{ab2p-elemhide-filter} \
+ +client-header-tagger{ab2p-elemhide-check-debug} \
+ +client-header-tagger{ab2p-handle-as-image-c} \
+ +server-header-tagger{ab2p-handle-as-image-s}}
+/
+{-filter{ab2p-elemhide-filter} \
+ +filter{ab2p-elemhide-filter-debug}}
+TAG:^ab2p-elemhide-filter-debug$
+{+handle-as-image}
+TAG:^ab2p-handle-as-image$
+{+block{ adblock rules }}
+TAG:^ab2p-block-s$
+{-block}
+TAG:^ab2p-unblock-u$
+{-block}
+TAG:^ab2p-unblock-d$
+{-block}
+TAG:^ab2p-unblock-s$
+#workaround for gzip handling privoxy bugs
+{ +prevent-compression }
+ *.yahoo.com
+ *.amazon.com

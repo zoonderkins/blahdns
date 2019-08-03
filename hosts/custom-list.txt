@@ -1,0 +1,686 @@
+#######################################
+# https://gist.github.com/opus-x/3e673a9d5db2a214df05929a4eee6a57
+
+#######################################
+# BLOCK THE FOLLOWING SPOTIFY SERVERS #
+#######################################
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 ads-akp.spotify.com
+0.0.0.0 audio-ak.spotify.com
+0.0.0.0 audio-akp.spotify.com
+0.0.0.0 analytics.spotify.com
+0.0.0.0 assets.spotify.com
+0.0.0.0 audio-cf.spotify.com
+0.0.0.0 audio-fa.spotify.com
+0.0.0.0 audio-fab.spotify.com
+0.0.0.0 audio-fac-spotify.com
+0.0.0.0 audio-gc.scdn.co
+0.0.0.0 audio-gc.spotify.com
+0.0.0.0 crashdump.spotify.com
+0.0.0.0 crashdump.ciqe-gslb.spotify.com
+0.0.0.0 heads-ak.spotify.com
+0.0.0.0 heads-akp.spotify.com
+0.0.0.0 heads-cf.spotify.com
+0.0.0.0 heads-fa.scdn.co
+0.0.0.0 heads-fa.spotify.com
+0.0.0.0 heads-fab.spotify.com
+0.0.0.0 heads-fac.spotify.com
+0.0.0.0 links.spotify.com
+0.0.0.0 log.spotify.com
+0.0.0.0 log2.spotify.com
+0.0.0.0 mp3ad.scdn.co
+0.0.0.0 partner-service.spotify.com
+0.0.0.0 partner-service-testing.spotify.com
+0.0.0.0 payment-callback.spotify.com
+0.0.0.0 pci.spotify.com
+0.0.0.0 pixel.spotify.com
+0.0.0.0 upgrade.scdn.co # optional
+0.0.0.0 upgrade.spotify.com # optional
+0.0.0.0 video-fa.scdn.co
+0.0.0.0 video-fa.cdn.spotify.com
+0.0.0.0 video-fa-b.cdn.spotify.com
+
+######################################
+# BLOCK THE FOLLOWING AKAMAI SERVERS #
+######################################
+0.0.0.0 audio-ak-spotify-com.akamaized.net
+0.0.0.0 audio-ake.spotify.com.edgesuite.net
+0.0.0.0 audio-akp-spotify-com.akamaized.net
+0.0.0.0 audio-ak.spotify.com.edgesuite.net
+0.0.0.0 audio-akp.spotify.com.edgesuite.net
+0.0.0.0 audio4-ak.spotify.com.edgesuite.net
+0.0.0.0 audio4-akp.spotify.com.edgesuite.net
+0.0.0.0 audio-ak.spotify.com.eip.akadns.net
+0.0.0.0 eip-onnet.audio-ak.spotify.com.akahost.net
+0.0.0.0 eip-tata.audio-ak.spotify.com.akahost.net
+0.0.0.0 eip-ntt.audio-ak.spotify.com.akahost.net
+0.0.0.0 event.spotxchange.com
+0.0.0.0 heads-ak.spotify.com.edgesuite.net
+0.0.0.0 heads-akp.spotify.com.edgesuite.net
+0.0.0.0 heads4-ak.spotify.com.edgesuite.net
+0.0.0.0 heads4-akp.spotify.com.edgesuite.net
+0.0.0.0 search.spotxchange.com
+0.0.0.0 sync.search.spotxchange.com
+0.0.0.0 spotxchange.com
+0.0.0.0 www.spotx.tv
+0.0.0.0 00.video-ak.cdn.spotify.com
+0.0.0.0 01.video-ak.cdn.spotify.com
+0.0.0.0 02.video-ak.cdn.spotify.com
+0.0.0.0 03.video-ak.cdn.spotify.com
+0.0.0.0 04.video-ak.cdn.spotify.com
+0.0.0.0 05.video-ak.cdn.spotify.com
+0.0.0.0 06.video-ak.cdn.spotify.com
+0.0.0.0 07.video-ak.cdn.spotify.com
+0.0.0.0 08.video-ak.cdn.spotify.com
+0.0.0.0 09.video-ak.cdn.spotify.com
+0.0.0.0 10.video-ak.cdn.spotify.com
+0.0.0.0 11.video-ak.cdn.spotify.com
+0.0.0.0 12.video-ak.cdn.spotify.com
+0.0.0.0 13.video-ak.cdn.spotify.com
+0.0.0.0 14.video-ak.cdn.spotify.com
+0.0.0.0 15.video-ak.cdn.spotify.com
+0.0.0.0 16.video-ak.cdn.spotify.com
+0.0.0.0 17.video-ak.cdn.spotify.com
+0.0.0.0 18.video-ak.cdn.spotify.com
+0.0.0.0 19.video-ak.cdn.spotify.com
+0.0.0.0 1a.video-ak.cdn.spotify.com
+0.0.0.0 1b.video-ak.cdn.spotify.com
+0.0.0.0 1c.video-ak.cdn.spotify.com
+0.0.0.0 1d.video-ak.cdn.spotify.com
+0.0.0.0 1e.video-ak.cdn.spotify.com
+0.0.0.0 1f.video-ak.cdn.spotify.com
+0.0.0.0 20.video-ak.cdn.spotify.com
+0.0.0.0 21.video-ak.cdn.spotify.com
+0.0.0.0 22.video-ak.cdn.spotify.com
+0.0.0.0 23.video-ak.cdn.spotify.com
+0.0.0.0 24.video-ak.cdn.spotify.com
+0.0.0.0 25.video-ak.cdn.spotify.com
+0.0.0.0 26.video-ak.cdn.spotify.com
+0.0.0.0 27.video-ak.cdn.spotify.com
+0.0.0.0 28.video-ak.cdn.spotify.com
+0.0.0.0 29.video-ak.cdn.spotify.com
+0.0.0.0 2a.video-ak.cdn.spotify.com
+0.0.0.0 2b.video-ak.cdn.spotify.com
+0.0.0.0 2c.video-ak.cdn.spotify.com
+0.0.0.0 2d.video-ak.cdn.spotify.com
+0.0.0.0 2e.video-ak.cdn.spotify.com
+0.0.0.0 2f.video-ak.cdn.spotify.com
+0.0.0.0 30.video-ak.cdn.spotify.com
+0.0.0.0 31.video-ak.cdn.spotify.com
+0.0.0.0 32.video-ak.cdn.spotify.com
+0.0.0.0 33.video-ak.cdn.spotify.com
+0.0.0.0 34.video-ak.cdn.spotify.com
+0.0.0.0 35.video-ak.cdn.spotify.com
+0.0.0.0 36.video-ak.cdn.spotify.com
+0.0.0.0 37.video-ak.cdn.spotify.com
+0.0.0.0 38.video-ak.cdn.spotify.com
+0.0.0.0 39.video-ak.cdn.spotify.com
+0.0.0.0 3a.video-ak.cdn.spotify.com
+0.0.0.0 3b.video-ak.cdn.spotify.com
+0.0.0.0 3c.video-ak.cdn.spotify.com
+0.0.0.0 3d.video-ak.cdn.spotify.com
+0.0.0.0 3e.video-ak.cdn.spotify.com
+0.0.0.0 3f.video-ak.cdn.spotify.com
+0.0.0.0 40.video-ak.cdn.spotify.com
+0.0.0.0 41.video-ak.cdn.spotify.com
+0.0.0.0 42.video-ak.cdn.spotify.com
+0.0.0.0 43.video-ak.cdn.spotify.com
+0.0.0.0 44.video-ak.cdn.spotify.com
+0.0.0.0 45.video-ak.cdn.spotify.com
+0.0.0.0 46.video-ak.cdn.spotify.com
+0.0.0.0 47.video-ak.cdn.spotify.com
+0.0.0.0 48.video-ak.cdn.spotify.com
+0.0.0.0 49.video-ak.cdn.spotify.com
+0.0.0.0 4a.video-ak.cdn.spotify.com
+0.0.0.0 4b.video-ak.cdn.spotify.com
+0.0.0.0 4c.video-ak.cdn.spotify.com
+0.0.0.0 4d.video-ak.cdn.spotify.com
+0.0.0.0 4e.video-ak.cdn.spotify.com
+0.0.0.0 4f.video-ak.cdn.spotify.com
+0.0.0.0 50.video-ak.cdn.spotify.com
+0.0.0.0 51.video-ak.cdn.spotify.com
+0.0.0.0 52.video-ak.cdn.spotify.com
+0.0.0.0 53.video-ak.cdn.spotify.com
+0.0.0.0 54.video-ak.cdn.spotify.com
+0.0.0.0 55.video-ak.cdn.spotify.com
+0.0.0.0 56.video-ak.cdn.spotify.com
+0.0.0.0 64.video-ak.cdn.spotify.com
+0.0.0.0 6d.video-ak.cdn.spotify.com
+0.0.0.0 6e.video-ak.cdn.spotify.com
+0.0.0.0 6f.video-ak.cdn.spotify.com
+0.0.0.0 70.video-ak.cdn.spotify.com
+0.0.0.0 71.video-ak.cdn.spotify.com
+0.0.0.0 72.video-ak.cdn.spotify.com
+0.0.0.0 73.video-ak.cdn.spotify.com
+0.0.0.0 74.video-ak.cdn.spotify.com
+0.0.0.0 75.video-ak.cdn.spotify.com
+0.0.0.0 76.video-ak.cdn.spotify.com
+0.0.0.0 77.video-ak.cdn.spotify.com
+0.0.0.0 78.video-ak.cdn.spotify.com
+0.0.0.0 79.video-ak.cdn.spotify.com
+0.0.0.0 7a.video-ak.cdn.spotify.com
+0.0.0.0 7b.video-ak.cdn.spotify.com
+0.0.0.0 7c.video-ak.cdn.spotify.com
+0.0.0.0 7d.video-ak.cdn.spotify.com
+0.0.0.0 7e.video-ak.cdn.spotify.com
+0.0.0.0 7f.video-ak.cdn.spotify.com
+0.0.0.0 80.video-ak.cdn.spotify.com
+0.0.0.0 81.video-ak.cdn.spotify.com
+0.0.0.0 82.video-ak.cdn.spotify.com
+0.0.0.0 83.video-ak.cdn.spotify.com
+0.0.0.0 84.video-ak.cdn.spotify.com
+0.0.0.0 85.video-ak.cdn.spotify.com
+0.0.0.0 86.video-ak.cdn.spotify.com
+0.0.0.0 87.video-ak.cdn.spotify.com
+0.0.0.0 88.video-ak.cdn.spotify.com
+0.0.0.0 89.video-ak.cdn.spotify.com
+0.0.0.0 8a.video-ak.cdn.spotify.com
+0.0.0.0 8b.video-ak.cdn.spotify.com
+0.0.0.0 8c.video-ak.cdn.spotify.com
+0.0.0.0 8d.video-ak.cdn.spotify.com
+0.0.0.0 8e.video-ak.cdn.spotify.com
+0.0.0.0 8f.video-ak.cdn.spotify.com
+0.0.0.0 90.video-ak.cdn.spotify.com
+0.0.0.0 91.video-ak.cdn.spotify.com
+0.0.0.0 92.video-ak.cdn.spotify.com
+0.0.0.0 93.video-ak.cdn.spotify.com
+0.0.0.0 94.video-ak.cdn.spotify.com
+0.0.0.0 95.video-ak.cdn.spotify.com
+0.0.0.0 96.video-ak.cdn.spotify.com
+0.0.0.0 97.video-ak.cdn.spotify.com
+0.0.0.0 98.video-ak.cdn.spotify.com
+0.0.0.0 99.video-ak.cdn.spotify.com
+0.0.0.0 9a.video-ak.cdn.spotify.com
+0.0.0.0 9b.video-ak.cdn.spotify.com
+0.0.0.0 9c.video-ak.cdn.spotify.com
+0.0.0.0 9d.video-ak.cdn.spotify.com
+0.0.0.0 9e.video-ak.cdn.spotify.com
+0.0.0.0 9f.video-ak.cdn.spotify.com
+0.0.0.0 a0.video-ak.cdn.spotify.com
+0.0.0.0 a1.video-ak.cdn.spotify.com
+0.0.0.0 a2.video-ak.cdn.spotify.com
+0.0.0.0 a3.video-ak.cdn.spotify.com
+0.0.0.0 a4.video-ak.cdn.spotify.com
+0.0.0.0 a5.video-ak.cdn.spotify.com
+0.0.0.0 a6.video-ak.cdn.spotify.com
+0.0.0.0 a7.video-ak.cdn.spotify.com
+0.0.0.0 a8.video-ak.cdn.spotify.com
+0.0.0.0 a9.video-ak.cdn.spotify.com
+0.0.0.0 aa.video-ak.cdn.spotify.com
+0.0.0.0 ab.video-ak.cdn.spotify.com
+0.0.0.0 ac.video-ak.cdn.spotify.com
+0.0.0.0 ad.video-ak.cdn.spotify.com
+0.0.0.0 ae.video-ak.cdn.spotify.com
+0.0.0.0 af.video-ak.cdn.spotify.com
+0.0.0.0 b0.video-ak.cdn.spotify.com
+0.0.0.0 b1.video-ak.cdn.spotify.com
+0.0.0.0 b2.video-ak.cdn.spotify.com
+0.0.0.0 b3.video-ak.cdn.spotify.com
+0.0.0.0 b4.video-ak.cdn.spotify.com
+0.0.0.0 b5.video-ak.cdn.spotify.com
+0.0.0.0 b6.video-ak.cdn.spotify.com
+0.0.0.0 b7.video-ak.cdn.spotify.com
+0.0.0.0 b8.video-ak.cdn.spotify.com
+0.0.0.0 b9.video-ak.cdn.spotify.com
+0.0.0.0 ba.video-ak.cdn.spotify.com
+0.0.0.0 bb.video-ak.cdn.spotify.com
+0.0.0.0 bc.video-ak.cdn.spotify.com
+0.0.0.0 bd.video-ak.cdn.spotify.com
+0.0.0.0 be.video-ak.cdn.spotify.com
+0.0.0.0 bf.video-ak.cdn.spotify.com
+0.0.0.0 c0.video-ak.cdn.spotify.com
+0.0.0.0 c1.video-ak.cdn.spotify.com
+0.0.0.0 c2.video-ak.cdn.spotify.com
+0.0.0.0 c3.video-ak.cdn.spotify.com
+0.0.0.0 c4.video-ak.cdn.spotify.com
+0.0.0.0 c5.video-ak.cdn.spotify.com
+0.0.0.0 c6.video-ak.cdn.spotify.com
+0.0.0.0 c7.video-ak.cdn.spotify.com
+0.0.0.0 c8.video-ak.cdn.spotify.com
+0.0.0.0 c9.video-ak.cdn.spotify.com
+0.0.0.0 ca.video-ak.cdn.spotify.com
+0.0.0.0 cb.video-ak.cdn.spotify.com
+0.0.0.0 cc.video-ak.cdn.spotify.com
+0.0.0.0 cd.video-ak.cdn.spotify.com
+0.0.0.0 ce.video-ak.cdn.spotify.com
+0.0.0.0 cf.video-ak.cdn.spotify.com
+0.0.0.0 d0.video-ak.cdn.spotify.com
+0.0.0.0 d1.video-ak.cdn.spotify.com
+0.0.0.0 d2.video-ak.cdn.spotify.com
+0.0.0.0 d3.video-ak.cdn.spotify.com
+0.0.0.0 d4.video-ak.cdn.spotify.com
+0.0.0.0 d5.video-ak.cdn.spotify.com
+0.0.0.0 d6.video-ak.cdn.spotify.com
+0.0.0.0 d7.video-ak.cdn.spotify.com
+0.0.0.0 d8.video-ak.cdn.spotify.com
+0.0.0.0 d9.video-ak.cdn.spotify.com
+0.0.0.0 da.video-ak.cdn.spotify.com
+0.0.0.0 db.video-ak.cdn.spotify.com
+0.0.0.0 dc.video-ak.cdn.spotify.com
+0.0.0.0 dd.video-ak.cdn.spotify.com
+0.0.0.0 de.video-ak.cdn.spotify.com
+0.0.0.0 df.video-ak.cdn.spotify.com
+0.0.0.0 e0.video-ak.cdn.spotify.com
+0.0.0.0 e1.video-ak.cdn.spotify.com
+0.0.0.0 e2.video-ak.cdn.spotify.com
+0.0.0.0 e3.video-ak.cdn.spotify.com
+0.0.0.0 e4.video-ak.cdn.spotify.com
+0.0.0.0 e5.video-ak.cdn.spotify.com
+0.0.0.0 e6.video-ak.cdn.spotify.com
+0.0.0.0 e7.video-ak.cdn.spotify.com
+0.0.0.0 e8.video-ak.cdn.spotify.com
+0.0.0.0 e9.video-ak.cdn.spotify.com
+0.0.0.0 ea.video-ak.cdn.spotify.com
+0.0.0.0 eb.video-ak.cdn.spotify.com
+0.0.0.0 ec.video-ak.cdn.spotify.com
+0.0.0.0 ed.video-ak.cdn.spotify.com
+0.0.0.0 ee.video-ak.cdn.spotify.com
+0.0.0.0 ef.video-ak.cdn.spotify.com
+0.0.0.0 f0.video-ak.cdn.spotify.com
+0.0.0.0 f1.video-ak.cdn.spotify.com
+0.0.0.0 f2.video-ak.cdn.spotify.com
+0.0.0.0 f3.video-ak.cdn.spotify.com
+0.0.0.0 f4.video-ak.cdn.spotify.com
+0.0.0.0 f5.video-ak.cdn.spotify.com
+0.0.0.0 f6.video-ak.cdn.spotify.com
+0.0.0.0 f7.video-ak.cdn.spotify.com
+0.0.0.0 f8.video-ak.cdn.spotify.com
+0.0.0.0 f9.video-ak.cdn.spotify.com
+0.0.0.0 fc.video-ak.cdn.spotify.com
+0.0.0.0 fd.video-ak.cdn.spotify.com
+0.0.0.0 fe.video-ak.cdn.spotify.com
+0.0.0.0 ff.video-ak.cdn.spotify.com
+
+########################################
+# BELOW ARE EXTERNAL ADS AND ANALYTICS #
+########################################
+
+0.0.0.0 adjust.com
+0.0.0.0 atom.adjust.com
+0.0.0.0 events.adjust.com
+0.0.0.0 ulink.adjust.com
+0.0.0.0 view.adjust.com
+
+# block admob ads
+0.0.0.0 a.admob.com
+0.0.0.0 ac1.vip.sc9.admob.com
+0.0.0.0 ac208.sc9.admob.com
+0.0.0.0 admob.biz
+0.0.0.0 admob.co.kr
+0.0.0.0 admob.co.nz
+0.0.0.0 admob.co.uk
+0.0.0.0 admob.com
+0.0.0.0 admob.de
+0.0.0.0 admob.dk
+0.0.0.0 admob.es
+0.0.0.0 admob.fi
+0.0.0.0 admob.fr
+0.0.0.0 admob.gr
+0.0.0.0 admob.it
+0.0.0.0 admob.jp
+0.0.0.0 admob.kr
+0.0.0.0 admob.mobi
+0.0.0.0 admob.no
+0.0.0.0 admob.pt
+0.0.0.0 admob.sg
+0.0.0.0 admob.tk
+0.0.0.0 admob.tw
+0.0.0.0 ads.admob.com
+0.0.0.0 analytics.admob.com
+0.0.0.0 api.admob.com
+0.0.0.0 api.admob.xiaomi.com
+0.0.0.0 b.admob.com
+0.0.0.0 broadcast.admob.com
+0.0.0.0 c.admob.com
+0.0.0.0 c1.vip.sc9.admob.com
+0.0.0.0 clk1.vip.sc9.admob.com
+0.0.0.0 clk2.vip.sc9.admob.com
+0.0.0.0 clk3.vip.sc9.admob.com
+0.0.0.0 cpm.admob.com
+0.0.0.0 cpm1.admob.com
+0.0.0.0 cpm1.vip.sc9.admob.com
+0.0.0.0 cpm2.admob.com
+0.0.0.0 cpm2.vip.sc9.admob.com
+0.0.0.0 cpm3.admob.com
+0.0.0.0 cpm3.vip.sc9.admob.com
+0.0.0.0 d.admob.com
+0.0.0.0 dep.admob.com
+0.0.0.0 dev1.vip.sc9.admob.com
+0.0.0.0 developer.admob.com
+0.0.0.0 e.admob.com
+0.0.0.0 eng.admob.com
+0.0.0.0 f.admob.com
+0.0.0.0 g.admob.com
+0.0.0.0 games.admob.com
+0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
+0.0.0.0 ge-0-0-43-crs1.sc9.admob.com
+0.0.0.0 gw.admob.com
+0.0.0.0 h.admob.com
+0.0.0.0 i.admob.com
+0.0.0.0 j.admob.com
+0.0.0.0 jp.admob.com
+0.0.0.0 k.admob.com
+0.0.0.0 l.admob.com
+0.0.0.0 m.admob.com
+0.0.0.0 media.admob.com
+0.0.0.0 metrics.admob.com
+0.0.0.0 mm.admob.com
+0.0.0.0 mm1.vip.sc1.admob.com
+0.0.0.0 mm1.vip.sc9.admob.com
+0.0.0.0 mm104.sc9.admob.com
+0.0.0.0 mmv.admob.com
+0.0.0.0 n.admob.com
+0.0.0.0 network.admob.com
+0.0.0.0 o.admob.com
+0.0.0.0 p.admob.com
+0.0.0.0 p1.vip.sc9.admob.com
+0.0.0.0 paix1.sc1.admob.com
+0.0.0.0 pixel.admobclick.com
+0.0.0.0 pt.admob.com
+0.0.0.0 q.admob.com
+0.0.0.0 r.admob.com
+0.0.0.0 r2.vip.sc9.admob.com
+0.0.0.0 rmd.admob.com
+0.0.0.0 s.admob.com
+0.0.0.0 sc1.admob.com
+0.0.0.0 sc9.admob.com
+0.0.0.0 smtp.admob.com
+0.0.0.0 smtp2.admob.com
+0.0.0.0 t.admob.com
+0.0.0.0 tap1.vip.sc9.admob.com
+0.0.0.0 tic1.vip.sc9.admob.com
+0.0.0.0 tracking.admobsphere.com
+0.0.0.0 tx102.sc9.admob.com
+0.0.0.0 tx103.sc9.admob.com
+0.0.0.0 u.admob.com
+0.0.0.0 ukr.admob.com
+0.0.0.0 v.admob.com
+0.0.0.0 vip.sc9.admob.com
+0.0.0.0 w.admob.com
+0.0.0.0 wap.admob.com
+0.0.0.0 waps.admob.com
+0.0.0.0 wendy.admob.com
+0.0.0.0 www.admob.com
+0.0.0.0 www.admob.com.akadns.net
+0.0.0.0 www1.vip.sc9.admob.com
+0.0.0.0 x.admob.com
+0.0.0.0 y.admob.com
+0.0.0.0 z.admob.com
+0.0.0.0 zhcn.admob.com
+
+# block akamai technologies (i doubt it will be used directly)
+0.0.0.0 a1294.w20.akamai.net
+0.0.0.0 a1843.g.akamai.net
+0.0.0.0 a50.g2.akamai.net
+0.0.0.0 bsams.eyeblaster.akadns.net
+0.0.0.0 e7876.dscg.akamaiedge.net
+0.0.0.0 e8218.dscb1.akamaiedge.net
+
+# block amazon (i doubt it will be used directly)
+0.0.0.0 na.gmtdmp.com
+0.0.0.0 d2gi7ultltnc2u.cloudfront.net
+0.0.0.0 lb1-217593028.us-east-1.elb.amazonaws.com
+0.0.0.0 rp-lb-766892831.us-east-1.elb.amazonaws.com
+0.0.0.0 server-54-230-216-203.mrs50.r.cloudfront.net
+
+# block aol
+0.0.0.0 adserver.adtechus.com
+
+# appnexus
+0.0.0.0 a.adk2x.com
+0.0.0.0 adnxs.com
+0.0.0.0 adnxs.comadplexmedia.adk2x.com
+0.0.0.0 ams1-ib.adnxs.com
+0.0.0.0 ib.adnxs.com
+
+# block ayden payments
+0.0.0.0 live.adyen.com
+
+# block bounce exchange (anonymous)
+0.0.0.0 bounceexchange.com
+
+# block comscore analytics
+0.0.0.0 admetrix.comscore.com
+0.0.0.0 api.comscore.com
+0.0.0.0 aser.comscore.com
+0.0.0.0 cdr.comscore.com
+0.0.0.0 cer.comscore.com
+0.0.0.0 comscore.net
+0.0.0.0 comscore.org
+0.0.0.0 comscoredatagems.com
+0.0.0.0 comscoredatamine.com
+0.0.0.0 comscoredirect.net
+0.0.0.0 comscorenetworks.net
+0.0.0.0 ia1.comscore.com
+0.0.0.0 ia2.comscore.com
+0.0.0.0 iad.comscore.com
+0.0.0.0 im.comscore.com
+0.0.0.0 images.comscore.com
+0.0.0.0 labs.comscore.com
+0.0.0.0 mail2.comscore.com
+0.0.0.0 marketer.comscore.com
+0.0.0.0 mx0.comscore.com
+0.0.0.0 mx1.comscore.com
+0.0.0.0 mx2.comscore.com
+0.0.0.0 my.comscore.com
+0.0.0.0 mycomscore.com
+0.0.0.0 mymetrix.comscore.com
+0.0.0.0 myresearch.comscore.com
+0.0.0.0 ord.comscore.com
+0.0.0.0 postbuy.comscore.com
+0.0.0.0 proclarity.comscore.com
+0.0.0.0 qat.comscore.com
+0.0.0.0 siterecruit.comscore.com
+0.0.0.0 svn.comscore.com
+0.0.0.0 www.comscore.com
+0.0.0.0 www.mycomscore.net
+
+# block crashlytics
+0.0.0.0 crashlytics.163.com
+0.0.0.0 crashlytics.com
+0.0.0.0 crashlytics.twimg.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
+0.0.0.0 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
+0.0.0.0 settings.crashlytics.com
+
+# block data protected
+0.0.0.0 combine.urbanairship.com
+
+# block drawbridge
+0.0.0.0 ads-west-colo.adsymptotic.com
+
+# block geotrust
+0.0.0.0 gtssl2-ocsp.geotrust.com
+
+# block google ads / analytics
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adclick.g.doublecklick.net
+0.0.0.0 ade.googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 analytics.google.com
+0.0.0.0 doubleclick.net
+0.0.0.0 ee-in-f95.1.e100.net
+0.0.0.0 gcdn.2mdn.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 pagead-googlehosted.l.google.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead46.l.doubleclick.net
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 partnerad.l.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 s0-2mdn-net.l.google.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 video-ad-stats.googlesyndication.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googletagservices.com
+
+# block integral ad science
+0.0.0.0 anycast.pixel.adsafeprotected.com
+
+# block intercom ads
+0.0.0.0 api-iam.intercom.io
+0.0.0.0 api-ping.intercom.io
+0.0.0.0 api.intercom.io
+0.0.0.0 developers.intercom.io
+0.0.0.0 engineering.intercom.io
+0.0.0.0 funky.staging.intercom.io
+0.0.0.0 intercom.io
+0.0.0.0 internal.intercom.io
+0.0.0.0 leadvisualdesigner.intercom.io
+0.0.0.0 mobile-sdk-api.intercom.io
+0.0.0.0 muster-sandbox.intercom.io
+0.0.0.0 nexus-testing.intercom.io
+0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 nexus.intercom.io
+0.0.0.0 orientation.internal.intercom.io
+0.0.0.0 status.intercom.io
+0.0.0.0 store.intercom.io
+0.0.0.0 terraform-modules-test.intercom.io
+0.0.0.0 via.intercom.io
+0.0.0.0 w.intercom.io
+0.0.0.0 widget.intercom.io
+0.0.0.0 woody.intercom.io
+0.0.0.0 www.intercom.io
+
+# block kantar operations
+0.0.0.0 core.insightexpressai.com
+
+# block leanlab
+0.0.0.0 track.leanlab.co
+
+# block longtail ad solutions (jwplayer also used for ads)
+0.0.0.0 content.bitsontherun.com
+0.0.0.0 v.jwpcdn.com
+
+# block media innovation group
+0.0.0.0 eu-gmtdmp.gd1.mookie1.com
+
+block # media match
+0.0.0.0 media-match.com
+
+# block mobileapptracking ads (now tune)
+0.0.0.0 ab.tune.com
+0.0.0.0 click.api.cp.tune.com
+0.0.0.0 configuration.ma.tune.com
+0.0.0.0 corp.tune.com
+0.0.0.0 cp.tune.com
+0.0.0.0 dev.lab.tune.com
+0.0.0.0 event.api.cp.tune.com
+0.0.0.0 labs.tune.com
+0.0.0.0 ma.tune.com
+0.0.0.0 mkt.tune.com
+0.0.0.0 multiverse.tune.com
+0.0.0.0 ops-prod.us-west-2.k8s.ops.tune.com
+0.0.0.0 playlist.ma.tune.com
+0.0.0.0 request.api.cp.tune.com
+0.0.0.0 stage.tune.com
+0.0.0.0 support.tune.com
+0.0.0.0 ui.cp.tune.com
+0.0.0.0 updates.tune.com
+0.0.0.0 www.cp.tune.com
+0.0.0.0 www.ui.cp.tune.com
+
+# block mixpanel analytics
+0.0.0.0 api.mixpanel.com
+0.0.0.0 decide.mixpanel.com
+0.0.0.0 mixpanel.com
+0.0.0.0 switchboard.mixpanel.com
+0.0.0.0 www.mixpanel.com
+
+# block moatads / moatanalytics
+0.0.0.0 adgrx.moatads.com
+0.0.0.0 afs.moatads.com
+0.0.0.0 apx.moatads.com
+0.0.0.0 bd.moatads.com
+0.0.0.0 c-evt.moatads.com
+0.0.0.0 dbg52463.moatads.com
+0.0.0.0 ejs.moatads.com
+0.0.0.0 evt.moatads.com
+0.0.0.0 fs.moatads.com
+0.0.0.0 geo.moatads.com
+0.0.0.0 jm.moatads.com
+0.0.0.0 js.moatads.com
+0.0.0.0 json.moatads.com
+0.0.0.0 jsonp.moatads.com
+0.0.0.0 logtest.moatads.com
+0.0.0.0 moat.pxl.ace.advertising.com
+0.0.0.0 moatads.com
+0.0.0.0 moatads.com.edgekey.net
+0.0.0.0 pixel.moatads.com
+0.0.0.0 pool3.moatads.com
+0.0.0.0 pool5.moatads.com
+0.0.0.0 post.update.moatads.com
+0.0.0.0 px.moatads.com
+0.0.0.0 quantcast584928381.s.moatpixel.com
+0.0.0.0 r.254a.comjs.moatads.com
+0.0.0.0 s-jsonp.moatads.com
+0.0.0.0 s.moatads.com
+0.0.0.0 s.update.moatads.com
+0.0.0.0 sejs.moatads.com
+0.0.0.0 svast.moatads.com
+0.0.0.0 svastx.moatads.com
+0.0.0.0 t.update.moatads.com
+0.0.0.0 tribpubdfp745347008913.s.moatpixel.com
+0.0.0.0 u.moatads.com
+0.0.0.0 update.moatads.com
+0.0.0.0 upv4.moatads.com
+0.0.0.0 v3.moatads.com
+0.0.0.0 v4.moatads.com
+0.0.0.0 vast.moatads.com
+0.0.0.0 vastx.moatads.com
+0.0.0.0 vpb0.moatads.com
+0.0.0.0 vu.moatads.com
+0.0.0.0 wildcard.moatads.com.edgekey.net
+0.0.0.0 www.moatads.com
+0.0.0.0 www.upv4.moatads.com
+0.0.0.0 y.moatads.com
+0.0.0.0 yj.moatads.com
+0.0.0.0 yt.moatads.com
+0.0.0.0 yts.moatads.com
+0.0.0.0 z.moatads.com
+
+# block myvisualiq
+0.0.0.0 t.myvisualiq.net
+0.0.0.0 vt.myvisualiq.net
+
+# block omaze
+0.0.0.0 omaze.com
+0.0.0.0 www.omaze.com
+
+# block pubmatic
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 gads.pubmatic.com
+0.0.0.0 gads22000.pubmatic.com
+0.0.0.0 showads33000.pubmatic.com
+
+# block scorecardresearch
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 udm.scorecardresearch.com
+
+# block sizmek technologies
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 ds.serving-sys.com
+
+# block the whiz marketing
+0.0.0.0 seen-on-screen.thewhizmarketing.com
+
+
+# block voicefive
+0.0.0.0 ar.voicefive.com
+0.0.0.0 sb.voicefive.com
+
+# block yahoo adflurry
+0.0.0.0 ads.flurry.com
+0.0.0.0 media-router-flurry7.prod.media.wg1.b.yahoo.com
+
+# block zwizz army knife (anonymous)
+0.0.0.0 api.zwizzarmyknife.com

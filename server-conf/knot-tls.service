@@ -1,0 +1,19 @@
+[Unit]
+Description=Knot-tls
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/etc/knot-resolver/
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+ExecStartPre=/root/clean.sh
+ExecStartPost=/bin/sleep 0.1
+ExecStart=kresd -c /etc/knot-resolver/kresd-tls.conf -f 1
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

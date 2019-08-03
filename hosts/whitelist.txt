@@ -1,0 +1,1016 @@
+## This whitelist maintaince by @ookangzheng
+## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
+
+# Foodpanda chat
+dashboard.zopim.com
+jp06.zopim.com
+cdn.siftscience.com
+api3.siftscience.com
+
+# Zaloapp 
+zaloapp.com
+api.zaloapp.com # Sticker cant load
+ 
+# Imgur
+rt.imgur.com # Imgur upload
+
+# Netlify email tracker
+email.netlify.com
+track.customer.io
+e.customeriomail.com
+
+# Sendgrid
+sendgrid.net
+
+# Hubspot
+cdn2.hubspot.net
+
+# Formstack
+formstack.com
+
+# Lucky Orange: Dynamic Heatmaps, Visitor Recordings
+www.luckyorange.com # Official site
+
+# IBM watson internet of things
+messaging.internetofthings.ibmcloud.com
+internetofthings.ibmcloud.com
+
+# Accuweather 
+vortex.accuweather.com
+
+# ACM Journals 
+delivery.acm.org
+
+# Alexa
+traffic.alexa.com # Showing Alexa ranking chart
+
+# Buy me a coffee
+www.buymeacoffee.com
+buymeacoffee.com
+
+# Google forms
+forms.gle
+www.forms.gle
+   
+# Yahoo Mail
+s.yimg.com
+
+# printsrc
+image.prntscr.com
+
+# Sina.cn
+wx1.sinaimg.cn
+wx2.sinaimg.cn
+wx3.sinaimg.cn
+
+# Giphy / Instagram GIF use this
+limited-prod.giphy.map.fastly.net
+api.giphy.com 
+
+# Alipay / Taobao
+img.alicdn.com
+img.alicdn.com.danuoyi.alicdn.com
+at.alicdn.com
+at.alicdn.com.danuoyi.alicdn.com
+g.alicdn.com
+app.alipay.com
+zht.alipay.com
+personalweb.alipay.com
+g.alicdn.com.danuoyi.alicdn.com
+zcbprod.alipay.com
+gz-lb1.internet.spanner.alipaydns.com
+gtms04.alicdn.com
+gtms01.alicdn.com
+ynuf.aliapp.org
+gtms02.alicdn.com
+gtms03.alicdn.com
+ws.mmstat.com
+
+# Alicdn
+assets.alicdn.com
+i.alicdn.com
+us-aebridge.aliexpress.com.gds.alibabadns.com
+fr.aliexpress.com
+aeu.alicdn.com
+cdp.aliexpress.com
+passport.alipay.com
+gpsfront.aliexpress.com
+aeis.alicdn.com
+feedback.aliexpress.com
+coupon.aliexpress.com
+promotion.aliexpress.com
+freight.aliexpress.com
+
+# UOB bank
+uob.sc.omtrdc.net
+
+# yerl.org
+yerl.org  #URL shorter
+
+# Discord
+discord.gg
+
+# Buisiness Insiders
+amp.businessinsider.com # Article image
+
+# Kopoimi license
+www.kopimi.com
+kopimi.com
+
+# ipredator
+ipredator.se
+
+# 163 China
+static.ws.126.net
+static.3001.net
+pimg1.126.net
+
+# Statcounter
+gs.statcounter.com
+statcounter.com
+www.statcounter.com
+
+# Xiaomi
+abroad.apilocate.amap.com # Miband 4 weather location
+#abtest.mistat.xiaomi.com
+api.io.mi.com
+app.chat.global.xiaomi.net
+data.mistat.intl.xiaomi.com
+data.mistat.xiaomi.com
+weatherapi.market.xiaomi.com
+find.api.micloud.xiaomi.net
+account.xiaomi.com
+api.account.xiaomi.com
+api.chat.xiaomi.net
+api.comm.miui.com
+api.device.xiaomi.net
+api.micloud.xiaomi.net
+api.sec.miui.com
+api.vip.miui.com
+app.chat.xiaomi.net
+app.migc.xiaomi.com
+authbe.sec.intl.miui.com
+c.id.mi.com
+connect.rom.miui.com
+contactapi.micloud.xiaomi.net
+f1.g.mi.com
+file.market.xiaomi.com
+game.xiaomi.com
+global.market.xiaomi.com
+global.search.xiaomi.net
+market.xiaomi.com
+micardapi.micloud.xiaomi.net
+micloud.xiaomi.net
+mis.migc.xiaomi.com
+miui.com
+miui.net
+mp.huangye.miui.com
+o2o.api.xiaomi.com
+pdc.micloud.xiaomi.net
+phonecallapi.micloud.xiaomi.net
+ppurifier.game.xiaomi.com
+r.sg.sec.miui.com
+resolver.gslb.mi-idc.com
+resolver.msg.xiaomi.net
+sfsapi.micloud.xiaomi.net
+sgpac.account.xiaomi.com
+statusapi.micloud.xiaomi.net
+t1.g.mi.com
+trial.api.huangye.miui.com
+update.avlyun.sec.miui.com
+update.intl.miui.com
+update.miui.com
+wallpaper.pandora.xiaomi.com
+wifiapi.micloud.xiaomi.net
+xiaomi.com
+xiaomi.net
+
+# Skype
+client-s.gateway.messenger.live.com #skype login
+
+# Ali Express
+ae01.alicdn.com
+my.aliexpress.com
+
+# VK.com
+pp.userapi.com
+
+# Twitter
+cdn.syndication.twimg.com # Embeded twitt
+cdn.syndication.twitter.com
+syndication.twimg.com
+pbs.twimg.com # twitter image
+
+# Pushbullet
+api.pushbullet.com
+widget.pushbullet.com
+
+# Bing 
+cn.bing.com # For chinese user
+
+# Tinder app
+etl.tindersparks.com # Tinder iOS app to work, specifically, SMS verification # https://discourse.pi-hole.net/t/trackers/5656/4
+
+# Thunder app 迅雷
+static-xl9-ssl.xunlei.com
+img2.user.kanimg.com
+pc.xunlei.com
+static-xl9-ssl.xunlei.com
+upgrade.xl9.xunlei.com
+hub5pn.sandai.net
+hubciddata.sandai.net
+api.tw06.xlmc.sandai.net
+adsp.xunlei.com
+xl7xml.client.xunlei.com
+stat.download.xunlei.com
+smallfiles.client.xunlei.com
+joint.reg2t.sandai.net
+client.update.sandai.net
+portal.client.xunlei.com
+interface.xl9.xunlei.com
+portal.client.xunlei.com
+msg2.client.xunlei.com
+tw03a159.sandai.net
+
+# Wifi portal or connectivity check
+dns.msftncsi.com
+msftncsi.com
+www.msftncsi.com
+captive.apple.com
+connectivitycheck.gstatic.com
+detectportal.firefox.com # https://www.reddit.com/r/privacytoolsIO/comments/6j22nd/disable_firefox_detect_captive_portal_in/
+msftconnecttest.com
+nmcheck.gnome.org
+
+# airasia
+jacepayment.airasia.com
+a-airasia-001-gyf12.insnw.net
+
+# Samsung Pay
+api.usebutton.com
+cdn-us-ec.yottaa.net
+www.anrdoezrs.net
+cj.dotomi.com
+www.emjcd.com
+
+# Jquery CDN
+code.jquery.com
+cds.s5x3j6q5.hwcdn.net
+
+# Adobe
+## Typekit
+use.typekit.net # CDN
+use.typekit.com
+# Activation
+activate.adobe.com
+practivate.adobe.com
+ereg.adobe.com
+wip3.adobe.com
+activate.wip3.adobe.com
+3dns-3.adobe.com
+3dns-2.adobe.com
+adobe-dns.adobe.com
+adobe-dns-2.adobe.com
+adobe-dns-3.adobe.com
+ereg.wip3.adobe.com
+activate-sea.adobe.com
+wwis-dubc1-vip60.adobe.com
+activate-sjc0.adobe.com
+hl2rcv.adobe.com
+lmlicenses.wip4.adobe.com
+lm.licenses.adobe.com
+na2m-pr.licenses.adobe.com
+ims-na1-prprod.adobelogin.com
+na4r.services.adobe.com
+na1r.services.adobe.com
+hlrcv.stage.adobe.com
+
+# Twitch Chat
+mp.twitch.tv
+
+# Google Play
+play.app.goo.gl
+
+# Drive
+www.googleapis.com
+imasdk.googleapis.com
+
+# CircleCI uses pusher for actual functionality in their app
+stats.pusher.com
+ws.pusherapp.com
+js.pusher.com
+
+# NCSoft uses this
+mpsnare.iesnare.com
+
+## Spotify
+googlehosted.l.googleusercontent.com
+beta.spotify.map.fastly.net
+geo3.ggpht.com # Google map also use
+redirector.gvt1.com
+audio-fa.scdn.co # do not block while using chromecast
+## break windows client
+spclient.wg.spotify.com 
+ap.spotify.com
+api-spotify.com
+api-partner.spotify.com
+api-tv.spotify.com
+audio-sp.spotify.com
+dealer.spotify.com
+dealer-ssl.spotify.com
+gslb.spotify.com
+open.scdn.co
+open.spotify.com
+play.spotify.com
+spclient.spotify.com
+sto3.spotify.com
+wg.spotify.com
+apresolve.spotify.com
+weblb-wg.dual-gslb.spotify.com
+
+## CDN or toolskit
+maxmind.com
+www.algolia.com #codepen
+s3.amazonaws.com
+s3-1.amazonaws.com
+cds.j3z9t3p6.hwcdn.net
+cdn.mxpnl.com
+cdn3.optimizely.com
+unpkg.com
+cdn.jsdelivr.net
+cdnjs.cloudflare.com
+ipinfo.io
+ipapi.co
+cdn.ravenjs.com
+links.iterable.com
+cdn.flurry.com
+cdn.ravenjs.com
+fast.wistia.com
+cdn.ravenjs.com
+csdnimg.cn
+cdn.auth0.com
+js-agent.newrelic.com
+
+## Baidu
+www.baidu.com
+www.a.shifen.com
+www.wshifen.com
+passport.baidu.com
+t12.baidu.com
+simage.gshifen.com
+ss0.baidu.com
+ss1.baidu.com
+ss2.baidu.com
+ss3.baidu.com
+t11.baidu.com
+
+# Baidu Scholar
+xueshu.baidu.com
+
+## Google
+ci4.googleusercontent.com # image inside gmail
+ci5.googleusercontent.com # image inside gmail
+ogs.google.com # image inside gmail
+img1.blogblog.com #blogger image
+fonts.gstatic.com
+gstaticadssl.l.google.com # fonts.gstatic.com
+manifest.googlevideo.com # Youtube video won't show if blocked
+i9.ytimg.com # Youtube 
+googlehosted.l.googleusercontent.com #google play
+android.l.google.com #google play
+photos-ugc.l.googleusercontent.com #google photo
+tools.l.google.com #google chrome update
+ytstatic.l.google.com #google chrome update
+plus.l.google.com
+blogger.l.google.com
+blogspot.com
+blogspot.l.googleusercontent.com
+yt3.ggpht.com
+youtubei.googleapis.com
+ytimg-edge-static.l.google.com
+s.youtube.com
+android.clients.google.com  # Android play
+android.l.google.com # Android play
+googleapis.l.google.com
+play.googleapis.com
+www.gstatic.com
+csi.gstatic.com
+dl.google.com
+www3.l.google.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+encrypted-tbn0.gstatic.com
+ssl.gstatic.com
+fonts.gstatic.com
+i.ytimg.com
+ytimg-edge-static.l.google.com
+photos-ugc.l.googleusercontent.com
+accounts.google.com
+www.googleapis.com
+redirector.googlevideo.com
+suggestqueries.google.com
+
+## Instagram
+instagram.c10r.facebook.com
+cdninstagram.com
+scontent.cdninstagram.com
+curvesncombatboots.com
+instagram.c10r.facebook.com
+
+## Facebook
+web.facebook.com # Messenger Lite able to send out message
+z-1.c10r.facebook.com # Messenger Lite able to send out message
+# Facebook's pixel is required for clicking on notifications
+# pixel.facebook.com # still controversial
+origincache-atn.fbcdn.net
+res.cloudinary.com # for upload picture
+h.facebook.com
+l.facebook.com # https://www.quora.com/Why-are-l-facebook-com-and-lm-facebook-com-appearing-as-a-new-traffic-source-on-analytics
+mobile.beta.facebook.com
+mobile.facebook.com
+web.beta.facebook.com
+web.facebook.com
+zero.facebook.com
+b-www.facebook.com
+free.facebook.com
+check4.facebook.com
+check6.facebook.com
+error.facebook.com
+h.beta.facebook.com
+lookaside.facebook.com
+
+snaptu-mini.facebook.com # facebook lite
+snaptu-mini.c10r.facebook.com # facebook lite
+b-api.facebook.com # facebook lite / messenger lite login required
+b-graph.facebook.com # facebook lite / messenger lite login required
+rupload.facebook.com # tested on mobile messenger while sending voice clip
+api.facebook.com # needed while viewing previous voice clip on mobile messenger
+graph.facebook.com # it may break login and developer tool
+scontent-ort2-2.xx.fbcdn.net
+scontent-nrt1-1.xx.fbcdn.net
+fb.me
+fb.com
+fbcdn-profile-a.akamaihd.net
+# connect.facebook.net.edgekey.net
+# connect.facebook.net
+static.ak.connect.facebook.com
+s-static.ak.facebook.com
+apps.facebook.com
+ct-m-fbx.fbsbx.com
+z-m.facebook.com
+z-m.c10r.facebook.com
+lm.facebook.com
+m.facebookcom
+static.xx.fbcdn.net
+cdn.fbsbx.com
+edge-chat.facebook.com
+0-edge-chat.facebook.com
+1-edge-chat.facebook.com
+2-edge-chat.facebook.com
+3-edge-chat.facebook.com
+4-edge-chat.facebook.com
+5-edge-chat.facebook.com
+6-edge-chat.facebook.com
+external.xx.fbcdn.net
+scontent.xx.fbcdn.net 
+edge-mqtt.facebook.com # get online and showing messenger current online status
+star.c10r.facebook.com
+mqtt.c10r.facebook.com
+mqtt-mini.facebook.com
+
+# Mozilla
+push.services.mozilla.com
+updates.push.services.mozilla.com
+token.services.mozilla.com
+snippets.cdn.mozilla.net
+meta.wikimedia.org
+location.services.mozilla.com
+incoming.telemetry.mozilla.org
+telemetry-incoming.r53-2.services.mozilla.com
+
+# Tinder app sms verification
+etl.tindersparks.com
+
+# Xiaomi payment 
+metok.sys.miui.com
+data.mistat.xiaomi.com
+api.jr.mi.com
+resolver.msg.xiaomi.ne
+
+# Amazon Web Services
+mas-ext.amazon.com # Amazon shopping on firetv stick
+s3.amazonaws.com
+s3-1.amazonaws.com
+c.media-amazon.com # IMDB
+fls-na.amazon.com # IMDB
+
+# Link Shortners Openphish, Hostsfile.org
+ppt.cc
+www.bit.ly
+bit.ly
+ow.ly
+j.mp
+goo.gl
+tinyurl.com
+lihi.cc
+
+# EA / Origin Mahakala, Andy Short, Cameleon & others
+ea.com
+cdn.optimizely.com # Used by Origin for content delivery
+
+Blocked by Mahakala
+# Used by Facebook for image uploads
+res.cloudinary.com 
+gravatar.com
+rover.ebay.com
+imgs.xkcd.com
+
+# Blocked by Andy Short
+netflix.com
+# Used by Gizmodo sites
+alluremedia.com.au 
+tomshardware.com
+
+# Blocked by Reddestdream
+# Used by Apple devices for certificate validation
+ocsp.apple.com 
+
+# Blocked by various lists
+s.shopify.com
+
+# Malwarebytes server
+keystone.mwbsys.com 
+
+# Unblock pcbeta.com
+bbs.pcbeta.com
+cdn.pcbeta.attachment.inimc.com
+cdn.pcbeta.css.inimc.com
+cdn.pcbeta.static.inimc.com
+group.pcbeta.com
+i.pcbeta.com
+m.pcbeta.com
+mac.pcbeta.com
+pcbeta.com
+static.template.pcbeta.com
+uc.pcbeta.com
+web.pcbeta.com
+www.pcbeta.com
+
+# Wordpress
+c0.wp.com # Jetpack cdn 
+s0.wp.com
+s2.wp.com
+secure.gravatar.com
+
+# Disqus
+referrer.disqus.com
+c.disquscdn.com # For wordpress plugin
+prod.disqus.map.fastlylb.net
+c.disquscdn.com.cdn.cloudflare.net
+
+# Microsoft 
+e3843.g.akamaiedge.net # support.microsoft.com
+api.onedrive.com
+update.code.visualstudio.com # vscode update
+eu-v20.events.data.microsoft.com
+v20.events.data.microsoft.com
+v10.events.data.microsoft.com
+asimov-win.settings.data.microsoft.com.akadns.net
+ui.skype.akadns.net
+v10-win.vortex.data.microsoft.com.akadns.net
+v20.vortex-win.data.microsoft.com
+wdcpalt.microsoft.com
+secure.aadcdn.microsoftonline-p.com # Outlook.com logo
+g00.msn.com
+www.sdad.guru
+c.msn.com
+
+# Windows 10 update
+au.download.windowsupdate.com
+au.v4.download.windowsupdate.com
+ctldl.windowsupdate.com
+displaycatalog.mp.microsoft.com
+dl.delivery.mp.microsoft.com
+download.windowsupdate.com
+emdl.ws.microsoft.com
+fe2.update.microsoft.com
+fe2.update.microsoft.com.akadns.net
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+fe3.delivery.mp.microsoft.com
+fg.v4.download.windowsupdate.com
+microsoftwindowsupdate.net
+sls.update.microsoft.com
+sls.update.microsoft.com.akadns.net
+statsfe2.update.microsoft.com.akadns.net
+tlu.dl.delivery.mp.microsoft.com
+v4.download.windowsupdate.com
+windowsupdate.com
+windowupdate.org
+wdcp.microsoft.com # Windows defender
+wdcpalt.microsoft.com # https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus
+
+## https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints
+cs9.wac.phicdn.net # endpoints are used by the Verizon Content Delivery Network to perform Windows updates
+wac.edgecastcdn.net # endpoints are used by the Verizon Content Delivery Network to perform Windows updates
+cds.d2s7q6s2.hwcdn.net # endpoint is used by the Highwinds Content Delivery Network to perform Windows updates
+
+g.ezoic.net # CNAME of www.techiediaries.com
+
+# Sogou Input Mobile
+config.pinyin.sogou.com # Config
+img.shouji.sogou.com # image 
+dsp.brand.sogou.com # image
+
+# Hubspot
+github.hubspot.com
+hubspot.com
+
+# Apple
+dzc-metrics.mzstatic.com # Itunes desktop sync
+iadsdk.apple.com
+cf.iadsdk.apple.com
+configuration.apple.com.akadns.net
+iadsdk.apple.com.edgekey.net
+www-cdn.icloud.com.akadns.net
+help.apple.com.edgekey.net
+world-gen.g.aaplimg.com # System update download & user guide
+geo-applefinance-cache.internal.query.g03.yahoodns.net # Check currency or stock on spotlight
+api-glb.smoot.apple.com
+gateway.fe.apple-dns.net
+lcdn-locator-usnkq.apple.com.akadns.net
+swcdn.apple.com
+swcdn.g.aaplimg.com
+swcdn.apple.com.akadns.net
+lcdn-locator.apple.com.akadns.net
+itunes.apple.com
+appleid.apple.com
+captive.apple.com 
+gsp1.apple.com
+
+# Xbox live
+xbox.ipv6.microsoft.com 
+device.auth.xboxlive.com 
+www.msftncsi.com 
+title.mgt.xboxlive.com 
+xsts.auth.xboxlive.com 
+title.auth.xboxlive.com 
+ctldl.windowsupdate.com 
+attestation.xboxlive.com 
+xboxexperiencesprod.experimentation.xboxlive.com 
+xflight.xboxlive.com 
+cert.mgt.xboxlive.com 
+xkms.xboxlive.com 
+def-vef.xboxlive.com 
+notify.xboxlive.com 
+help.ui.xboxlive.com 
+licensing.xboxlive.com 
+eds.xboxlive.com 
+www.xboxlive.com 
+v10.vortex-win.data.microsoft.com 
+settings-win.data.microsoft.com
+clientconfig.passport.net
+
+# Times.com nydailys.com
+delivery.vidible.tv 
+img.vidible.tv 
+videos.vidible.tv 
+edge.api.brightcove.com 
+cdn.vidible.tv
+
+# CNN
+dynaimage.cdn.turner.com # ios CNN image will load
+cvp1.cdn.turner.com
+z.cdn.turner.com
+
+# OCSP-Servers 
+ocsp.verisign.com
+a652.dscb.akamai.net # CNAME of ocsp.comodoca.com
+ocsp.godaddy.com.akadns.net # ocsp.godaddy.com
+ocsp.int-x3.letsencrypt.org
+ocsp.int-x4.letsencrypt.org
+ocsp.int-x2.letsencrypt.org
+ocsp.int-x1.letsencrypt.org
+
+# Payment
+## Paypal and cdn
+www.paypal.com
+www.glb.paypal.com
+www.paypal.com.edgekey.net
+e16973.a.akamaiedge.net
+
+## Stripe
+stripe.com
+js.stripe.com # stripe
+q.stripe.com # stripe
+
+# eBay classified apps
+de.ioam.de
+config.ioam.de
+api.ebay-kleinanzeigen.de
+
+# Allow only segment.com main site
+segment.com
+
+# Walmart email tracking shipping 
+rptrcks.walmart.com
+
+# Wix CDN
+tg1.premium.dc11.wix.com
+www17.wixdns.net
+tg1.premium.db4.wix.com
+balancer.wixdns.net
+tg1.premium.db4.wix.com
+
+# VK.com
+vk.com
+pp.userapi.com
+userapi.com
+
+#tianya.cn
+static.tianyaui.com
+static.tianya.cn
+
+# QQ.com
+app.qq.com
+sparta.qb.mig.tencent-cloud.net
+wx.qlogo.cn # Picture
+thirdqq.qlogo.cn # qq app pic 
+sqimg.qq.com # im.qq.com image
+img1.sj.qq.com  # im.qq.com image
+
+# Codecanyon
+codecanyon.net
+
+# Homepage: https://www.kuketz-blog.de
+# URL: https://media.kuketz.de/lists/mobile_list.txt
+# Just main domain
+crashlytics.com
+matchinguu.com
+app-measurement.com
+mparticle.com
+apptimize.com
+pushwoosh.com
+hockeyapp.net
+liftoff.io
+wywy.com
+aatkit.com
+tracking.i2w.io
+clicktale.net
+decibelinsight.net
+fullstory.com
+hotjar.com
+inspectlet.com
+mouseflow.com
+quantummetric.com
+sessioncam.com
+smartlook.com
+userreplay.net
+yandex.ru
+logrocket.com 
+salemove.com
+
+# Fox6now
+fox6now.com
+fox13now.com
+fox17online.com
+fox2now.com
+fox40.com
+fox43.com
+fox4kc.com
+fox59.com
+fox5sandiego.com
+fox8.com
+foxsports.com.au
+myfox8.com
+q13fox.com
+
+# Video wont play
+c.amazon-adsystem.com
+amp.usatoday.com
+
+# May break site
+ap.org # News main stream
+cdn.gotraffic.net
+promotions.newegg.com
+www.ojrq.net
+trafficrouter.io
+go.trafficrouter.io
+nanopool.org 
+target.georiot.com
+georiot.com
+zdbb.net
+redirect.viglink.com
+viglink.com
+survey.forseeresults.com
+mandrillapp.com
+use.fontawesome.com # Font-awesome CDN
+maxcdn.bootstrapcdn.com #bootstrap CDN
+c.trello.com # Trello content
+app-measurement.com # Google maps loding maps and other conetent
+mobilenetworkscoring-pa.googleapis.com
+dl.dropbox.com
+api.ipify.org
+app.adjust.com 
+api.fast.com # Fast speedtest 
+ichnaea-web.netflix.com # Fast speedtest 
+blog.csdn.net # China forum 
+www.wupload.com
+110415.libdd.com
+wwwstatic.megaupload.com
+cp76677.edgefcs.net
+sas.ooyala.com
+a.ooyala.com
+ak.c.ooyala.com
+www-tc.pbs.org
+playerstatic.entropymedia.com
+adcolo.com
+inapcache.boston.com
+lads.myspacecdn.com
+a.fsdn.com
+i.cmpnet.com
+attach2.mobile01.com
+dw.com.com
+m.bestofmedia.com
+o.aolcdn.com
+cdn.gigya.commes.122.2o7.net
+widgets.twimg.com
+zam.zamimg.com
+static.networkedblogs.com
+admin.brightcove.com
+p.jwpcdn.com
+safe.txmblr.com
+f.youku.com
+140cc.v.fwmrm.net
+viarnd.112.2o7.net
+cdn.gotraffic.net
+go.trouter.io
+release.theplatform.com
+
+# Leo dict
+dict.leo.org
+ap.orgdict.leo.org
+
+# Payment
+bitpay.com
+
+# QQ.com
+jq.qq.com #invitation link
+
+# Cloudflare
+zopim.com
+translate.googleapis.com
+login.cloudflarewarp.com
+statuspage.io
+dash.cloudflare.com
+rawhttp.cloudflareworkers.com
+cloudflareworkers.com
+heapanalytics.com
+api.cloudflareapps.com
+api.mapbox.com
+tiles.mapbox.com
+events.mapbox.com
+cdn.heapanalytics.com
+js-agent.newrelic.com
+
+# Unlisted
+buy.geni.us # https://www.pcworld.com/article/3317848/storage/the-spacious-1tb-sandisk-ultra-ssd-is-one-of-the-best-drives-you-can-buy-and-its-cheaper-than-ever.html
+www.roadandtrack.com
+ads.talkbusiness.net
+talkbusiness.net
+www.miaminewtimes.com
+go.redirectingat.com
+redirectingat.com
+www.redirectingat.com
+www.skimresources.com
+www.kcsoftwares.com
+imageshack.com
+winfuture.de # German news site
+ns1.com # domain name provider/ dns
+appcloud.ironbeast.io
+he.net # DNS provider
+ipv6.he.net # DNS provider
+whatismyipaddress.com
+www.researchgate.net
+researchgate.net
+widget.uservoice.com
+jsfiddle.net # Javascript online playground
+crbcdn.jsfiddle.net # Javascript online playground
+xd.adobelanding.com
+c.evidon.com
+l.betrad.com
+assets.adobedtm.com # Adobe tutorial assets wont load
+unbouncepages.com
+builder-assets.unbounce.com
+d9hhrg4mnvzow.cloudfront.net
+h-sdk.online-metrix.net
+cdn.cpnscdn.com #BJSapp
+api.target.com # target.com
+redsky.target.com # target.com
+profile.target.com # target.com
+e1151.e12.akamaiedge.net
+money.yandex.ru
+down.sandai.net
+google.qualtrics.com
+cf.hamreus.com
+c.apple.com
+images2015.cnblogs.com
+assets.gumroad.com
+www.ipify.org
+graph.facebook.com
+tools.pingdom.com
+s.reddit.com
+api.intsig.net
+blog.xuite.net
+sslshare.gshifen.com
+d1z2jf7jlzjs58.cloudfront.net
+pull.ticktick.com
+www.loggly.com
+download.intsig.net
+www.squaretrade.com
+lithium.facebook.com
+8ch.net
+i.loli.net
+
+a90.g.akamai.net # www.dorkly.com
+licensebuttons.net #creativecommons.org 
+
+## Crypto curriencies
+# Coinbase
+coinbase.com
+www.coinbase.com
+custody.coinbase.com
+status.coinbase.com
+blog.coinbase.com
+support.coinbase.com
+static.coinbase.com
+static.ada.support
+ws.coinbase.com
+assets.coinbase.com
+am.coinbase.com
+api.coinbase.com
+
+# Pusher
+mqtt.pushy.me
+ws-mt1.pusher.com
+ws.pusherapp.com
+ws-zeplin.pusher.com
+
+# Hackmd.io
+baconredirects-elb-eyweax7fhr0v-300945382.us-east-1.elb.amazonaws.com
+r.us-east-1.awstrack.me # use as hackmd email tracker
+
+# Bugsnag
+www.bugsnag.com #official site
+docs.bugsnag.com
+# sessions.bugsnag.com # Realtime tracking, if you need this
+
+# Launchdarkly
+app.launchdarkly.com
+events.launchdarkly.com
+
+# Netflix 
+api-global.netflix.com 
+ichnaea.netflix.com 
+appboot.netflix.com 
+secure.netflix.com 
+
+# Nvidia
+ota-downloads.nvidia.com
+
+# Samsung TV
+cdn.samsungcloudsolution.com 
+assets.adobedtm.com
+track.ucas.com
+f1.media.brightcove.com
+brightcove.map.fastly.net
+entitlement.auth.adobe.com
+livepassdl.conviva.com
+fpdownload.adobe.com
+prod.appnexus.map.fastly.net
+
+# Amazon echo
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
+
+# Chan
+8ch.net
+4chan.org
+
+# Utorrent
+update.utorrent.com
+
+#Appledaily
+imp.appledaily.com #mobile page image
+
+# ZeroNet
+codeload.github.com #download
+
+# Pornhubpremium
+pornhubpremium.com
+
+# Yahoo Mail
+smtp.mail.yahoo.com

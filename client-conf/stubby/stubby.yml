@@ -1,0 +1,83 @@
+## TLS_pubkey_pinset updated on July 19, 2019
+## expires `2019-09-23 07:04:40 UTC'
+
+resolution_type: GETDNS_RESOLUTION_STUB
+dns_transport_list:
+  - GETDNS_TRANSPORT_TLS
+tls_authentication: GETDNS_AUTHENTICATION_REQUIRED
+tls_query_padding_blocksize: 128
+edns_client_subnet_private: 0
+round_robin_upstreams: 1
+tls_connection_retries: 2
+idle_timeout: 10000
+timeout: 2000
+listen_addresses:
+  #- 127.0.0.1
+  #- 0::1
+  - 127.0.0.1@54
+  - 0::1@54
+
+upstream_recursive_servers:
+
+  - address_data: 2a0a:e5c0:2:2:0:c8ff:fe68:bf48
+    tls_port: 853
+    tls_auth_name: "dot-ch.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: i1jLFbRK0/Aj/eQO4qxG6SqlJOCf70zwJb3z7JDFyPs=
+
+  - address_data: 108.61.201.119
+    tls_port: 443
+    tls_auth_name: "dot-jp.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
+        
+  - address_data: 108.61.201.119
+    tls_port: 853
+    tls_auth_name: "dot-jp.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
+
+  - address_data: 159.69.198.101
+    tls_port: 443
+    tls_auth_name: "dot-de.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: RzMGlPVE8DlsiA9DQRuW9CoVkwFBjS8j+we5PZ3eE0c=
+
+  - address_data: 159.69.198.101
+    tls_port: 853
+    tls_auth_name: "dot-de.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: RzMGlPVE8DlsiA9DQRuW9CoVkwFBjS8j+we5PZ3eE0c=
+
+  - address_data: 2001:19f0:7001:1ded:5400:01ff:fe90:945b
+    tls_port: 443
+    tls_auth_name: "dot-jp.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
+
+  - address_data: 2001:19f0:7001:1ded:5400:01ff:fe90:945b
+    tls_port: 853
+    tls_auth_name: "dot-jp.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
+        
+  - address_data: 2a01:4f8:1c1c:6b4b::1
+    tls_port: 443
+    tls_auth_name: "dot-de.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: RzMGlPVE8DlsiA9DQRuW9CoVkwFBjS8j+we5PZ3eE0c=
+        
+  - address_data: 2a01:4f8:1c1c:6b4b::1
+    tls_port: 853
+    tls_auth_name: "dot-de.blahdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: RzMGlPVE8DlsiA9DQRuW9CoVkwFBjS8j+we5PZ3eE0c=

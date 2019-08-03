@@ -1,0 +1,29 @@
+{
+  "name": "blahdns-api",
+  "version": "0.0.6",
+  "description": "blahdns api check domain status",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ookanzheng/blahdns.git"
+  },
+  "keywords": [
+    "blahdns"
+  ],
+  "author": "ookangzheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ookanzheng/blahdns/issues"
+  },
+  "homepage": "https://github.com/ookanzheng/blahdns#readme",
+  "dependencies": {
+    "abort-controller": "^2.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
