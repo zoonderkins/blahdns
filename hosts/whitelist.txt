@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# wangbase.com 阮一峰
+www.wangbase.com
+
 # Foodpanda chat
 dashboard.zopim.com
 jp06.zopim.com
