@@ -323,3 +323,8 @@ ssv.admost.com
 mobile.admost.com
 adserver.admost.com
 api.admost.com
+config.unityads.unitychina.cn
+hb.rayjump.com
+
+## Antifraud
+s.update.fbsbx.com
