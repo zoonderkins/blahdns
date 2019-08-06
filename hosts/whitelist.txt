@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# amazon.de
+djvbdz1obemzo.cloudfront.net # CNAME 
+
 # wangbase.com 阮一峰
 www.wangbase.com
 
