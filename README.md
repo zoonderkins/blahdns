@@ -3,7 +3,7 @@
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
 * Futureplan
- - [ ] develop an API for each server monitor if resolver is down. 
+ * - [ ] develop an API for each server monitor if resolver is down. 
 
 * Germany and Japan server certs both renewed at August 2, 2019 🥳
 
