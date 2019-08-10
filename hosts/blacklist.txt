@@ -4,6 +4,8 @@
 # Manhuaren.com - android comic app
 logger.c1oudmobi.net
 tkup.uparpu.com
+searchhtt.com
+api.c1oudmobi.net
 
 # luckyorange.net -- Dynamic web recording user heat map and behaviour
 settings.luckyorange.net # https://www.editage.com.tw/inquire.html use it to track user
@@ -309,6 +311,7 @@ m.fexiaen.com
 e.oul78c.cn
 abs.ireaderm.net
 api.ireaderm.net
+app.adjust.com
 logger.suibyuming.com
 
 # Report from user 
