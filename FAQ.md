@@ -1,3 +1,15 @@
+## IP / DNS leak test
+
+1. [ipleak.net](https://ipleak.net/)
+2. [ipleak.org](https://ipleak.org/)
+3. [ipleak.com](http://ipleak.com/full-report)
+
+- [What is my IP](https://ifconfig.co/)
+```
+curl -4 https://ifconfig.co
+curl -6 https://ifconfig.co
+```
+
 ## Prevent DNS leaking from Chrome browser on Android phone
 
 1. Type `chrome://flags`
