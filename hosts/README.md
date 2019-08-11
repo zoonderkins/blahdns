@@ -1,7 +1,10 @@
 ## Hosts
 
 * [Blahdns RPZ](https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/rpz.blacklist) `(CC BY-NC-SA 4.0)
-`  designed for KNOT, Bind9, PowerDNS.
+` designed for KNOT, Bind9, PowerDNS.
+
+* [Blandns Host](https://github.com/ookangzheng/blahdns/blob/master/hosts/adsblock.list?raw=true)
+
 
 * Mobile version
   * [dblmobile.oisd.nl wildcard](https://dblmobile.oisd.nl)
