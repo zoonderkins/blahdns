@@ -2,9 +2,6 @@
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
-* Futureplan
- * - [ ] develop an API for each server monitor if resolver is down. 
-
 * Germany and Japan server certs both renewed at August 2, 2019 🥳
 
 * Japan & Germany server has been reinstall and Japan server updated to Vultr High frequency VPS for faster speed at August 2, 2019 🥳
@@ -34,7 +31,7 @@ Server (August 2, 2019 -- Germany, Japan)
 
 Server (August 2, 2019 -- Switzerland)
 |-- Let's Encrypt SSL
-|-- Knot-resolver (OpenNIC, ICANN, forward-upstream to quad9)
+|-- Knot-resolver (OpenNIC, ICANN, forward-upstream to https://www.switch.ch/security/info/public-dns/)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
