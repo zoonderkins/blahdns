@@ -43,11 +43,12 @@
 
 * [Blockconvert whitelist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
 
-## Source use on Blahdns 
-**Updated on July 29, 2019**
+## Source use on Blahdns
+**Updated on August 13, 2019**
+
+* [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
 ### All-in-one
-* https://1hos.cf/Pro
 * https://dbl.oisd.nl/
 * https://hblock.molinero.xyz/hosts
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
