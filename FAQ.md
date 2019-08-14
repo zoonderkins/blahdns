@@ -1,6 +1,6 @@
 ## IP / DNS leak test
 
-1. [ipleak.net](https://ipleak.net/)
+1. [bash.ws/dnsleak](https://bash.ws/dnsleak)
 2. [ipleak.org](https://ipleak.org/)
 3. [ipleak.com](http://ipleak.com/full-report)
 
