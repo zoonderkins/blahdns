@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Blahdns feedback</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Blahdns feedback</h3>
+      {% if message %}
+      <h3 class="message">{{ message | safe }}</h3>
+      {% endif %}
+      <form action="/" method="POST">
+        <div class="form-group">
+          <h3>Name **</h3>
+          <input
+            type="text"
+            name="customer"
+            placeholder="Name of vehicle owner"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <h3>Email **</h3>
+          <input required type="email" name="email" placeholder="abc@abc.com" />
+        </div>
+        <div class="form-group">
+          <h3>Please rate **</h3>
+          <input type="radio" name="rating" value="1" /> 1
+          <input type="radio" name="rating" value="2" /> 2
+          <input type="radio" name="rating" value="3" /> 3
+          <input type="radio" name="rating" value="4" /> 4
+          <input type="radio" name="rating" value="5" /> 5
+          <input type="radio" name="rating" value="6" /> 6
+          <input type="radio" name="rating" value="7" /> 7
+          <input type="radio" name="rating" value="8" /> 8
+          <input type="radio" name="rating" value="9" /> 9
+          <input type="radio" name="rating" value="10" checked /> 10
+        </div>
+        <div class="form-group">
+          <h3>Comments about your experience **</h3>
+          <textarea
+            required
+            name="comments"
+            cols="30"
+            rows="10"
+            placeholder="Tell us what you liked and/or did not like"
+          ></textarea>
+        </div>
+        <br />
+        <p>** required</p>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
