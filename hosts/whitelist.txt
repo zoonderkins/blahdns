@@ -709,6 +709,18 @@ ocsp.int-x3.letsencrypt.org
 ocsp.int-x4.letsencrypt.org
 ocsp.int-x2.letsencrypt.org
 ocsp.int-x1.letsencrypt.org
+ocsp.apple.com
+ocsp.comodoca.com
+ocsp.comodoca4.com
+ocsp.digicert.com
+ocsp.globalsign.com
+ocsp.godaddy.com
+ocsp.pki.goog
+ocsp.sca1b.amazontrust.com
+ocsp.sectigo.com
+ocsp.ssl.com
+ocsp.usertrust.com
+yandex.ocsp-responder.com
 
 # Payment
 ## Paypal and cdn
