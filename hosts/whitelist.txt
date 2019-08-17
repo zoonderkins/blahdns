@@ -1,9 +1,6 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
-# engadget.com
-guce.engadget.com
-
 # Nokia image asset 
 d3orhvfyxudxxq.cloudfront.net # CNAME images.ctfassets.net
  
