@@ -133,5 +133,5 @@ wget https://cdn.statically.io/gh/teddysun/across/master/unixbench.sh
 chmod +x unixbench.sh
 ./unixbench.sh
 ```
-
+1. IPtables DNS DDOs attack: https://github.com/justvanbloom/dns-iptables-rules/blob/master/update_domain_blacklist.sh
 Vultr Cloudcompute vs High frequency -- [gist](https://gist.github.com/ookangzheng/3b3494af632c19699f2cd1bb0ea1685e)
