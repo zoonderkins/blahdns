@@ -1,8 +1,9 @@
 ## IP / DNS leak test
 
 1. [bash.ws/dnsleak](https://bash.ws/dnsleak)
-2. [ipleak.org](https://ipleak.org/)
-3. [ipleak.com](http://ipleak.com/full-report)
+2. [https://browserleaks.com/ip](https://browserleaks.com/ip)
+3. [ipleak.org](https://ipleak.org/)
+4. [ipleak.com](http://ipleak.com/full-report)
 
 - [What is my IP](https://ifconfig.co/)
 ```
