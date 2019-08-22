@@ -1038,3 +1038,6 @@ pornhubpremium.com
 
 # Yahoo Mail
 smtp.mail.yahoo.com
+
+# xn--allestrungen-9ib.de
+xn--allestrungen-9ib.de
