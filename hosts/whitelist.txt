@@ -816,7 +816,11 @@ q13fox.com
 c.amazon-adsystem.com
 amp.usatoday.com
 
-# May break site
+# Dropbox
+bolt.dropbox.com #dropbox client sync
+dl.dropbox.com
+
+# Undefined 
 ap.org # News main stream
 cdn.gotraffic.net
 promotions.newegg.com
@@ -836,7 +840,6 @@ maxcdn.bootstrapcdn.com #bootstrap CDN
 c.trello.com # Trello content
 app-measurement.com # Google maps loding maps and other conetent
 mobilenetworkscoring-pa.googleapis.com
-dl.dropbox.com
 api.ipify.org
 app.adjust.com 
 api.fast.com # Fast speedtest 
@@ -1027,7 +1030,7 @@ device-metrics-us.amazon.com
 # Utorrent
 update.utorrent.com
 
-#Appledaily
+# Appledaily
 imp.appledaily.com #mobile page image
 
 # ZeroNet
