@@ -600,6 +600,7 @@ secure.aadcdn.microsoftonline-p.com # Outlook.com logo
 g00.msn.com
 www.sdad.guru
 c.msn.com
+activity.windows.com # Sync 
 
 # Windows 10 update
 au.download.windowsupdate.com
