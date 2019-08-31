@@ -2,7 +2,9 @@
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
-* Germany and Japan server certs both renewed at August 2, 2019 🥳
+* Germany server certs expired at November 29, 2019
+
+* Japan server certs both renewed at August 2, 2019
 
 * Japan & Germany server has been reinstall and Japan server updated to Vultr High frequency VPS for faster speed at August 2, 2019 🥳
 
