@@ -23,8 +23,12 @@ curl -6 https://ifconfig.co
 
 ## Troubleshoot 
 
-
 ```
+// DNS dnsentropy check
+dig +short porttest.dns-oarc.net TXT
+Answer: porttest.y.x.w.v.u.t.s.r.q.p.o.n.m.l.k.j.i.h.g.f.e.d.c.b.a.pt.dns-oarc.net.
+"108.61.201.119 is GREAT: 53 queries in 2.7 seconds from 53 ports with std dev 14045"
+
 // Browser test: 
 https://doh-de.blahdns.com/dns-query?name=example.net
 https://doh-jp.blahdns.com/dns-query?name=example.net
