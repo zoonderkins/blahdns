@@ -1,7 +1,5 @@
 ## Announcements 
 
-**We are having IPv6 connection issue with Japan Vultr server, already contact VPS provider to investigate.(2019-09-13 15:00 GMT +8)** 
-
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
