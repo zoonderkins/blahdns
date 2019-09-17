@@ -1045,3 +1045,7 @@ smtp.mail.yahoo.com
 
 # xn--allestrungen-9ib.de
 xn--allestrungen-9ib.de
+
+# b.hatena.ne.jp
+b.hatena.ne.jp
+api.b.hatena.ne.jp
