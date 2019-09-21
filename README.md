@@ -1,4 +1,6 @@
-## Announcements 
+## Announcements
+
+**Germany DNS server currently having IPv6 problem, pls be patient.**
 
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
