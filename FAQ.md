@@ -1,3 +1,11 @@
+
+## DnscryptV1 (updated 2019-10-02 GMT +8) 
+```
+dnscrypt-proxy --provider-key=5384:E814:4314:293E:56DD:1B14:0A1E:F172:AD47:BDBA:1799:C895:7294:953D:034E:B5C7
+                 --resolver-address=108.61.201.119
+                 --provider-name=2.dnscrypt-cert.blahdns.com
+```
+
 ## IP / DNS leak test
 
 1. [bash.ws/dnsleak](https://bash.ws/dnsleak)
