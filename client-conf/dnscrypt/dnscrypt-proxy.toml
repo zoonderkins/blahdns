@@ -11,7 +11,7 @@ lb_strategy = 'p2'
 fallback_resolver = '9.9.9.9:53'
 ignore_system_dns = false
 netprobe_timeout = 30
-cache = false
+cache = true
 cache_size = 512
 cache_min_ttl = 90
 cache_max_ttl = 1800
@@ -23,22 +23,22 @@ cache_neg_max_ttl = 6
 [static.'blahdns-ch-doh-v6']
 stamp = 'sdns://AgMAAAAAAAAAIFsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-ch-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAJVsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAJVsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
 [static.'blahdns-jp-doh']
 stamp = 'sdns://AgMAAAAAAAAADjEwOC42MS4yMDEuMTE5ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-jp-doh-v6']
 stamp = 'sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMToxZGVkOjU0MDA6MDFmZjpmZTkwOjk0NWJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-jp-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzEwOC42MS4yMDEuMTE5Ojg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAADjEwOC42MS4yMDEuMTE5IFOE6BRDFCk-Vt0bFAoe8XKtR726F5nIlXKUlT0DTrXHGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 [static.'blahdns-jp-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMToxZGVkOjU0MDA6MDFmZjpmZTkwOjk0NWJdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMToxZGVkOjU0MDA6MDFmZjpmZTkwOjk0NWJdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
 [static.'blahdns-de-doh']
 stamp = 'sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-de-doh-v6']
 stamp = 'sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-de-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-de-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
