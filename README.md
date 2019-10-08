@@ -1,6 +1,6 @@
 ## Announcements
 
-**Japan/Germany servers now enable resolved `.eth` tld.(TRY: `dig almonit.eth`)--BETA**
+**Japan/Germany servers now enable to resolve `.eth` tld.(TRY: `dig almonit.eth`)--BETA**
 
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
 
