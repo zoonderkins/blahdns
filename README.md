@@ -2,6 +2,8 @@
 
 **Japan/Germany servers now enable to resolve `.eth` tld.(TRY: `dig almonit.eth or dig matoken.eth`)--BETA**
 
+**Non ASCii & UTF-8 domains now can be resolve `kdig xn--i-7iq.ws` [https://i❤.ws]** 
+
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
 
 * If you are developer using those services, both are blocked by default. 
@@ -88,11 +90,6 @@ sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMToxZGVkOjU0MDA6MDFmZjpmZTkwOjk0NWJdOjg0N
 * `*.wpad`
 
 * `+.glassbox.+ `# https://techcrunch.com/2019/02/06/iphone-session-replay-screenshots
-
-* `.+(xn--).+ ` # Blocking IDN and Non-ASCii Domain name, eg: `kdig xn--80ak6aa92e.com` (apple.com) 
-1. https://www.reddit.com/r/pihole/comments/ap6ecf/regex_blocking_idn_and_nonascii_domain_names/
-2. http://blog.netlab.360.com/idn_measurement_netlab/
-3. https://github.com/mmotti/pihole-regex
 
 ## Awesome dns-resolver
 https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
