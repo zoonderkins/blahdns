@@ -48,6 +48,7 @@ Server (August 2, 2019 -- Switzerland)
 ```
 
 ## Config file / Client
+* Yggdrasil IPv6 Network: [Unbound.conf](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
 * Android DoH/DoT: [Nebulo App](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen) | [personalDNSfilter App](https://zenz-solutions.de/personaldnsfilter/) | [Intra](https://play.google.com/store/apps/details?id=app.intra)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
 * Dnscryptv2: [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/)
