@@ -1052,3 +1052,8 @@ api.b.hatena.ne.jp
 
 ebd.cda.pl
 fili.cc
+
+# Xiaomi Armband app Weather location
+restapi.amap.com
+adiu.amap.com
+digitalassetlinks.googleapis.com
