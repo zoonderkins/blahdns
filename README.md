@@ -1,6 +1,6 @@
 ## Announcements
 
-**Japan/Germany servers now enable to resolve `.eth` tld.(TRY: `dig almonit.eth or dig matoken.eth`)--BETA**
+**BlahDNS can resolve `.eth` tld. [http://matoken.eth/]**
 
 **Non ASCii & UTF-8 domains now can be resolve `kdig xn--i-7iq.ws` [https://i❤.ws]** 
 
@@ -9,20 +9,12 @@
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
-* Germany server certs expired at November 29, 2019
-
-* Japan server certs both renewed at August 2, 2019
-
-* Japan & Germany server has been reinstall and Japan server updated to Vultr High frequency VPS for faster speed at August 2, 2019 🥳
-
-* Switzerland server is online, DoT added Port 443, 853 (July 19, 2019) 🥂 
-
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
 
 ## Our features
-* Block Trackers, Ads, Malware, Phishing
-* No ECS, DNSSEC ready, No logs, OpenNIC 
+* Block Trackers, Ads, Malwares
+* No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
 
 ## Server status
 * Server status [UpTimeRobot](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
@@ -48,7 +40,7 @@ Server (August 2, 2019 -- Switzerland)
 ```
 
 ## Config file / Client
-* Yggdrasil IPv6 Network: [Unbound.conf](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
+* Yggdrasil IPv6 Network: [Setup guide](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
 * Android DoH/DoT: [Nebulo App](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen) | [personalDNSfilter App](https://zenz-solutions.de/personaldnsfilter/) | [Intra](https://play.google.com/store/apps/details?id=app.intra)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
 * Dnscryptv2: [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/)
