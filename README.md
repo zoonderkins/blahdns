@@ -6,11 +6,12 @@
 
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
 
+**Switerland DoT-DoH Cert will be expire at 2020-01-15**
+
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
-
 
 ## Our features
 * Block Trackers, Ads, Malwares
