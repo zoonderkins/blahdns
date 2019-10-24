@@ -1,5 +1,7 @@
 ## Announcements
 
+**Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.list) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.blacklist) can be download via new CDN.** (2019-10-24)
+
 **BlahDNS can resolve `.eth` tld. [http://matoken.eth/]**
 
 **Non ASCii & UTF-8 domains now can be resolve `kdig xn--i-7iq.ws` [https://i❤.ws]** 
