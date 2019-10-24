@@ -1,8 +1,8 @@
 ## Hosts
 
-* [Blahdns RPZ](https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/rpz.blacklist) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
+* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/rpz.blacklist) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
 
-* [Blahdns Host](https://github.com/ookangzheng/blahdns/blob/master/hosts/adsblock.list?raw=true) `(CC BY-NC-SA 4.0) `
+* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adsblock.list) `(CC BY-NC-SA 4.0) `
 
 
 * Mobile version
@@ -10,14 +10,9 @@
   * [1hos.cf Mini](https://1hos.cf/mini)
   * [1hos.cf](https://1hos.cf)
   * [Blockconvert](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/hosts.txt)
-  * [280Blocker-JP](https://280blocker.net/files/280blocker_domain.txt)
   * [hblock hosts](https://hblock.molinero.xyz/hosts)
 
 * Mobile Adblock clients: [Blokada](https://github.com/blokadaorg/blokada) | [DNS66](https://github.com/julian-klode/dns66) | [pDNSf](https://zenz-solutions.de/personaldnsfilter) | [Nebulo](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen&hl=en_US) | [Adhell](https://play.google.com/store/apps/details?id=com.getadhell.androidapp&hl=en_US) | [DNSCloak(ios)](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
-
-* [Content farm hosts](https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/contentfarms.host)
-* [Whitelist](https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/whitelist.txt)
-* [Blacklist](https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/blacklist.txt)
 
 ## Other Adblock projects
 
@@ -44,7 +39,7 @@
 * [Blockconvert whitelist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
 
 ## Source use on Blahdns
-**Updated on August 13, 2019**
+**Updated on Oct 24, 2019**
 
 * [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
@@ -56,7 +51,6 @@
 
 ### Malware / Phishing
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-* https://phishing.army/download/phishing_army_blocklist.txt
 * http://theantisocialengineer.com/AntiSocial_Blacklist_Community_V1.txt
 *	https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 
@@ -64,7 +58,6 @@
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 * https://www.squidblacklist.org/downloads/dg-ads.acl
 * https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
-* https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 * https://github.com/jawz101/MobileAdTrackers/blob/master/hosts
 * https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
 * https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
