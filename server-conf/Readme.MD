@@ -1,5 +1,5 @@
 - Finland🇫🇮(DoT,DoH,Dnscryptv2), Provider: Hetzner
-  IP: 95.216.212.177, 2a01:4f9:c010:43ce::1
+  * IP: 95.216.212.177, 2a01:4f9:c010:43ce::1
   * DNS-over-HTTPS:
     * https://doh-fi.blahdns.com/dns-query
   * DNS-over-TLS: dot-fi.blahdns.com, ports 853, 443 
