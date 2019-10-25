@@ -5,7 +5,7 @@
 
 **Finland🇫🇮 server is Online, pls give it a try !!**
 
-**Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.list) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.blacklist) can be download via new CDN.** (2019-10-24)
+**Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
 
 **BlahDNS can resolve `.eth` tld. [http://matoken.eth/]**
 
