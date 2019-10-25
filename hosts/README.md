@@ -1,8 +1,8 @@
 ## Hosts
 
-* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/rpz.blacklist) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
+* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
 
-* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adsblock.list) `(CC BY-NC-SA 4.0) `
+* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adsblock.txt) `(CC BY-NC-SA 4.0) `
 
 
 * Mobile version
