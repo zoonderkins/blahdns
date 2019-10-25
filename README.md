@@ -1,5 +1,10 @@
 ## Announcements
 
+
+**Switerland🇨🇭 server will be shutdown at the END of December 31 2019 !!!!**
+
+**Finland🇫🇮 server is Online, pls give it a try !!**
+
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.list) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.blacklist) can be download via new CDN.** (2019-10-24)
 
 **BlahDNS can resolve `.eth` tld. [http://matoken.eth/]**
@@ -8,7 +13,6 @@
 
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
 
-**Switerland DoT-DoH Cert will be expire at 2020-01-15**
 
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
@@ -25,7 +29,7 @@
 ## Server architecture
 
 ```bash
-Server (August 2, 2019 -- Germany, Japan)
+Server (August 25, 2019 -- Germany, Japan, Finland)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
