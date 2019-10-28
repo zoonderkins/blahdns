@@ -1,18 +1,14 @@
 ## Announcements
 
+**BlahDNS can resolve `.eth .ygg. i❤.ws` tld. [http://matoken.eth/] | [http://mesh.ygg] | [http://blahdns.oss] | [[https://i❤.ws]]**
 
-**Switerland🇨🇭 server will be shutdown at the END of December 31 2019 !!!!**
+**Switerland 🇨🇭 server will be shutdown at the END of December 31 2019 !!!!**
 
-**Finland🇫🇮 server is Online, pls give it a try !!**
+**Finland 🇫🇮 server is Online, give it a try !!**
 
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
 
-**BlahDNS can resolve `.eth` tld. [http://matoken.eth/]**
-
-**Non ASCii & UTF-8 domains now can be resolve `kdig xn--i-7iq.ws` [https://i❤.ws]** 
-
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
-
 
 * If you are developer using those services, both are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
