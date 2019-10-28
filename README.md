@@ -1,6 +1,6 @@
 ## Announcements
 
-**BlahDNS can resolve `.eth .ygg. i❤.ws` tld. [http://matoken.eth/] | [http://mesh.ygg] | [http://blahdns.oss] | [[https://i❤.ws]]**
+**BlahDNS can resolve `.eth .ygg. i❤.ws` tld. [http://matoken.eth/] | [http://mesh.ygg] | (I2p on Yggdrasil)[http://i2pd.ygg/] | [http://blahdns.oss] | [https://i❤.ws]**
 
 **Switerland 🇨🇭 server will be shutdown at the END of December 31 2019 !!!!**
 
