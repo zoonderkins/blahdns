@@ -331,3 +331,8 @@ hb.rayjump.com
 
 ## Antifraud
 s.update.fbsbx.com
+
+## SafeURL to china
+safeurl.maxthon.cn
+www.urlsec.qq.com
+urlsec.qq.com
