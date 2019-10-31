@@ -336,3 +336,6 @@ s.update.fbsbx.com
 safeurl.maxthon.cn
 www.urlsec.qq.com
 urlsec.qq.com
+
+## Prevent Chinese phone back to HOME
+picanalysis.vivo.com.cn
