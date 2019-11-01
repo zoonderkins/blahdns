@@ -39,7 +39,6 @@
 * [Blockconvert whitelist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
 
 ## Source use on Blahdns
-**Updated on Oct 24, 2019**
 
 * [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
@@ -55,6 +54,7 @@
 *	https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 
 ### Ads & Tracker
+* https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 * https://www.squidblacklist.org/downloads/dg-ads.acl
 * https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
