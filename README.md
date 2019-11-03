@@ -2,7 +2,9 @@
 
 **BlahDNS can resolve `.eth .ygg. i❤.ws` tld. http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/**
 
-**Switerland 🇨🇭 server will be shutdown at the END of December 31 2019 !!!!**
+**Japan Server will get a new IPv/4/6 at December 1, 2019 GMT+8**
+
+**Switerland 🇨🇭 server will be shutdown at December 1, 2019 GMT+8**
 
 **Finland 🇫🇮 server is Online, give it a try !!**
 
