@@ -1057,3 +1057,6 @@ fili.cc
 restapi.amap.com
 adiu.amap.com
 digitalassetlinks.googleapis.com
+
+# dealabs apps image wont show
+static-pepper.dealabs.com
