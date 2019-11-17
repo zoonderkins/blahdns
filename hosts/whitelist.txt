@@ -519,6 +519,10 @@ s3.amazonaws.com
 s3-1.amazonaws.com
 c.media-amazon.com # IMDB
 fls-na.amazon.com # IMDB
+api.amazonalexa.com  #firetv stick
+dcape-na.amazon.com  # firetv stick
+arcus-uswest.amazon.com # firetv stick
+msh.amazon.com #firetv stick
 
 # Link Shortners Openphish, Hostsfile.org
 ppt.cc
