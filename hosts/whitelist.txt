@@ -1064,3 +1064,6 @@ digitalassetlinks.googleapis.com
 
 # dealabs apps image wont show
 static-pepper.dealabs.com
+
+# CDN AMP
+cdn-content.ampproject.org
