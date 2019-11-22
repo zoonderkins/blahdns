@@ -32,11 +32,3 @@
     * IPv6:
 sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMToxZGVkOjU0MDA6MDFmZjpmZTkwOjk0NWJdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
-- Switzerland 🇨🇭(DoT, DoH, Dnscryptv2), Provider: ungleich.ch, Ipv6 only Hosting
-  * IP: 2a0a:e5c0:2:2:0:c8ff:fe68:bf48
-  * DNS-over-HTTPS:
-    * https://doh-ch.blahdns.com/dns-query
-    * IPv6: sdns://AgMAAAAAAAAAIFsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-  * DNS-over-TLS: dot-ch.blahdns.com, ports 853, 443 
-  * DNSCrypt v2, port 8443:
-    * IPv6: sdns://AQMAAAAAAAAAJVsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
