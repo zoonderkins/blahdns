@@ -1,5 +1,5 @@
 # Updated on Oct 25, 2019
-server_names = ['blahdns-ch-doh-v6', 'blahdns-ch-dnscrypt-v6', 'blahdns-jp-doh','blahdns-de-doh','blahdns-jp-dnscrypt-v4','blahdns-de-dnscrypt-v4']
+server_names = ['blahdns-jp-doh','blahdns-de-doh','blahdns-jp-dnscrypt-v4','blahdns-de-dnscrypt-v4']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 250
 force_tcp = false
@@ -28,11 +28,6 @@ stamp = 'sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRu
 stamp = 'sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-fi-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-
-[static.'blahdns-ch-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAIFsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
-[static.'blahdns-ch-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAJVsyYTBhOmU1YzA6MjoyOjA6YzhmZjpmZTY4OmJmNDhdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
 [static.'blahdns-jp-doh']
 stamp = 'sdns://AgMAAAAAAAAADjEwOC42MS4yMDEuMTE5ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
