@@ -72,18 +72,4 @@ upstream_recursive_servers:
     tls_pubkey_pinset:
       - digest: "sha256"
         value: sYrnkH4aRY6M9eP1Uut38GNTXK0xg7wD+Euy/xdW9xc=
-        
-  - address_data: 2a0a:e5c0:2:2:0:c8ff:fe68:bf48
-    tls_port: 853
-    tls_auth_name: "dot-ch.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: i1jLFbRK0/Aj/eQO4qxG6SqlJOCf70zwJb3z7JDFyPs=
-        
-  - address_data: 2a0a:e5c0:2:2:0:c8ff:fe68:bf48
-    tls_port: 443
-    tls_auth_name: "dot-ch.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: i1jLFbRK0/Aj/eQO4qxG6SqlJOCf70zwJb3z7JDFyPs=     
   
