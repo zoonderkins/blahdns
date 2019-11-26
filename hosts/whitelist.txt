@@ -97,6 +97,20 @@ ynuf.aliapp.org
 gtms02.alicdn.com
 gtms03.alicdn.com
 ws.mmstat.com
+3gdl.tcdn.qq.com
+s.click.taobao.com
+sh.wagbridge.taobao.com.gds.alibabadns.com
+www.inputdirector.com
+inputdirector.com
+gia.jd.com
+wl.jd.com
+arms-retcode.aliyuncs.com
+tce.alicdn.com
+amos.alicdn.com
+na61-na62.wagbridge.alibaba.tanx.com
+gm.mmstat.com
+gm.gds.mmstat.com
+phs.tanx.com
 
 # Alicdn
 assets.alicdn.com
