@@ -36,14 +36,6 @@ Server (August 25, 2019 -- Germany, Japan, Finland)
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
-
-Server (August 2, 2019 -- Switzerland)
-|-- Let's Encrypt SSL
-|-- Knot-resolver (OpenNIC, ICANN, forward-upstream to https://www.switch.ch/security/info/public-dns/)
-|   |-- DNSCryptv2 (dnsdist, port 8443)
-|   |-- doh-server (DoH, GET, POST -- m13253)
-|   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
-|-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
 ```
 
 ## Config file / Client
