@@ -6,8 +6,6 @@
 
 **Japan Server will get a new IPv/4/6 at December 1, 2019 GMT+8**
 
-**Switerland 🇨🇭 server will be shutdown at December 1, 2019 GMT+8**
-
 **Finland 🇫🇮 server is Online, give it a try !!**
 
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
