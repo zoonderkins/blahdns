@@ -25,8 +25,8 @@ trust_anchors.remove('.')
 
 -- Forward queries to Blahdns
 policy.add(policy.all(policy.TLS_FORWARD({{'159.69.198.101@443', hostname='dot-de.blahdns.com', ca_file='/etc/ssl/certs/ca-certificates.crt'}})))
-policy.add(policy.all(policy.TLS_FORWARD({{'108.61.201.119@853', hostname='dot-jp.blahdns.com', ca_file='/etc/ssl/certs/ca-certificates.crt'}})))
-policy.add(policy.all(policy.TLS_FORWARD({{'2a0a:e5c0:2:2:0:c8ff:fe68:bf48@853', hostname='dot-ch.blahdns.com', ca_file='/etc/ssl/certs/ca-certificates.crt'}})))
+policy.add(policy.all(policy.TLS_FORWARD({{'45.32.55.94@853', hostname='dot-jp.blahdns.com', ca_file='/etc/ssl/certs/ca-certificates.crt'}})))
+policy.add(policy.all(policy.TLS_FORWARD({{'2001:19f0:7001:3259:5400:02ff:fe71:0bc9@853', hostname='dot-jp.blahdns.com', ca_file='/etc/ssl/certs/ca-certificates.crt'}})))
 
 ```
 
@@ -46,13 +46,13 @@ policy.add(policy.all(policy.TLS_FORWARD({{'2a0a:e5c0:2:2:0:c8ff:fe68:bf48@853',
 forward-zone:
   name: "."
   forward-tls-upstream: yes
-  forward-addr: 2a0a:e5c0:2:2:0:c8ff:fe68:bf48@853#dot-ch.blahdns.com
-  forward-addr: 108.61.201.119@853#dot-jp.blahdns.com
-  forward-addr: 2001:19f0:7001:1ded:5400:1ff:fe90:945b@443#dot-jp.blahdns.com
+  forward-addr: 95.216.212.177@443#dot-fi.blahdns.com
+  forward-addr: 2a01:4f9:c010:43ce::1@853#dot-fi.blahdns.com
+  forward-addr: 45.32.55.94@853#dot-jp.blahdns.com
+  forward-addr: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9@443#dot-jp.blahdns.com
   forward-addr: 159.69.198.101@853#dot-de.blahdns.com
-  forward-addr:2a01:4f8:1c1c:6b4b::1@443#dot-de.blahdns.com
-
-  #forward-addr: 116.203.70.156@443#uncensored-dot.dnswarden.com
+  forward-addr: 2a01:4f8:1c1c:6b4b::1@443#dot-de.blahdns.com
+  
 ```
 
 ## Stubby
@@ -73,7 +73,7 @@ kdig google.com @dot-jp.blahdns.com +tls
 ## getdns
 ```bash
 sudo apt install getdns-utils
-getdns_query @108.61.201.119 -s -L -A www.google.com
+getdns_query @45.32.55.94 -s -L -A www.google.com
 ```
 
 ## Curl
@@ -92,7 +92,7 @@ doh-client --domain doh-jp.blahdns.com --qname google.com --qtype A
 ```bash
 nano /etc/systemd/resolved.conf
 
-DNS=108.61.201.119 159.69.198.101
+DNS=45.32.55.94 159.69.198.101
 DNSOverTLS=opportunistic
 
 // Save and restart service
