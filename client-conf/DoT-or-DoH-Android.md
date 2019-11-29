@@ -26,10 +26,10 @@ App download: [https://zenz-solutions.de/personaldnsfilter](https://zenz-solutio
 **Config file**
 
 ```
-[2001:19f0:7001:1ded:5400:01ff:fe90:945b]::853::DoT
-108.61.201.119::853::DoT
-[2001:19f0:7001:1ded:5400:01ff:fe90:945b]::443::DoH::https://doh-jp.blahdns.com/dns-query
-108.61.201.119::443::DoH::https://doh-jp.blahdns.com
+[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::853::DoT
+45.32.55.94::853::DoT
+[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::443::DoH::https://doh-jp.blahdns.com/dns-query
+45.32.55.94::443::DoH::https://doh-jp.blahdns.com
 
 ```
 
