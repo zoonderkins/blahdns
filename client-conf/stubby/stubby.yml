@@ -17,59 +17,51 @@ listen_addresses:
   - 0::1@54
 
 upstream_recursive_servers:
-  - address_data: 108.61.201.119
+  - address_data: 45.32.55.94
     tls_port: 443
     tls_auth_name: "dot-jp.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
         
-  - address_data: 108.61.201.119
+  - address_data: 45.32.55.94
     tls_port: 853
     tls_auth_name: "dot-jp.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
 
   - address_data: 159.69.198.101
     tls_port: 443
     tls_auth_name: "dot-de.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: sYrnkH4aRY6M9eP1Uut38GNTXK0xg7wD+Euy/xdW9xc=
 
   - address_data: 159.69.198.101
     tls_port: 853
     tls_auth_name: "dot-de.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: sYrnkH4aRY6M9eP1Uut38GNTXK0xg7wD+Euy/xdW9xc=
+    
+  - address_data: 95.216.212.177
+    tls_port: 443
+    tls_auth_name: "dot-fi.blahdns.com"
 
-  - address_data: 2001:19f0:7001:1ded:5400:01ff:fe90:945b
+  - address_data: 95.216.212.177
+    tls_port: 853
+    tls_auth_name: "dot-fi.blahdns.com"
+
+  - address_data: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
     tls_port: 443
     tls_auth_name: "dot-jp.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
-
-  - address_data: 2001:19f0:7001:1ded:5400:01ff:fe90:945b
+   
+  - address_data: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
     tls_port: 853
     tls_auth_name: "dot-jp.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: psuldEImRyeSkU88b2ORtiNQ2uBdo+RCwAw6SxaJWQ4=
-        
+   
   - address_data: 2a01:4f8:1c1c:6b4b::1
     tls_port: 443
     tls_auth_name: "dot-de.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: sYrnkH4aRY6M9eP1Uut38GNTXK0xg7wD+Euy/xdW9xc=
         
   - address_data: 2a01:4f8:1c1c:6b4b::1
     tls_port: 853
     tls_auth_name: "dot-de.blahdns.com"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: sYrnkH4aRY6M9eP1Uut38GNTXK0xg7wD+Euy/xdW9xc=
-  
+    
+  - address_data: 2a01:4f9:c010:43ce::1
+    tls_port: 443
+    tls_auth_name: "dot-fi.blahdns.com"
+        
+  - address_data: 2a01:4f9:c010:43ce::1
+    tls_port: 853
+    tls_auth_name: "dot-fi.blahdns.com"
+
