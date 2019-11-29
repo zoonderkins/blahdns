@@ -6,13 +6,22 @@
 
 **Japan Server will get a new IPv/4/6 at December 1, 2019 GMT+8**
 
+```
+NEW Japan IP (December 1, 2019)
+Ipv4: 45.32.55.94
+Ipv6: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
+```
+
 **Finland 🇫🇮 server is Online, give it a try !!**
 
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
 
 **All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
 
-* If you are developer using those services, both are blocked by default. 
+## Server information
+VISIT: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
+
+* Both trackers are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
@@ -42,9 +51,6 @@ Server (August 25, 2019 -- Germany, Japan, Finland)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
 * Dnscryptv2: [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/)
 * Config files: [ Client config example ](https://github.com/ookangzheng/blahdns/tree/master/client-conf)
-
-## Server information
-VISIT: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
 
 ## Default blocked wildcard domain
 * `+.glassbox.+ `# https://techcrunch.com/2019/02/06/iphone-session-replay-screenshots
