@@ -4,7 +4,7 @@
 
 **BlahDNS can resolve `.eth .ygg. i❤.ws` tld. http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/**
 
-**Alternative DoH CDN (Cloudflare) `https://cf1.blahdns.com/dns-query</a>` |  `https://cf2.blahdns.com/dns-query` If you have high latency and you know what you doing with **Cloudflare****
+Alternative DoH CDN (Cloudflare) `https://cf1.blahdns.com/dns-query` |  `https://cf2.blahdns.com/dns-query` If you have high latency and you know what you doing with **Cloudflare**
 
 ```
 NEW Japan IP (December 1, 2019)
