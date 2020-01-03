@@ -4,15 +4,13 @@
 
 **BlahDNS can resolve `.eth .ygg. i❤.ws` tld. http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/**
 
-Alternative DoH CDN (Cloudflare) `https://cf1.blahdns.com/dns-query` |  `https://cf2.blahdns.com/dns-query` If you have high latency and you know what you doing with **Cloudflare**
+DoH CDN (Cloudflare) `https://cf1.blahdns.com/dns-query` |  `https://cf2.blahdns.com/dns-query` | `https://doh1.blahdns.com/dns-query` (BunnyCDN) If you have high latency and you know what you doing with **Cloudflare**
 
 ```
 NEW Japan IP (December 1, 2019)
 Ipv4: 45.32.55.94
 Ipv6: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
 ```
-
-**Finland 🇫🇮 server is Online, give it a try !!**
 
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
 
