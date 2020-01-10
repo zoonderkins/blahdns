@@ -751,6 +751,7 @@ yandex.ocsp-responder.com
 ## Paypal and cdn
 www.paypal.com
 www.glb.paypal.com
+t.paypal.com
 www.paypal.com.edgekey.net
 e16973.a.akamaiedge.net
 
