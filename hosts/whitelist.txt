@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Connect your phone to Microsoft windows
+continuum.dds.microsoft.com
+
 localbitcoins.com
 www.localbitcoins.com
 
