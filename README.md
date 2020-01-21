@@ -12,7 +12,7 @@
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 * support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
-## Beta uncensored DoH CDN
+## Beta uncensored DoH CDN (Japan & Finland only)
 ```
 https://cf1.blahdns.com/uncensor
 https://cf2.blahdns.com/uncensor
