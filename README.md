@@ -4,12 +4,15 @@
 
 **BlahDNS can resolve `.eth .ygg. i❤.ws` tld. http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/**
 
-DoH CDN (Cloudflare) `https://cf1.blahdns.com/dns-query` |  `https://cf2.blahdns.com/dns-query` | `https://doh1.blahdns.com/dns-query` (BunnyCDN) If you have high latency and you know what you doing with **Cloudflare**
+DoH CDN `https://cf1.blahdns.com/dns-query` |  `https://cf2.blahdns.com/dns-query` | `https://doh1.blahdns.com/dns-query` (BunnyCDN) If you have high latency and you know what you doing with **Cloudflare**
 
 ```
-NEW Japan IP (December 1, 2019)
-Ipv4: 45.32.55.94
-Ipv6: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
+## Curl with DoH for testing purpose
+
+curl --doh-url https://doh-jp.blahdns.com/dns-query https://ssl.google-analytics.com
+
+// will return if requested domain is blocked. 
+curl: (7) Failed to connect to ssl.google-analytics.com port 443: Connection refused
 ```
 
 **Blahdns [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) can be download via new CDN.** (2019-10-24)
