@@ -1,3 +1,11 @@
+## Configuration details 
+
+**If you need uncensored DoH, please use `/uncensor` instead of `/dns-query`**
+```
+// Use at your own risk, now in BETA stage, availble in Finland and Japan  !!!!! 
+https://doh-jp.blahdns.com/uncensor ( uncensor )
+https://doh-jp.blahdns.com/dns-query ( censored )
+```
 - Finland 🇫🇮(DoT,DoH,Dnscryptv2), Provider: Hetzner
   * IP: 95.216.212.177, 2a01:4f9:c010:43ce::1
   * DNS-over-HTTPS:
@@ -13,8 +21,8 @@
   * IP: 159.69.198.101, 2a01:4f8:1c1c:6b4b::1
   * DNS-over-HTTPS: 
     * https://doh-de.blahdns.com/dns-query
-    * IPv4 sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6 sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv4: sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv6: sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
   * DNS-over-TLS: dot-de.blahdns.com, ports 853, 443
   * DNSCrypt v2, port 8443:
     * IPv4:    sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t 
@@ -24,11 +32,10 @@
   * IP: 45.32.55.94, 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
   * DNS-over-HTTPS: 
     * https://doh-jp.blahdns.com/dns-query
-    * IPv4 sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6 sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv4: sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv6: sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
   * DNS-over-TLS: dot-jp.blahdns.com, ports 853, 443
   * DNSCrypt v2, port 8443:
     * IPv4:  sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
-    * IPv6:
-  sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+    * IPv6:  sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
