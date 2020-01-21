@@ -21,10 +21,20 @@ https://doh1.blahdns.com/uncensor
 
 ## Curl with DoH for testing purpose
 ```
+// Censored 
 curl --doh-url https://doh-jp.blahdns.com/dns-query https://ssl.google-analytics.com
-
-// will return if requested domain is blocked. 
+// Return 
 curl: (7) Failed to connect to ssl.google-analytics.com port 443: Connection refused
+
+// Uncensor
+curl --doh-url https://doh-jp.blahdns.com/uncensor https://ssl.google-analytics.com
+// Return
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/analytics/">here</A>.
+</BODY></HTML>
 ```
 
 ## How to setup / config DoH DoT Dnscrypt 👇
