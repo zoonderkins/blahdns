@@ -2,6 +2,8 @@
 
 # Announcements
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
+* Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
+* All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)
 
 ## Our features
 * Block Trackers, Ads, Malwares
@@ -25,12 +27,8 @@ curl --doh-url https://doh-jp.blahdns.com/dns-query https://ssl.google-analytics
 curl: (7) Failed to connect to ssl.google-analytics.com port 443: Connection refused
 ```
 
-**Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
-
-**All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)**
-
-## Server information
-VISIT: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
+## How to setup / config DoH DoT Dnscrypt 👇
+Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
 
 ## Server status
 * Server status [UpTimeRobot](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
