@@ -1094,3 +1094,6 @@ static-pepper.dealabs.com
 
 # CDN AMP
 cdn-content.ampproject.org
+
+deviceportal.nettvservices.com
+ping.taplytics.com
