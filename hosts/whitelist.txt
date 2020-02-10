@@ -169,6 +169,7 @@ statcounter.com
 www.statcounter.com
 
 # Xiaomi
+bgp.fe01.c3.xiaomi.com # Xiaomi login
 abroad.apilocate.amap.com # Miband 4 weather location
 #abtest.mistat.xiaomi.com
 api.io.mi.com
