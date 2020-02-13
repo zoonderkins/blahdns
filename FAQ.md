@@ -35,40 +35,31 @@ curl -6 https://ifconfig.co
 // DNS dnsentropy check
 dig +short porttest.dns-oarc.net TXT
 Answer: porttest.y.x.w.v.u.t.s.r.q.p.o.n.m.l.k.j.i.h.g.f.e.d.c.b.a.pt.dns-oarc.net.
-"108.61.201.119 is GREAT: 53 queries in 2.7 seconds from 53 ports with std dev 14045"
+"159.69.198.101 is GREAT: 53 queries in 2.7 seconds from 53 ports with std dev 14045"
 
 // Browser test: 
 https://doh-de.blahdns.com/dns-query?name=example.net
 https://doh-jp.blahdns.com/dns-query?name=example.net
-https://doh-ch.blahdns.com/dns-query?name=example.net
+https://doh1.blahdns.com/dns-query?ct=application/dns-json&name=timdream.org.&type=AAAA&edns_client_subnet=220.200.38.1
 
 // curl with DoH 
 curl -H 'content-type: application/dns-message' -vL -v 'https://doh-jp.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
 
 curl -H 'content-type: application/dns-message' -vL -v 'https://doh-de.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
 
-curl -H 'content-type: application/dns-message' -vL -v 'https://doh-ch.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
-
 // Kdig on Ubuntu, Debian
 apt install knot-dnsutils
 
 // Kdig TLS with port 853, port 443 force include SNI (updated on August 1, 2019)
 
-kdig @108.61.201.119 +tls example.com
-kdig @2001:19f0:7001:1ded:5400:1ff:fe90:945b +tls example.com 
 kdig @159.69.198.101 +tls example.com 
 kdig @2a01:4f8:1c1c:6b4b::1 +tls example.com 
-kdig @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls example.com 
 
-kdig @108.61.201.119 +tls -p 443 +tls-sni=dot-jp.blahdns.com example.com 
 kdig @159.69.198.101 +tls -p 443 +tls-sni=dot-de.blahdns.com example.com 
 kdig @2a01:4f8:1c1c:6b4b::1 +tls -p 443 +tls-sni=dot-de.blahdns.com example.com 
-kdig @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls +tls-sni=dot-ch.blahdns.com example.com 
 
 // TLS certificate validation 
-kdig -d @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 +tls-sni=dot-ch.blahdns.com +tls-ca +tls-host=dot-ch.blahdns.com example.com
-kdig -d @108.61.201.119 -p 443 +tls-sni=dot-jp.blahdns.com +tls-ca +tls-host=dot-jp.blahdns.com example.com
-kdig -d @2001:19f0:7001:1ded:5400:1ff:fe90:945b -p 443 +tls-sni=dot-jp.blahdns.com +tls-ca +tls-host=dot-jp.blahdns.com example.com
+
 kdig -d @159.69.198.101 -p 443 +tls-sni=dot-de.blahdns.com +tls-ca +tls-host=dot-de.blahdns.com example.com
 kdig -d @2a0a:e5c0:2:2:0:c8ff:fe68:bf48 -p 443 +tls-sni=dot-de.blahdns.com +tls-ca +tls-host=dot-de.blahdns.com example.com
 
