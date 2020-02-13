@@ -14,9 +14,8 @@
 
 ## Beta uncensored DoH CDN (Japan & Finland only)
 ```
-https://cf1.blahdns.com/uncensor
-https://cf2.blahdns.com/uncensor
 https://doh1.blahdns.com/uncensor
+https://doh2.blahdns.com/uncensor 
 ```
 
 ## Curl with DoH for testing purpose
