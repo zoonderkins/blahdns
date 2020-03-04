@@ -1,6 +1,7 @@
 [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns)
 
 # Announcements
+* Google Analytics tracking script url:`www.google-analytics.com` is blocked, but Admin panel for site admin not block:  `analytics.google.com` (2020-03-04 17:12 GMT+8)
 * Currently we having DDos attack from China within this 3 days at Japan Sever, so we have to drop all incoming IP. If you still having connection issue, pls let us know. (2020-02-14 00:27 GMT+8)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
