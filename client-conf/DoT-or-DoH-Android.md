@@ -34,7 +34,7 @@ App download: [https://zenz-solutions.de/personaldnsfilter](https://zenz-solutio
 
 ## DoT 
 95.216.212.177::853::DOT::dot-fi.blahdns.com
-45.32.55.94::443::DOT::dot-jp.blahdns.com
+45.32.55.94::853::DOT::dot-jp.blahdns.com
 159.69.198.101::853::DOT::dot-de.blahdns.com
 
 ## Ipv6 DoT
