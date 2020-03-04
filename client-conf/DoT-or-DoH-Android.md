@@ -26,10 +26,26 @@ App download: [https://zenz-solutions.de/personaldnsfilter](https://zenz-solutio
 **Config file**
 
 ```
-[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::853::DoT
-45.32.55.94::853::DoT
-[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::443::DoH::https://doh-jp.blahdns.com/dns-query
-45.32.55.94::443::DoH::https://doh-jp.blahdns.com
+## DoH with Adsblock, change dns-query to uncensor no filter DNS
+
+95.216.212.177::443::DOH::https://doh-fi.blahdns.com/dns-query
+45.32.55.94::443::DOH::https://doh-jp.blahdns.com/dns-query
+159.69.198.101::443::DOH::https://doh-de.blahdns.com/dns-query
+
+## DoT 
+95.216.212.177::853::DOT::dot-fi.blahdns.com
+45.32.55.94::443::DOT::dot-jp.blahdns.com
+159.69.198.101::853::DOT::dot-de.blahdns.com
+
+## Ipv6 DoT
+[2a01:4f9:c010:43ce::1]::853::DOT::dot-fi.blahdns.com
+[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::853::DOT::dot-jp.blahdns.com
+[2a01:4f8:1c1c:6b4b::1]::853::DOT::dot-de.blahdns.com
+
+## Ipv6 DoH
+[2a01:4f9:c010:43ce::1]::443::DOH::https://doh-fi.blahdns.com/dns-query
+[2001:19f0:7001:3259:5400:02ff:fe71:0bc9]::443::DOH::https://doh-jp.blahdns.com/dns-query
+[2a01:4f8:1c1c:6b4b::1]::443::DOH::https://doh-de.blahdns.com/dns-query
 
 ```
 
