@@ -176,9 +176,11 @@ api.io.mi.com
 app.chat.global.xiaomi.net
 data.mistat.intl.xiaomi.com
 data.mistat.xiaomi.com
+o.data.mistat.xiaomi.com 
 weatherapi.market.xiaomi.com
 find.api.micloud.xiaomi.net
 account.xiaomi.com
+api.ad.xiaomi.com
 api.account.xiaomi.com
 api.chat.xiaomi.net
 api.comm.miui.com
