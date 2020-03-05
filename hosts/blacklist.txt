@@ -79,7 +79,6 @@ logupdate.avlyun.sec.miui.com
 mazu.sec.miui.com
 feedback.miui.com
 data.sec.miui.com
-data.mistat.intl.xiaomi.com
 
 # 看漫畫 Android comic viewer app 
 api.adthor.com # show ads on mahuaren.com android ads (outside china, singapore server) 
@@ -339,3 +338,6 @@ urlsec.qq.com
 
 ## Prevent Chinese phone back to HOME
 picanalysis.vivo.com.cn
+
+## Fraud chinese site
+sfcxv.xyz # fake chrome url
