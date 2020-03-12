@@ -1100,3 +1100,4 @@ cdn-content.ampproject.org
 
 deviceportal.nettvservices.com
 ping.taplytics.com
+mixnews.lv # reported by jockjoint
