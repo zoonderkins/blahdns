@@ -91,6 +91,32 @@ limited-prod.giphy.map.fastly.net
 api.giphy.com 
 
 # Alipay / Taobao
+file.dingtalk.com
+files.alicdn.com
+down-cdn.dingtalk.com
+gw.alipayobjects.com
+acs.m.taobao.com
+audid-api.taobao.com
+umdc.alipay.org
+gw.alicdn.com
+fourier.taobao.com
+at.alicdn.com
+static.dingtalk.com
+authweb.alipay.com
+mdap.alipay.com
+i.alipayobjects.com
+mobilegw.alipay.com
+mobilecns.alipay.com
+entpsz.alipay.com
+h5.dingtalk.com
+sh.docs.dingtalk.com
+weboffice-static.docs.dingtalk.com
+dw-online.ksosoft.com
+woodpecker.uc.cn
+shuc-android.ksord.com
+adash.man.aliyuncs.com # for aliyun document api
+adashx.m.taobao.com
+amdc.m.taobao.com
 img.alicdn.com
 img.alicdn.com.danuoyi.alicdn.com
 at.alicdn.com
