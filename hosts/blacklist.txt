@@ -1,20 +1,40 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# icolorfast.com
+norma-external-collect.meizu.com
+appinstall.click
+ccloud.sdkclickurl.com
+logger.suibyuming.com
+kswj.unionapps.info
+global.ymtracking.com
+logger.icolorfast.com
+ctobsnssdk.com
+toblog.ctobsnssdk.com
+toblog.ctobsnssdk.com.w.cdngslb.com
+
 # adstack.com
 track.adstack.co
 
-# uparpu.com
+# Manhuaren.com - android comic app
+setting.rayjump.com
+api.exc.mob.com
+ulogs.umeng.com
+ulogs.umengcloud.com
+net.rayjump.com
+sdk.adtiming.com
+plbslog.umeng.com
+f.gm.mob.com
+logger.c1oudmobi.net
+tkup.uparpu.com
+searchhtt.com
+api.c1oudmobi.net
+api.icolorfast.com
 uparpu.com
 api.uparpu.com
 daup.uparpu.com
 tkup.uparpu.com
 
-# Manhuaren.com - android comic app
-logger.c1oudmobi.net
-tkup.uparpu.com
-searchhtt.com
-api.c1oudmobi.net
 
 # luckyorange.net -- Dynamic web recording user heat map and behaviour
 settings.luckyorange.net # https://www.editage.com.tw/inquire.html use it to track user
@@ -59,6 +79,7 @@ api.applink.mob.com
 f.gm.mob.com
 
 # XiaoMi ads tracker https://gist.github.com/yalu/3113699c7c4d1daee11ade977d93049b
+app-analytics.huami.com
 app-analytics-us.huami.com
 app-analytics-india.huami.com
 ad.state.mi.us
