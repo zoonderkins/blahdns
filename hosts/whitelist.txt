@@ -195,6 +195,10 @@ statcounter.com
 www.statcounter.com
 
 # Xiaomi
+fr.app.chat.global.xiaomi.net
+metok-ccc.intl.xiaomi.com
+resolver.msg.global.xiaomi.net 
+weatherapi.market.xiaomi.com
 bgp.fe01.c3.xiaomi.com # Xiaomi login
 abroad.apilocate.amap.com # Miband 4 weather location
 #abtest.mistat.xiaomi.com
@@ -398,6 +402,7 @@ weblb-wg.dual-gslb.spotify.com
 ## CDN or toolskit
 maxmind.com
 www.algolia.com #codepen
+kinesis.us-east-1.amazonaws.com
 s3.amazonaws.com
 s3-1.amazonaws.com
 cds.j3z9t3p6.hwcdn.net
@@ -570,8 +575,8 @@ resolver.msg.xiaomi.ne
 
 # Amazon Web Services
 mas-ext.amazon.com # Amazon shopping on firetv stick
-s3.amazonaws.com
-s3-1.amazonaws.com
+s3.amazonaws.com #amazon S3 bucket
+s3-1.amazonaws.com #amazon S3 bucket
 c.media-amazon.com # IMDB
 fls-na.amazon.com # IMDB
 api.amazonalexa.com  #firetv stick
@@ -644,6 +649,7 @@ prod.disqus.map.fastlylb.net
 c.disquscdn.com.cdn.cloudflare.net
 
 # Microsoft 
+login.microsoftonline.us # office365
 e3843.g.akamaiedge.net # support.microsoft.com
 api.onedrive.com
 update.code.visualstudio.com # vscode update
