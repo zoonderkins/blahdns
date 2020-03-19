@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Expo.com
+exp.host
+
 # icolorfast.com
 norma-external-collect.meizu.com
 appinstall.click
