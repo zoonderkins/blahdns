@@ -28,8 +28,9 @@ rlog_sem.vizio.com #https://www.reddit.com/r/pihole/comments/aytpge/excessive_dn
 
 # www.bostonglobe.com
 meter.bostonglobe.com
-c.amazon-adsystem.com
-connect.facebook.com
+
+# Amazon
+adserver-prod-1937829349.us-east-2.elb.amazonaws.com
 cdn.krxd.net
 dz9qn8fh4jznm.cloudfront.net
 
