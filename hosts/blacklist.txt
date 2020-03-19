@@ -1,6 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+# uparpu.com
+uparpu.com
+api.uparpu.com
+daup.uparpu.com
+tkup.uparpu.com
+
 # Manhuaren.com - android comic app
 logger.c1oudmobi.net
 tkup.uparpu.com
