@@ -378,4 +378,5 @@ urlsec.qq.com
 picanalysis.vivo.com.cn
 
 ## Fraud chinese site
-sfcxv.xyz # fake chrome url
+wwtsg.xyz # fake chrome url let you download chrome.apk (Chinese)
+sfcxv.xyz # fake chrome url let you download chrome.apk (Chinese)
