@@ -494,6 +494,7 @@ curvesncombatboots.com
 instagram.c10r.facebook.com
 
 ## Facebook
+z-m.c10r.facebook.com # CNAME of l.facebook.com
 web.facebook.com # Messenger Lite able to send out message
 z-1.c10r.facebook.com # Messenger Lite able to send out message
 # Facebook's pixel is required for clicking on notifications
@@ -527,8 +528,6 @@ scontent-nrt1-1.xx.fbcdn.net
 fb.me
 fb.com
 fbcdn-profile-a.akamaihd.net
-# connect.facebook.net.edgekey.net
-# connect.facebook.net
 static.ak.connect.facebook.com
 s-static.ak.facebook.com
 apps.facebook.com
