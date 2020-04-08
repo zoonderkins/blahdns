@@ -648,6 +648,7 @@ prod.disqus.map.fastlylb.net
 c.disquscdn.com.cdn.cloudflare.net
 
 # Microsoft 
+edgetipscdn.microsoft.com # cdn to load css at www.microsoftedgeinsider.com
 login.microsoftonline.us # office365
 e3843.g.akamaiedge.net # support.microsoft.com
 api.onedrive.com
