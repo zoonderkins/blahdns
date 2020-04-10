@@ -760,6 +760,7 @@ edge.api.brightcove.com
 cdn.vidible.tv
 
 # CNN
+config.outturner.com # ios/android will blank page
 dynaimage.cdn.turner.com # ios CNN image will load
 cvp1.cdn.turner.com
 z.cdn.turner.com
