@@ -40,7 +40,8 @@ Answer: porttest.y.x.w.v.u.t.s.r.q.p.o.n.m.l.k.j.i.h.g.f.e.d.c.b.a.pt.dns-oarc.n
 // Browser test: 
 https://doh-de.blahdns.com/dns-query?name=example.net
 https://doh-jp.blahdns.com/dns-query?name=example.net
-https://doh1.blahdns.com/dns-query?ct=application/dns-json&name=timdream.org.&type=AAAA&edns_client_subnet=220.200.38.1
+https://doh2.blahdns.com/dns-query?ct=application/dns-json&name=google.de&type=A&edns_client_subnet=0.0.0.0/0
+https://doh1.blahdns.com/dns-query?ct=application/dns-json&name=google.de&type=AAAA&edns_client_subnet=0.0.0.0/0
 
 // curl with DoH 
 curl -H 'content-type: application/dns-message' -vL -v 'https://doh-jp.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
@@ -107,16 +108,14 @@ dig www.dnssec-failed.org
 5. https://dns.brahma.world/ (DoH, DoT, Plain, Port 853, India)
 
 ### Uncensored DNS
-1. dot.securedns.eu, https://doh.securedns.eu/dns-query (DoT, DoH, Dnscrypt)
-2. https://doh.dnswarden.com/uncensored (DoH)
-3. uncensored-dot.dnswarden.com (DoT, Port: 443, 853)
-4. dns-tls.openbsd.se (DoT)
-5. dot1.appliedprivacy.net
-6. dns.neutopia.org (DoT)
-7. ns1.dnsprivacy.at, ns2.dnsprivacy.at (DoT, Dnscrypt, Port: 853)
-8. dns.cmrg.net (DoT, Canada, TCP port: 853 or 443 or 53053)
-9. unicast.censurfridns.dk (DoT, Denmark)
-10. doh.defaultroutes.de, https://doh.defaultroutes.de/dns-query (DoT, DoH, Port: 853, Germany)
+
+1. dns-tls.openbsd.se (DoT)
+2. dot1.appliedprivacy.net
+3. dns.neutopia.org (DoT)
+4. ns1.dnsprivacy.at, ns2.dnsprivacy.at (DoT, Dnscrypt, Port: 853)
+5. dns.cmrg.net (DoT, Canada, TCP port: 853 or 443 or 53053)
+6. unicast.censurfridns.dk (DoT, Denmark)
+7. doh.defaultroutes.de, https://doh.defaultroutes.de/dns-query (DoT, DoH, Port: 853, Germany)
 
 ## Server Benchmark
 1. [bench.sh](https://cdn.statically.io/gh/teddysun/across/master/bench.sh)
