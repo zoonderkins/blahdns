@@ -1,11 +1,12 @@
-[![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns)
+[![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
 
-# Announcements
-* Google Analytics tracking script url:`www.google-analytics.com` is blocked, but Admin panel for site admin not block:  `analytics.google.com` (2020-03-04 17:12 GMT+8)
-* Currently we having DDos attack from China within this 3 days at Japan Sever, so we have to drop all incoming IP. If you still having connection issue, pls let us know. (2020-02-14 00:27 GMT+8)
+Need some coffee to help keep those lovely servers in good condition. <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Announcements
+
+* All DoT, DoH SSL cert is up to date, will be expire at July 20, 2020
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
-* All dnscryptV2 expired certificate has been replaced. Enjoy (2019-10-02 23:45 GMT+8)
 
 ## Our features
 * Block Trackers, Ads, Malwares
