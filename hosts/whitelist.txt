@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# crypt.ee
+s-usc1c-nss-262.firebaseio.com # fix firebase websocket cuz login issue
+
 # Connect your phone to Microsoft windows
 continuum.dds.microsoft.com
 
