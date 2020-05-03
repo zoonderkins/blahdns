@@ -1,21 +1,35 @@
-* [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
-* Need some coffee to keep servers operate 🥰 <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<p align="center">
+  [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
+  &nbsp;&nbsp;
+  All donations are welcome and any amount of money will help me to maintain this project 🥰 
+</p> 
+
+<p align="center">  
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KC33GK5CT2Q9Y&source=url"><img alt="Donate using Paypal" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
+  &nbsp;&nbsp;
+  <a href="https://liberapay.com/ookangzheng/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+  &nbsp;&nbsp;
+  <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</p>
 
 
 ## Announcements
 
+* Dnscryptv2 with relay may encoutner unstable connection.
 * All DoT, DoH SSL cert is up to date, will be expire at July 20, 2020
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
 
 ## Our features
+
 * Block Trackers, Ads, Malwares
 * No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
 * Both trackers are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 * support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
-## Beta DoH CDN (Japan & Finland only)
+## Beta DoH CDN
+
 ```
 https://doh1.blahdns.com/uncensor 
 https://doh2.blahdns.com/uncensor 
@@ -50,7 +64,7 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 ## Server architecture
 
 ```bash
-Server (August 25, 2019 -- Germany, Japan, Finland)
+Server (May 3, 2020 -- Germany, Japan, Finland, Singapore)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
@@ -65,9 +79,6 @@ Server (August 25, 2019 -- Germany, Japan, Finland)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
 * Dnscryptv2: [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/)
 * Config files: [ Client config example ](https://github.com/ookangzheng/blahdns/tree/master/client-conf)
-
-## Default blocked wildcard domain
-* `+.glassbox.+ `# https://techcrunch.com/2019/02/06/iphone-session-replay-screenshots
 
 ## Awesome dns-resolver
 https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
@@ -87,9 +98,3 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 * Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
 * The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. 
 * By using this website and service you consent to the disclaimer and agree to its terms and conditions.
-
-## Donate
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KC33GK5CT2Q9Y&source=url)
-|
-<a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
