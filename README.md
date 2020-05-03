@@ -1,5 +1,6 @@
+ [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
+ 
 <p align="center">
-  [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
 </p> 
