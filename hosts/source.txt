@@ -15,4 +15,4 @@ http://theantisocialengineer.com/AntiSocial_Blacklist_Community_V1.txt
 https://hblock.molinero.dev/hosts
 https://gitlab.com/ookangzheng/dbl-oisd-nl/raw/master/dbl.txt
 https://hosts.nfz.moe/full/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
