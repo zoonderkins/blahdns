@@ -1,8 +1,8 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
-# castbox.fm
-everest.castbox.fm
+# castbox.fm 
+# everest.castbox.fm (Too mush phone home)
 
 # Expo.com
 exp.host
@@ -211,7 +211,7 @@ log-ingestion.samsungacr.com
 graph.instagram.com
 ssl.google-analytics.com
 video-stats.l.google.com
-cdn-content.ampproject.org
+# cdn-content.ampproject.org
 googleads.g.doubleclick.net
 e.crashlytics.com
 www.googleadservices.com
@@ -266,7 +266,7 @@ sp2.baidu.com
 m.henxg.cn
 m.lsiwd.cn
 photo.0234408.cn
-staticxx.facebook.com
+# staticxx.facebook.com
 photo.yingtaiboli.cn
 yingtaiboli.cn
 m.syxsa.cn
