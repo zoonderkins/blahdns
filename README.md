@@ -16,6 +16,8 @@
 
 ## Announcements
 
+**This few days I will refresh whitelist, may cause URL miss blocked, pls open an issue to report.**
+
 * Dnscryptv2 with relay may encoutner unstable connection.
 * All DoT, DoH SSL cert is up to date, will be expire at July 20, 2020
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
