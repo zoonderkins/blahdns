@@ -5,6 +5,12 @@
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
 </p> 
 
+<p align="center">
+ What will be your next recommend location, submit your thought. [Take survey](http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be)
+ <br>
+ Poll will close at the end of July 2020.
+</p>
+
 <p align="center">  
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KC33GK5CT2Q9Y&source=url"><img alt="Donate using Paypal" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
   &nbsp;&nbsp;
