@@ -6,7 +6,7 @@
 </p> 
 
 <p align="center">
- What will be your next recommend location, submit your thought. [Take survey](http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be)
+ What will be your next recommend location, submit your thought. <a href="http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be">Take survey</a>
  <br>
  Poll will close at the end of July 2020.
 </p>
