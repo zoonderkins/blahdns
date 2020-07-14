@@ -1,8 +1,8 @@
  [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
  
-### What will be your next recommend location, submit your thought. 
+### What will be your next recommend location
 
-[Take survey](http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be) **Poll will close at the end of July 2020.*
+Submit your thought --> [Take survey](http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be) **Poll will close at the end of July 2020**
 
 <p align="center">
   &nbsp;&nbsp;
