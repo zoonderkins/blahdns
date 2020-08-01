@@ -21,7 +21,7 @@
         <h4 class="w3-text-white w3-center ">
           A small hobby ads block dns project with doh, dot, dnscrypt support.</h4>
       </div>
-      <p id="status" class="w3-margin-top"> You are not using Blahdns !</p>
+      <p id="status" class="w3-margin-top"> You are not using Blahdns !!!</p>
     </div>
 
   </header>
@@ -33,11 +33,12 @@
       <!--Announcements area-->
 
       <div class="w3-indigo w3-center">
-        <h3> <a href="#donate">Need some coffees (25 EUR/ per month) for servers to keep this project healthy.</a> </h3>
-        <h3>Announcements</h3>
+        <h3> <a href="#donate">Need some coffees (25 EUR/ per month) for servers to keep this project healthy.</a> </h3><br>
+        <h2>Announcements</h2>
       </div>
     
-      No logs | No EDNS Client-Subnet | OpenNIC | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malwares
+      No logs | No EDNS Client-Subnet | OpenNIC support | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malwares, prevent CNAME Cloacking
+      <br>
       <ul class="w3-left-align">
           <li class="w3-text-red"> <del>Due to high CPU usage, will forward incoming DNS request to Cloudflare "1.0.0.2" , Quad9 "9.9.9.9", Dont worry about leaking your IP. No logs and Cloudflare only know server IP with (no EDNS) Updated at: 2020-06-20 Annoucned at: 2020-06-03 </del></li><br>
           <li class="w3-text-red">Google Analytics tracking script url: www.google-analytics.com is blocked, but Admin panel for site admin not block: analytics.google.com </li>
@@ -286,7 +287,7 @@
       <div id="Demo0" class="w3-hide">
         <div class="w3-container w3-white">
           <p class="w3-left-align">
-            DNSSEC validate <br>
+            DNS leak verification <br>
             1. DNSSEC validation: <a href="https://dnssec.vs.uni-due.de/" target="_blank"> Go</a> <br>
             2. Internet.nl: <a href="https://internet.nl/" target="_blank">Go</a> <br>
             3. DNSSEC resolver algorithm test: <a href="https://rootcanary.org/test.html" target="_blank">Go</a> <br>
@@ -300,6 +301,10 @@
             10. Threats search: <a href="https://www.threatcrowd.org/">Go</a> <br>
             11. Whoer.net <a href="https://whoer.net/" >Go</a> <br>
             12. EDNS test <a href="https://ednscomp.isc.org/ednscomp/">Go</a>
+            
+            Entire privacy leaks test <br>
+            1. Browserleaks: <a href="https://browserleaks.com/" target="_blank">Go</a> <br>
+            2. Device leak: <a href="https://www.deviceinfo.me/" target="_blank">Go</a> <br>
           </p>
         </div>
       </div>
@@ -349,35 +354,28 @@
                 kdig -d @45.32.55.94 +tls-ca +tls-host=dot-jp.blahdns.com blahdns.com
             </code>
             <br>
-            OR
-            <br>
-            <code>
-              echo | openssl s_client -connect '45.32.55.94:853' 2>/dev/null | openssl x509 -pubkey -noout | openssl
-              pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64
-            </code>
-            <br>
             <b>TLS1.3 support check</b> <br>
             <code>
-                openssl s_client -connect 45.32.55.94:853
+            openssl s_client -connect 45.32.55.94:853
             </code>
             <br>
             <i>Will return message: </i>
-            <pre>
-New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
-Server public key is 2048 bit
-Secure Renegotiation IS NOT supported
-Compression: NONE
-Expansion: NONE
-No ALPN negotiated
-Early data was not sent
-Verify return code: 0 (ok)
----
----
-Post-Handshake New Session Ticket arrived:
-SSL-Session:
-Protocol  : TLSv1.3
-Cipher    : TLS_AES_256_GCM_SHA384
-</pre>
+            <code>
+            New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+            Server public key is 2048 bit
+            Secure Renegotiation IS NOT supported
+            Compression: NONE
+            Expansion: NONE
+            No ALPN negotiated
+            Early data was not sent
+            Verify return code: 0 (ok)
+            ---
+            ---
+            Post-Handshake New Session Ticket arrived:
+            SSL-Session:
+            Protocol  : TLSv1.3
+            Cipher    : TLS_AES_256_GCM_SHA384
+</code>
 
             For troubleshooting go <a href="https://getdnsapi.net/query/">HERE</a>
           </p>
@@ -412,6 +410,7 @@ Cipher    : TLS_AES_256_GCM_SHA384
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'TLS')">Common question</button>
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'News')">News</button>
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'troubleshooting')">Troubleshoot</button>
+          <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'block-method')">Block Method</button>
           <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'donation')">Donation</button>
         </div>
 
@@ -464,10 +463,21 @@ Cipher    : TLS_AES_256_GCM_SHA384
             
         </div>
         
+        <div id="block-method" class="w3-container city w3-animate-opacity">
+            <p>
+                Do Blahdns block CNAME Cloacking? Yes, click here to read more.
+            </p>
+        </div>
         <!-- Donation -->
         <div id="donation" class="w3-container city w3-animate-opacity">
             <p>
                 <ul>
+                    <li>
+                        Thanks for Austin Sarxxx for 25 USD
+                    </li>
+                    <li>
+                        Thanks for Jonni Rauhxxx for 25 USD
+                    </li>
                     <li>
                         Thanks for Regin Jaxxx for 50 EUR
                     </li>
