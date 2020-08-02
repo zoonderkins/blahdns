@@ -204,6 +204,8 @@ securegfm.com
 tenmax.io
 
 # Mostly Microsoft telemetry, spying smartTVs, IG/Facebook trackers, analytics, and mobile app analytics. Google Ads, Amazon Ads, and MoatAds
+mobiledataplansharing.googleapis.com
+people-pa.googleapis.com
 trk.pinterest.com
 v10.vortex-win.data.microsoft.com
 settings-win.data.microsoft.com
