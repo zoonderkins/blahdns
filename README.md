@@ -1,9 +1,5 @@
  [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
  
-### What will be your next recommend location
-
-Submit your thought --> [Take survey](http://www.polljunkie.com/poll/goojwb/what-is-the-next-blahdns-server-gonna-be) **Poll will close at the end of July 2020**
-
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
@@ -20,13 +16,9 @@ Submit your thought --> [Take survey](http://www.polljunkie.com/poll/goojwb/what
 
 
 ## Announcements
-
-**This few days I will refresh whitelist, may cause URL miss blocked, pls open an issue to report.**
-
-* Dnscryptv2 with relay may encoutner unstable connection.
-* All DoT, DoH SSL cert is up to date, will be expire at July 20, 2020
+* Singapore server will announce to public soon.
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
-* Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) 
+* Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) (Need some refactor and auto CI/CD)
 
 ## Our features
 
