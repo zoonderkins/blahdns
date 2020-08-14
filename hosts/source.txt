@@ -1,7 +1,7 @@
 https://raw.githubusercontent.com/scafroglia93/hosts-blocklists/master/cert-pa.txt
 https://raw.githubusercontent.com/scafroglia93/hosts-blocklists/master/yoroi.txt
 https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
-https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
@@ -16,4 +16,8 @@ https://hblock.molinero.dev/hosts
 https://gitlab.com/ookangzheng/dbl-oisd-nl/raw/master/dbl.txt
 https://hosts.nfz.moe/full/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
+https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+https://kriskintel.com/ktip_corona.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
