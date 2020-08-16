@@ -1,8 +1,8 @@
 ---
-name: Bug report / Support request
+name: "\U0001F41B Bug"
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: "\U0001F41B "
+labels: 'Type: Bug'
 assignees: ''
 
 ---
@@ -12,7 +12,6 @@ assignees: ''
 - [ ] I read the [README](https://github.com/ookangzheng/blahdns/blob/master/README.md)
 - [ ] I read the [FAQ](https://github.com/ookangzheng/blahdns/blob/master/FAQ.md)
 - [ ] I searched the [issues](https://github.com/ookangzheng/blahdns/issues?q=is%3Aissue+)
-- [ ] My issue is about the blahdns, and not DNS itself
 
 **Describe the issue**
 A clear and concise description of what the issue is.
@@ -21,11 +20,12 @@ A clear and concise description of what the issue is.
 Steps to reproduce the behavior:
 
 1. ...
+2. ...
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Logs**
+**Logs (optional)**
 If applicable, add logs or screenshots to help explain your problem.
 
 If you can reproduce the issue, please describe it below.
