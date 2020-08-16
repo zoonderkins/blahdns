@@ -1,20 +1,14 @@
 ---
-name: Feature request
+name: "\U0001F680 Feature"
 about: Suggest an idea for this project
-title: ''
-labels: ''
+title: "\U0001F680 "
+labels: 'Type: Feature'
 assignees: ''
 
 ---
 
-**Checklist**
-
-- [ ] I read the [README](https://github.com/ookangzheng/blahdns/blob/master/README.md)
-- [ ] I read the [FAQ](https://github.com/ookangzheng/blahdns/blob/master/FAQ.md)
-- [ ] I searched the [issues](https://github.com/ookangzheng/blahdns/issues?q=is%3Aissue+)
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Is your feature request related to a problem?**
+A clear and concise description of what the problem is.
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
