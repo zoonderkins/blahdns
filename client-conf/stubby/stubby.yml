@@ -1,67 +1,42 @@
-## TLS_pubkey_pinset updated on August 1, 2019
-
 resolution_type: GETDNS_RESOLUTION_STUB
 dns_transport_list:
   - GETDNS_TRANSPORT_TLS
 tls_authentication: GETDNS_AUTHENTICATION_REQUIRED
 tls_query_padding_blocksize: 128
-edns_client_subnet_private: 0
+edns_client_subnet_private: 1
 round_robin_upstreams: 1
-tls_connection_retries: 2
 idle_timeout: 10000
-timeout: 2000
+tls_connection_retries: 3
+tls_backoff_time: 300
 listen_addresses:
-  #- 127.0.0.1
-  #- 0::1
-  - 127.0.0.1@54
-  - 0::1@54
+  - 127.0.0.1@5353
+  - 0::1@5353
 
 upstream_recursive_servers:
+  # BlahDNS servers both with `tls_port: 853` and `tls_port: 443`
+  - address_data: 139.180.141.57
+    tls_auth_name: "dot-sg.blahdns.com"
+    
   - address_data: 45.32.55.94
-    tls_port: 443
-    tls_auth_name: "dot-jp.blahdns.com"
-        
-  - address_data: 45.32.55.94
-    tls_port: 853
     tls_auth_name: "dot-jp.blahdns.com"
 
   - address_data: 159.69.198.101
-    tls_port: 443
-    tls_auth_name: "dot-de.blahdns.com"
-
-  - address_data: 159.69.198.101
-    tls_port: 853
     tls_auth_name: "dot-de.blahdns.com"
     
   - address_data: 95.216.212.177
-    tls_port: 443
     tls_auth_name: "dot-fi.blahdns.com"
 
   - address_data: 95.216.212.177
-    tls_port: 853
     tls_auth_name: "dot-fi.blahdns.com"
 
   - address_data: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
-    tls_port: 443
     tls_auth_name: "dot-jp.blahdns.com"
-   
-  - address_data: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
-    tls_port: 853
-    tls_auth_name: "dot-jp.blahdns.com"
-   
+
   - address_data: 2a01:4f8:1c1c:6b4b::1
-    tls_port: 443
-    tls_auth_name: "dot-de.blahdns.com"
-        
-  - address_data: 2a01:4f8:1c1c:6b4b::1
-    tls_port: 853
     tls_auth_name: "dot-de.blahdns.com"
     
   - address_data: 2a01:4f9:c010:43ce::1
-    tls_port: 443
     tls_auth_name: "dot-fi.blahdns.com"
         
-  - address_data: 2a01:4f9:c010:43ce::1
-    tls_port: 853
-    tls_auth_name: "dot-fi.blahdns.com"
-
+  - address_data: 2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
+    tls_auth_name: "dot-sg.blahdns.com"
