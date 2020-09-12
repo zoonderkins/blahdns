@@ -3,6 +3,8 @@
 
 # Uservoice.com
 by.uservoice.com
+by2.uservoice.com
+widget.uservoice.com
 
 # App usage static
 appstatico.electronic.us
