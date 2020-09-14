@@ -64,13 +64,15 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 ## Server architecture
 
 ```bash
-Server (Germany, Japan, Finland, Singapore)
+Server (Germany, Finland, Japan, Singapore)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN, Yggdrasil, ETH)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
+
+## Japan, Singapore use Quad9 as upstream
 ```
 
 ## Config file / Client
