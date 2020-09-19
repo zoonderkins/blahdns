@@ -1,4 +1,4 @@
- [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) | [![Stargazers over time](https://starchart.cc/ookangzheng/blahdns.svg)](https://starchart.cc/ookangzheng/blahdns)
+ [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
  
 <p align="center">
   &nbsp;&nbsp;
@@ -100,3 +100,5 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 * Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
 * The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. 
 * By using this website and service you consent to the disclaimer and agree to its terms and conditions.
+
+[![Stargazers over time](https://starchart.cc/ookangzheng/blahdns.svg)](https://starchart.cc/ookangzheng/blahdns)
