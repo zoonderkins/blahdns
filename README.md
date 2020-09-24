@@ -16,7 +16,7 @@
 
 
 ## Announcements
-* Singapore server will announce to public soon.
+* Singapore server will be announced to public soon.
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) (Need some refactor and auto CI/CD)
 
@@ -26,7 +26,7 @@
 * No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
 * Both trackers are blocked by default. 
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
-* support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
+* Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
 ## Beta DoH CDN
 
@@ -79,7 +79,7 @@ Server (Germany, Finland, Japan, Singapore)
 * Yggdrasil IPv6 Network: [Setup guide](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
 * Android DoH/DoT: [Nebulo App](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen) | [personalDNSfilter App](https://zenz-solutions.de/personaldnsfilter/) | [Intra](https://play.google.com/store/apps/details?id=app.intra)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
-* Dnscryptv2: [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/)
+* Dnscryptv2: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 * Config files: [ Client config example ](https://github.com/ookangzheng/blahdns/tree/master/client-conf)
 
 ## Awesome dns-resolver
@@ -92,9 +92,9 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 
 ## Disclaimer
 * This is an experimental service, I'm not responsible for any down-time.
-* Be sure you have agree with our [POLICY](https://github.com/ookangzheng/blahdns/#policy) before start to use. 
-* This service is for PERSONAL use, huge traffic are not welcome, will drop PTR, ANY by default.
-* We can't block some ads with Apps inside your phone (Youtube official app Ads, Facebook app Ads, Twitter app Ads... )
+* Make sure to agree with our [POLICY](https://github.com/ookangzheng/blahdns/#policy) before using the service. 
+* This service is for PERSONAL use, huge traffic is not welcomed, will drop PTR, ANY by default.
+* We can't block some ads within Apps inside your phone (Youtube official app Ads, Facebook app Ads, Twitter app Ads... )
 
 ## Policy
 * Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
