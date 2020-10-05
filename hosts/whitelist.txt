@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Firebase
+firebaseinstallations.googleapis.com # will brake a lot of app, though it use to create an unique id.
+
 # Opera Mini Mobile
 opera-mini.net
 opera.software 
