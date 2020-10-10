@@ -19,7 +19,7 @@
                 <img src="https://cdn.blahdns.com/logo.png" style="max-width: 90%; margin-top: 15%; margin-bottom:10%;" />
                 <div class="w3-row w3-black w3-center w3-padding">
                      <h4 class="w3-text-white w3-center ">
-          A small hobby ads block dns project with doh, dot, dnscrypt support.</h4>
+          A small hobby ads block DNS project with DoH, DoT, DNSCrypt support.</h4>
 
                 </div>
                 <p id="status" class="w3-margin-top">You are not using Blahdns !!!</p>
@@ -35,19 +35,19 @@
                 <div class="w3-indigo w3-center">
                      <h2>Announcements</h2>
 
-                </div>No logs | No EDNS Client-Subnet | OpenNIC support | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malwares, prevent CNAME Cloacking
+                </div>No logs | No EDNS Client-Subnet | OpenNIC support | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malware, prevent CNAME Cloacking
                 <br>
                 <ul class="w3-left-align">
                     <li class="w3-text-red"> <del>Due to high CPU usage, will forward incoming DNS request to Cloudflare "1.0.0.2" , Quad9 "9.9.9.9", Dont worry about leaking your IP. No logs and Cloudflare only know server IP with (no EDNS) Updated at: 2020-06-20 Annoucned at: 2020-06-03 </del>
                     </li>
                     <br>
-                    <li class="w3-text-red">Google Analytics tracking script url: www.google-analytics.com is blocked, but Admin panel for site admin not block: analytics.google.</li>
+                    <li class="w3-text-red">Google Analytics tracking script url: www.google-analytics.com is blocked, but Admin panel for site admin is not blocked: analytics.google.</li>
                     <li class="w3-text-red">DoH CDN (adblock) <a href="https://doh1.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh1.blahdns.com/dns-query </a> | <a href="https://doh2.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh2.blahdns.com/dns-query</a> </li>
                     <li class="w3-text-red">DoH CDN (uncensor) <a href="https://doh1.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh1.blahdns.com/uncensor </a> | <a href="https://doh2.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh2.blahdns.com/uncensor</a> </li>
                     <li class="w3-text-red">Yggdrasil network DNS-over-TLS <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md">Github</a></li>
-                    <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will required strict SNI, without SNI will drop by default.</li>
+                    <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will require strict SNI, without SNI will be dropped by default.</li>
                     <li><a href="https://stats.blahdns.com" target="_blank"><strong>Server status</strong></a></li>
-                    <li>If you encounter problem, please submit it on <a href="https://github.com/ookangzheng/blahdns/issues/new/choose" target="_blank">Github</a></li>
+                    <li>If you encounter a problem, please submit it on <a href="https://github.com/ookangzheng/blahdns/issues/new/choose" target="_blank">Github</a></li>
                 </ul>
             </div>
             <div class="w3-container">
@@ -248,7 +248,7 @@ port: 8443
                                 <ul>
                                     <li><a href="https://simplednscrypt.org" target="_blank">Simple DNSCrypt (Windows)</a>
                                     </li>
-                                    <li><a href="https://github.com/jedisct1/dnscrypt-proxy" target="_blank">dnscrypt-proxy
+                                    <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
                     (macOS, Linux)</a>
                                     </li>
                                     <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
@@ -260,7 +260,7 @@ port: 8443
                                  <h3>DNS-over-TLS</h3>
 
                                 <ul>
-                                    <li><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby" target="_blank">Stubby (Linux, Windows, Mac)</a>
+                                    <li><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby" target="_blank">Stubby (Linux, Windows, macOS)</a>
                                     </li>
                                     <li><a href="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen" target="_blank">Nebulo (DoT, DoH) -- Android</a>
                                     </li>
@@ -276,7 +276,7 @@ port: 8443
                                     </li>
                                     <li><a href="https://simplednscrypt.org/" target="_blank">Simple DNSCrypt (Windows)</a>
                                     </li>
-                                    <li><a href="https://github.com/jedisct1/dnscrypt-proxy" target="_blank">dnscrypt-proxy
+                                    <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
                     (macOS, Linux)</a>
                                     </li>
                                     <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
@@ -329,18 +329,18 @@ port: 8443
                         </p>
                     </div>
                 </div>
-                <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-button w3-block w3-left-align w3-red">What is Dns over https (DoH)</button>
+                <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-button w3-block w3-left-align w3-red">What is DNS-over-HTTPS (DoH)</button>
                 <div id="Demo1" class="w3-hide">
                     <div class="w3-container w3-white">
-                        <p class="w3-left-align">DNS over HTTPs (DoH)
-                            <br>DNS over HTTPS is a new protocol designed to encrypt and secure DNS traffic over HTTPs.
+                        <p class="w3-left-align">DNS over HTTPS (DoH)
+                            <br>DNS over HTTPS is a new protocol designed to encrypt and secure DNS traffic over HTTPS.
                             <br>It prevents DNS hijacking and ISPs from sniffing your traffic.
                             <br>You can use will Infra on Android Phone, Mozilla firefox nightly, Chrome coming soon.
                             <br>DNSCrypt v2 client does support DoH, see dnscrypt <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/dnscrypt/dnscrypt-proxy.toml"><strong>configuration
-                example</strong></a> on Windows, Mac, Ios (DNSCloak)</p>
+                example</strong></a> on Windows, macOS, iOS (DNSCloak)</p>
                     </div>
                 </div>
-                <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-yellow w3-button w3-block w3-left-align">What is Dns-over-TLS</button>
+                <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-yellow w3-button w3-block w3-left-align">What is DNS-over-TLS</button>
                 <div id="Demo2" class="w3-hide">
                     <div class="w3-container w3-white">
                         <p class="w3-left-align">Encrypted DNS - DNS over TLS
@@ -443,7 +443,7 @@ For troubleshooting go <a href="https://getdnsapi.net/query/">HERE</a>
                         <p>https://gist.github.com/meanevo/e70ca58e361fb4d1a9d262a8f12b173a (HAProxy) https://stuff-things.net/2016/11/30/haproxy-sni/ https://pre-prod.chown.me/blog/running-dot-on-openbsd.html https://www.haproxy.com/blog/introduction-to-haproxy-acls/</p>
                     </div>
                     <div id="block-method" class="w3-container city w3-animate-opacity">
-                        <p>Do Blahdns block CNAME Cloacking? Yes, click here to read more.</p>
+                        <p>Does Blahdns block CNAME Cloacking? Yes, click <a href="https://www.ookangzheng.com/how-do-cname-cloacking-track-you/">here</a> to read more.</p>
                     </div>
                     <!-- Donation -->
                     <div id="donation" class="w3-container city w3-animate-opacity">
