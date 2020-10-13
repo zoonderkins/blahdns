@@ -12,8 +12,9 @@ op-cdn.net
 # crypt.ee
 s-usc1c-nss-262.firebaseio.com # fix firebase websocket cuz login issue
 
-# Connect your phone to Microsoft windows
-continuum.dds.microsoft.com
+# Microsoft
+activity.windows.com # brake Authenticator backup function
+continuum.dds.microsoft.com # Connect your phone to Microsoft windows
 
 localbitcoins.com
 www.localbitcoins.com
