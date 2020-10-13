@@ -13,9 +13,6 @@ appstatico.electronic.us
 report-anf.glassboxcloud.com
 glassbox.aircanada.ca
 
-# Uber 
-cn-geo1.uber.com # Uber route for China
-
 # Shopee.tw
 games.shopee.tw
 userstats.shopee.tw
