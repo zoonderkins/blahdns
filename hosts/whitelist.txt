@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Twilio survey
+surveys.twilio.com
+
 # Firebase
 firebaseinstallations.googleapis.com # will brake a lot of app, though it use to create an unique id.
 
