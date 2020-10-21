@@ -21,3 +21,5 @@ https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 https://kriskintel.com/ktip_corona.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker
+https://280blocker.net/files/280blocker_domain.txt
