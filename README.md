@@ -16,9 +16,8 @@
 
 
 ## Announcements
-**Germany server is having IPv6 connection issue, Already contact Hetnzer support to investigate.(2020/10/10, 19:30 CST)**
+
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
-* Blahdns blacklist [Hosts](https://oooo.b-cdn.net/blahdns/adsblock.txt) or [RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) (Need some refactor and auto CI/CD)
 
 ## Our features
 
