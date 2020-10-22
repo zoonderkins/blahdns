@@ -13,8 +13,6 @@ https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 http://theantisocialengineer.com/AntiSocial_Blacklist_Community_V1.txt
 https://hblock.molinero.dev/hosts
-https://gitlab.com/ookangzheng/dbl-oisd-nl/raw/master/dbl.txt
-https://hosts.nfz.moe/full/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
