@@ -7,7 +7,6 @@ https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracki
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
-https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts
 https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
