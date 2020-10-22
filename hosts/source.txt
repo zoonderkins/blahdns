@@ -20,3 +20,4 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker
 https://280blocker.net/files/280blocker_domain.txt
+https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt
