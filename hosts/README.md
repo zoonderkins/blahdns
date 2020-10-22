@@ -4,9 +4,9 @@
 
 * [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
-* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/rpz.txt) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
+* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/adfilter_rpz.txt) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
 
-* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adsblock.txt) `(CC BY-NC-SA 4.0) `
+* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adfilter_hosts.txt) `(CC BY-NC-SA 4.0) `
 
 
 * Mobile Adblock clients: [Blokada](https://github.com/blokadaorg/blokada) | [DNS66](https://github.com/julian-klode/dns66) | [pDNSf](https://zenz-solutions.de/personaldnsfilter) | [Nebulo](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen&hl=en_US) | [Adhell](https://play.google.com/store/apps/details?id=com.getadhell.androidapp&hl=en_US) | [DNSCloak(ios)](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
