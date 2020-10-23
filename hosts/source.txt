@@ -22,4 +22,4 @@ https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker
 https://280blocker.net/files/280blocker_domain.txt
 https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
-https://hostfiles.frogeye.fr/firstparty-only-trackers-hosts.txt
+https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
