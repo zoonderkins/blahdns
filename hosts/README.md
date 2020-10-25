@@ -10,7 +10,7 @@
 
 * [BlahDNS host w Ipv4/v6](https://oooo.b-cdn.net/blahdns/adfilter_hosts.txt) `~ 50M`
 
-* [BlahDNS lite host w Ipv4](https://oooo.b-cdn.net/blahdns/lite_hosts.txt) `~ 30M`
+* [BlahDNS lite host w Ipv4](https://oooo.b-cdn.net/blahdns/lite_host.txt) `~ 30M`
 
 * [BlahDNS lite adblocker](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) `~ 25M`
 
