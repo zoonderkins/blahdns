@@ -1,13 +1,18 @@
-## Source use on Blahdns
+## Blocklist use on BlahDNS
 
 * [Blacklist sources](https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt)
 
 * [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
-* [Blahdns RPZ](https://oooo.b-cdn.net/blahdns/adfilter_rpz.txt) `(CC BY-NC-SA 4.0) designed for KNOT, Bind9, PowerDNS.`
+## BlahDNS self generated block list (may different from BlahDNS server use)
 
-* [Blahdns Host](https://oooo.b-cdn.net/blahdns/adfilter_hosts.txt) `(CC BY-NC-SA 4.0) `
+* [BlahDNS rpz](https://oooo.b-cdn.net/blahdns/adfilter_rpz.txt) `~ 40M`
 
+* [BlahDNS host w Ipv4/v6](https://oooo.b-cdn.net/blahdns/adfilter_hosts.txt) `~ 50M`
+
+* [BlahDNS lite host w Ipv4](https://oooo.b-cdn.net/blahdns/lite_hosts.txt) `~ 30M`
+
+* [BlahDNS lite adblocker](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) `~ 25M`
 
 * Mobile Adblock clients: [Blokada](https://github.com/blokadaorg/blokada) | [DNS66](https://github.com/julian-klode/dns66) | [pDNSf](https://zenz-solutions.de/personaldnsfilter) | [Nebulo](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen&hl=en_US) | [Adhell](https://play.google.com/store/apps/details?id=com.getadhell.androidapp&hl=en_US) | [DNSCloak(ios)](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
 
@@ -19,3 +24,8 @@
 * https://tspprs.com/dl/torrent
 * https://github.com/ngosang/trackerslist/blob/master/trackers_all.txt
 * https://github.com/ngosang/trackerslist/blob/master/blacklist.txt
+
+```
+Thanks a lot as well to everyone creating the original lists I am compiling together.
+Origin source: https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt
+```
