@@ -1,7 +1,5 @@
  [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
  
- ## Germany server currently is DOWN!, already contact Hetzner support. ( 2020/10/31 18:30 CST) 
- 
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
