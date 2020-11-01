@@ -21,12 +21,12 @@ https://doh-jp.blahdns.com/dns-query ( censored )
   * IP: 159.69.198.101, 2a01:4f8:1c1c:6b4b::1
   * DNS-over-HTTPS: 
     * https://doh-de.blahdns.com/dns-query
-    * IPv4: sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6: sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv4: sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+    * IPv6: sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
   * DNS-over-TLS: dot-de.blahdns.com, ports 853, 443
   * DNSCrypt v2, port 8443:
-    * IPv4: sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t 
-    * IPv6: sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+    * IPv4: sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+    * IPv6: sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
 - Japan 🇯🇵(DoT, DoH, Dnscryptv2), Provider: Vultr
   * IP: 45.32.55.94, 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
