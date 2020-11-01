@@ -18,7 +18,7 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * IPv6: sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 - Germany 🇩🇪(DoT, DoH, Dnscryptv2), Provider: Hetzner
-  * IP: 159.69.198.101, 2a01:4f8:1c1c:6b4b::1
+  * IP: 78.46.244.143, 2a01:4f8:c17:ec67::1
   * DNS-over-HTTPS: 
     * https://doh-de.blahdns.com/dns-query
     * IPv4: sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
