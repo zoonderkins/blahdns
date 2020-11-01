@@ -20,7 +20,7 @@ upstream_recursive_servers:
   - address_data: 45.32.55.94
     tls_auth_name: "dot-jp.blahdns.com"
 
-  - address_data: 159.69.198.101
+  - address_data: 78.46.244.143
     tls_auth_name: "dot-de.blahdns.com"
     
   - address_data: 95.216.212.177
@@ -32,7 +32,7 @@ upstream_recursive_servers:
   - address_data: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
     tls_auth_name: "dot-jp.blahdns.com"
 
-  - address_data: 2a01:4f8:1c1c:6b4b::1
+  - address_data: 2a01:4f8:c17:ec67::1
     tls_auth_name: "dot-de.blahdns.com"
     
   - address_data: 2a01:4f9:c010:43ce::1
