@@ -22,10 +22,12 @@
 
 * [Blockconvert whitelist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
 
-### Torrent - Not included
-* https://tspprs.com/dl/torrent
-* https://github.com/ngosang/trackerslist/blob/master/trackers_all.txt
-* https://github.com/ngosang/trackerslist/blob/master/blacklist.txt
+## Useful blocklist (not included) 
+1. https://github.com/blocklistproject/Lists
+2. https://github.com/Perflyst/PiHoleBlocklist
+3. https://tspprs.com/dl/torrent
+4. https://github.com/ngosang/trackerslist/blob/master/trackers_all.txt
+5. https://github.com/ngosang/trackerslist/blob/master/blacklist.txt
 
 ```
 Thanks a lot as well to everyone creating the original lists I am compiling together.
