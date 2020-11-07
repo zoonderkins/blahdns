@@ -569,6 +569,8 @@ mqtt.c10r.facebook.com
 mqtt-mini.facebook.com
 
 # Mozilla
+detectportal.firefox.com # is used to detect captive portals on public wifi networks to be able to redirect you to their logon screen
+shavar.services.mozilla.com # is used to update the list of trackers that are getting blocked when tracking protection is turned on
 push.services.mozilla.com
 updates.push.services.mozilla.com
 token.services.mozilla.com
@@ -576,7 +578,6 @@ snippets.cdn.mozilla.net
 meta.wikimedia.org
 location.services.mozilla.com
 incoming.telemetry.mozilla.org
-telemetry-incoming.r53-2.services.mozilla.com
 
 # Tinder app sms verification
 etl.tindersparks.com
