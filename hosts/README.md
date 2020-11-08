@@ -28,6 +28,7 @@
 3. https://tspprs.com/dl/torrent
 4. https://github.com/ngosang/trackerslist/blob/master/trackers_all.txt
 5. https://github.com/ngosang/trackerslist/blob/master/blacklist.txt
+6. No google - https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google.txt
 
 ```
 Thanks a lot as well to everyone creating the original lists I am compiling together.
