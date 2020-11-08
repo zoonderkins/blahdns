@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# IPv4 arpa
+ipv4only.arpa
+
 # Twilio survey
 surveys.twilio.com
 
