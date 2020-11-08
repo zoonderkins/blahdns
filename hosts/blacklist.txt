@@ -1,6 +1,11 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+## Udemy android 
+mobile-http-intake.logs.datadoghq.com
+crashlyticsreports-pa.googleapis.com
+kinesis.us-east-1.amazonaws.com
+
 ## Mozilla
 self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
 
