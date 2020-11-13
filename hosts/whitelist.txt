@@ -856,34 +856,6 @@ img1.sj.qq.com  # im.qq.com image
 # Codecanyon
 codecanyon.net
 
-# Homepage: https://www.kuketz-blog.de
-# URL: https://media.kuketz.de/lists/mobile_list.txt
-# Just main domain
-crashlytics.com
-matchinguu.com
-app-measurement.com
-mparticle.com
-apptimize.com
-pushwoosh.com
-hockeyapp.net
-liftoff.io
-wywy.com
-aatkit.com
-tracking.i2w.io
-clicktale.net
-decibelinsight.net
-fullstory.com
-hotjar.com
-inspectlet.com
-mouseflow.com
-quantummetric.com
-sessioncam.com
-smartlook.com
-userreplay.net
-yandex.ru
-logrocket.com 
-salemove.com
-
 # Fox6now
 fox6now.com
 fox13now.com
@@ -900,7 +872,6 @@ myfox8.com
 q13fox.com
 
 # Video wont play
-c.amazon-adsystem.com
 amp.usatoday.com
 
 # Dropbox
@@ -925,7 +896,6 @@ mandrillapp.com
 use.fontawesome.com # Font-awesome CDN
 maxcdn.bootstrapcdn.com #bootstrap CDN
 c.trello.com # Trello content
-app-measurement.com # Google maps loding maps and other conetent
 mobilenetworkscoring-pa.googleapis.com
 api.ipify.org
 app.adjust.com 
@@ -982,12 +952,10 @@ statuspage.io
 dash.cloudflare.com
 rawhttp.cloudflareworkers.com
 cloudflareworkers.com
-heapanalytics.com
 api.cloudflareapps.com
 api.mapbox.com
 tiles.mapbox.com
 events.mapbox.com
-cdn.heapanalytics.com
 js-agent.newrelic.com
 
 # Unlisted
@@ -1149,7 +1117,6 @@ static-pepper.dealabs.com
 
 # CDN AMP
 cdn-content.ampproject.org
-
 deviceportal.nettvservices.com
 ping.taplytics.com
 mixnews.lv # reported by jockjoint
