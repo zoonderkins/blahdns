@@ -392,31 +392,6 @@ js.pusher.com
 # NCSoft uses this
 mpsnare.iesnare.com
 
-## Spotify
-googlehosted.l.googleusercontent.com
-beta.spotify.map.fastly.net
-geo3.ggpht.com # Google map also use
-redirector.gvt1.com
-audio-fa.scdn.co # do not block while using chromecast
-## break windows client
-spclient.wg.spotify.com 
-ap.spotify.com
-api-spotify.com
-api-partner.spotify.com
-api-tv.spotify.com
-audio-sp.spotify.com
-dealer.spotify.com
-dealer-ssl.spotify.com
-gslb.spotify.com
-open.scdn.co
-open.spotify.com
-play.spotify.com
-spclient.spotify.com
-sto3.spotify.com
-wg.spotify.com
-apresolve.spotify.com
-weblb-wg.dual-gslb.spotify.com
-
 ## CDN or toolskit
 maxmind.com
 www.algolia.com #codepen
@@ -631,7 +606,7 @@ tomshardware.com
 
 # Blocked by Reddestdream
 # Used by Apple devices for certificate validation
-ocsp.apple.com 
+# ocsp.apple.com 
 
 # Blocked by various lists
 s.shopify.com
@@ -786,13 +761,12 @@ z.cdn.turner.com
 
 # OCSP-Servers 
 ocsp.verisign.com
-a652.dscb.akamai.net # CNAME of ocsp.comodoca.com
-ocsp.godaddy.com.akadns.net # ocsp.godaddy.com
+#a652.dscb.akamai.net # CNAME of ocsp.comodoca.com
 ocsp.int-x3.letsencrypt.org
 ocsp.int-x4.letsencrypt.org
 ocsp.int-x2.letsencrypt.org
 ocsp.int-x1.letsencrypt.org
-ocsp.apple.com
+#ocsp.apple.com
 ocsp.comodoca.com
 ocsp.comodoca4.com
 ocsp.digicert.com
@@ -945,7 +919,6 @@ bitpay.com
 jq.qq.com #invitation link
 
 # Cloudflare
-zopim.com
 translate.googleapis.com
 login.cloudflarewarp.com
 statuspage.io
@@ -976,12 +949,8 @@ appcloud.ironbeast.io
 he.net # DNS provider
 ipv6.he.net # DNS provider
 whatismyipaddress.com
-www.researchgate.net
-researchgate.net
-widget.uservoice.com
 jsfiddle.net # Javascript online playground
 crbcdn.jsfiddle.net # Javascript online playground
-xd.adobelanding.com
 c.evidon.com
 l.betrad.com
 assets.adobedtm.com # Adobe tutorial assets wont load
@@ -1051,8 +1020,8 @@ docs.bugsnag.com
 # sessions.bugsnag.com # Realtime tracking, if you need this
 
 # Launchdarkly
-app.launchdarkly.com
-events.launchdarkly.com
+#app.launchdarkly.com
+#events.launchdarkly.com
 
 # Netflix 
 api-global.netflix.com 
@@ -1065,18 +1034,17 @@ ota-downloads.nvidia.com
 
 # Samsung TV
 cdn.samsungcloudsolution.com 
-assets.adobedtm.com
-track.ucas.com
-f1.media.brightcove.com
-brightcove.map.fastly.net
-entitlement.auth.adobe.com
-livepassdl.conviva.com
-fpdownload.adobe.com
-prod.appnexus.map.fastly.net
+#assets.adobedtm.com
+#track.ucas.com
+#f1.media.brightcove.com
+#brightcove.map.fastly.net
+#entitlement.auth.adobe.com
+#livepassdl.conviva.com
+#prod.appnexus.map.fastly.net
 
 # Amazon echo
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
+#device-metrics-us-2.amazon.com
+#device-metrics-us.amazon.com
 
 # Chan
 8ch.net
@@ -1090,9 +1058,6 @@ imp.appledaily.com #mobile page image
 
 # ZeroNet
 codeload.github.com #download
-
-# Pornhubpremium
-pornhubpremium.com
 
 # Yahoo Mail
 smtp.mail.yahoo.com
