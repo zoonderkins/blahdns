@@ -9,6 +9,8 @@ kinesis.us-east-1.amazonaws.com
 ## Mozilla
 self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
 
+## Apple 
+ocsp.apple.com # Apple being evil, phone home, https://blog.jacopo.io/en/post/apple-ocsp/ & https://www.reddit.com/r/pihole/comments/jt3wyq/pihole_saves_the_day_ocspapplecom_outage/
 
 # Uservoice.com
 by.uservoice.com
