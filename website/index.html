@@ -1,527 +1,503 @@
 <!DOCTYPE html>
 <html>
-    <title>Blahdns -- Dns service support DoH, DoT, DNSCrypt</title>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="small hobby adblocks DNS resolver with dot doh dnscrpyt">
-    <meta name="description" content="DNS, Adblock, dnscrypt, doh, dot, dns-over-https, dns-over-tls, Yggdrasil, EDNS, no-logs, dnssec">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="ookangzheng">
-    <link rel="stylesheet" href="https://cdn.blahdns.com/w3.css">
-    <link rel="stylesheet" href="https://cdn.blahdns.com/black.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <body>
-        <!-- Header -->
-        <header class="w3-container w3-sand w3-padding" style="height:90%" id="myHeader">
-            <div class=" w3-center">
-                <img src="https://cdn.blahdns.com/logo.png" style="max-width: 90%; margin-top: 15%; margin-bottom:10%;" />
-                <div class="w3-row w3-black w3-center w3-padding">
-                     <h4 class="w3-text-white w3-center ">
-          A small hobby ads block DNS project with DoH, DoT, DNSCrypt support.</h4>
-
-                </div>
-                <p id="status" class="w3-margin-top">You are not using Blahdns !!!</p>
-            </div>
-        </header>
-        <div class="w3-row myPadding">
-            <div class="w3-row-padding w3-center">
-                <!--Announcements area-->
-                <div class="w3-center">
-                     <h4> <a href="#donate">Need some coffees (25 EUR/ per month) for servers to keep this project healthy.</a> </h4>
-
-                </div>
-                <div class="w3-indigo w3-center">
-                     <h2>Announcements</h2>
-
-                </div>No logs | No EDNS Client-Subnet | OpenNIC support | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malware, prevent CNAME Cloacking
-                <br>
-                <ul class="w3-left-align">
-                    <li>Germany server is move to a new server with new IP address ( 2020/11/1 19:15 CST) </li>
-                    <li class="w3-text-red">Google Analytics tracking script url: www.google-analytics.com is blocked, but Admin panel for site admin is not blocked: analytics.google.</li>
-                    <li class="w3-text-red">DoH CDN (adblock) <a href="https://doh1.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh1.blahdns.com/dns-query </a> | <a href="https://doh2.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh2.blahdns.com/dns-query</a> </li>
-                    <li class="w3-text-red">DoH CDN (uncensor) <a href="https://doh1.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh1.blahdns.com/uncensor </a> | <a href="https://doh2.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh2.blahdns.com/uncensor</a> </li>
-                    <li class="w3-text-red">Yggdrasil network DNS-over-TLS <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md">Github</a></li>
-                    <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will require strict SNI, without SNI will be dropped by default.</li>
-                    <li><a href="https://stats.blahdns.com" target="_blank"><strong>Server status</strong></a></li>
-                    <li>If you encounter a problem, please submit it on <a href="https://github.com/ookangzheng/blahdns/issues/new/choose" target="_blank">Github</a></li>
-                </ul>
-            </div>
-            <div class="w3-container">
-                <div class="w3-center">
-                     <h2 style="text-shadow:1px 1px 0 #444">Our servers</h2>
-
-                </div>
-            </div>
-            <div class="w3-row-padding">
-
-                <!-- Japan Server-->
-                <div class="w3-half">
-                    <div class="w3-card white">
-                        <div class="w3-container w3-theme">
-                             <h3>Japan 🇯🇵</h3>
-
-                        </div>
-                        <ul class="w3-ul w3-border-top">
-                            <li>
-                                 <h3>DNS-over-HTTPS</h3>
-
-                                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-jp.blahdns.com/dns-query</textarea>
-                                <p>IPv4-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
-                                <p>IPv6-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
-                                 <h3>DNS-over-TLS</h3>
-
-                                <p><strong>IP address:</strong>
-                                    <br>45.32.55.94 
-                                    <br>2001:19f0:7001:3259:5400:02ff:fe71:0bc9
-                                    <p>tls_auth_name:
-                                        <br>
-                                        <textarea readonly rows="1" cols="50" maxlength="50">dot-jp.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)</p>
-                                     <h3>DNSCrypt v2</h3>
-port: 8443
-                                    <p>IPv4 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
-                                    </p>
-                                    <p>IPv6 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
-                                    </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Singapore Server-->
-                <div class="w3-half">
-                    <div class="w3-card red">
-                        <div class="w3-container w3-theme">
-                             <h3>Singapore 🇸🇬</h3>
-
-                        </div>
-                        <ul class="w3-ul w3-border-top">
-                            <li>
-                                 <h3>DNS-over-HTTPS</h3>
-
-                                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-sg.blahdns.com/dns-query</textarea>
-                                <p>IPv4-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAADjEzOS4xODAuMTQxLjU3ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
-                                <p>IPv6-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV0AEmRvaC1zZy5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
-                                 <h3>DNS-over-TLS</h3>
-
-                                <p><strong>IP address:</strong><br>
-                                    
-                                    139.180.141.57 <br>
-                                    2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
-                                    <br>
-                                    <p>tls_auth_name:
-                                        <br>
-                                        <textarea readonly rows="1" cols="50" maxlength="50">dot-sg.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)</p>
-                                     <h3>DNSCrypt v2</h3>
-port: 8443
-                                    <p>IPv4 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEzEzOS4xODAuMTQxLjU3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
-                                    </p>
-                                    <p>IPv6 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
-                                    </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Germany Server -->
-                <div class="w3-half">
-                    <div class="w3-card white">
-                        <div class="w3-container w3-theme">
-                             <h3>Germany 🇩🇪</h3>
-
-                        </div>
-                        <ul class="w3-ul w3-border-top">
-                            <li>
-                                 <h3>DNS-over-HTTPS</h3>
-
-                                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-de.blahdns.com/dns-query</textarea>
-                                <p>IPv4-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
-                                <p>IPv6-stamp:</p>
-                                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
-                                 <h3>DNS-over-TLS</h3>
-
-                                <p><strong>IP address:</strong><br>
-                                    
-                                    78.46.244.143 <br>
-                                    2a01:4f8:c17:ec67::1<br>
-                                    <p>tls_auth_name:
-                                        <br>
-                                        <textarea readonly rows="1" cols="50" maxlength="50">dot-de.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)</p>
-                                     <h3>DNSCrypt v2</h3>
-port: 8443
-                                    <p>IPv4 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
-                                    </p>
-                                    <p>IPv6 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
-                                    </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Finland server -->
-                <div class="w3-half">
-                    <div class="w3-card white">
-                        <div class="w3-container w3-theme">
-                             <h3>Finland 🇫🇮</h3>
-
-                        </div>
-                        <ul class="w3-ul w3-border-top">
-                            <li>
-                                 <h3>DNS-over-HTTPS</h3>
-
-                                <textarea readonly rows="1" cols="60" maxlength="60">https://doh-fi.blahdns.com/dns-query</textarea>
-                                <p>IPv4-stamp:</p>
-                                <textarea readonly rows="3" cols="60" maxlength="60">sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
-                                <p>IPv6-stamp:</p>
-                                <textarea readonly rows="3" cols="60" maxlength="60">sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
-                                 <h3>DNS-over-TLS</h3>
-
-                                <p><strong>IP address:</strong>
-                                    <br>
-                                    95.216.212.177 <br>
-                                    2a01:4f9:c010:43ce::1 <br>
-                                    <p>tls_auth_name:
-                                        <br>
-                                        <textarea readonly rows="1" cols="60" maxlength="60">dot-fi.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)</p>
-                                     <h3>DNSCrypt v2</h3>
-port: 8443
-                                    <p>IPv4 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="3" cols="60" maxlength="60">sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
-                                    </p>
-                                    <p>IPv6 - DNSStamp:
-                                        <br>
-                                        <textarea readonly rows="4" cols="60" maxlength="60">sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
-                                    </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-container w3-center">
-                 <h2 class="w3-center" style="text-shadow:1px 1px 0 #444">News</h2>
-
-                <button onclick="myAccFunc('Demo000')" class="w3-padding-16 w3-button w3-block w3-left-align w3-purple">Check Domain Status</button>
-                <a href="#check"></a>
-                <div id="Demo000" class="w3-hide">
-                    <div class="w3-left-align w3-margin-top">
-                        <label class="w3-text-blue"> <b>Domain Name</b>
-
-                        </label>
-                        <div class="w3-row">
-                            <div class="w3-col m5">
-                                <input class="w3-input w3-border" placeholder="...domainName" type="text" id="domainName">
-                            </div>
-                            <div class="w3-col m4 w3-margin-left">
-                                <button class="w3-btn w3-blue" id="btnCheck">Check</button>
-                            </div>
-                        </div>
-                        <div class="w3-row">
-                            <p id="returnStatus"></p>
-                        </div>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo0000')" class="w3-padding-16 w3-button w3-block w3-left-align w3-sand">DNS client</button>
-                <div id="Demo0000" class="w3-hide">
-                    <div class="w3-left-align">
-                        <div class="w3-row">
-                            <div class="w3-col m4 l3">
-                                 <h3>DNSCrypt v2</h3>
-
-                                <ul>
-                                    <li><a href="https://simplednscrypt.org" target="_blank">Simple DNSCrypt (Windows)</a>
-                                    </li>
-                                    <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
-                    (macOS, Linux)</a>
-                                    </li>
-                                    <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
-                    (iOS)</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w3-col m4 l3">
-                                 <h3>DNS-over-TLS</h3>
-
-                                <ul>
-                                    <li><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby" target="_blank">Stubby (Linux, Windows, macOS)</a>
-                                    </li>
-                                    <li><a href="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen" target="_blank">Nebulo (DoT, DoH) -- Android</a>
-                                    </li>
-                                    <li><a href="https://www.nlnetlabs.nl/projects/unbound/about/" target="_blank">Unbound</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w3-col m4 l3">
-                                 <h3>DNS-over-HTTPS</h3>
-
-                                <ul>
-                                    <li><a href="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen" target="_blank">Nebulo (DoT, DoH) -- Android</a>
-                                    </li>
-                                    <li><a href="https://simplednscrypt.org/" target="_blank">Simple DNSCrypt (Windows)</a>
-                                    </li>
-                                    <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
-                    (macOS, Linux)</a>
-                                    </li>
-                                    <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
-                    (iOS)</a>
-                                    </li>
-                                    <li><a href="https://github.com/Jigsaw-Code/Intra" target="_blank">Intra (Android)</a>
-                                    </li>
-                                    <li><a href="https://www.mozilla.org/en-US/firefox/nightly/all/" target="_blank">Mozilla
-                    Firefox (v66 above)</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo00')" class="w3-padding-16 w3-button w3-block w3-left-align w3-orange">Composition of Blahdns</button>
-                <div id="Demo00" class="w3-hide">
-                    <div class="w3-container w3-white">
-                        <p class="w3-left-align">
-                            Thanks to these great projects, Blahdns was born. <br>
-                            1. knot-resolver: <a href="https://github.com/CZ-NIC/knot-resolver" target="_blank"> Go</a> 
-                            <br>2. Dnsdist: <a href="https://dnsdist.org/" target="_blank">Go</a> 
-                            <br>3. HAProxy: <a href="http://www.haproxy.org/" target="_blank">Go</a> 
-                            <br>4. dns-over-https: <a href="https://github.com/m13253/dns-over-https" target="_blank">Go</a>
-
-                        </p>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo0')" class="w3-padding-16 w3-button w3-block w3-left-align w3-blue">More tools</button>
-                <div id="Demo0" class="w3-hide">
-                    <div class="w3-container w3-white">
-                        <p class="w3-left-align">DNS leak verification
-                            <br>1. DNSSEC validation: <a href="https://dnssec.vs.uni-due.de/" target="_blank"> Go</a> 
-                            <br>2. Internet.nl: <a href="https://internet.nl/" target="_blank">Go</a> 
-                            <br>3. DNSSEC resolver algorithm test: <a href="https://rootcanary.org/test.html" target="_blank">Go</a> 
-                            <br>4. Cloudflare tools: <a href="https://www.cloudflare.com/cdn-cgi/tracepoof" target="_blank">Go</a> | <a href="https://cloudflare-dns.com/help/">Go</a> 
-                            <br>5. Check my DNS: <a href="//cmdns.dev.dns-oarc.net/" target="_blank">Go</a>
-                            <br>6. DNS randomness: <a href="//www.dns-oarc.net/oarc/services/dnsentropy" target="_blank">Go</a>
-                            <br>7. DNS Spoofability test: <a href="https://www.grc.com/dns/dns.htm" target="_blank">Go</a>
-                            <br>8. DNSTrace: <a href="https://dnsdumpster.com/" target="_blank">Go</a>
-                            <br>9. Threats search: <a href="https://www.threatcrowd.org/">Go</a> 
-                            <br>10. Whoer.net <a href="https://whoer.net/">Go</a> 
-                            <br>11. EDNS test <a href="https://ednscomp.isc.org/ednscomp/">Go</a>
-
-                            <br>Entire privacy leaks test
-                            <br>1. Browserleaks: <a href="https://browserleaks.com/" target="_blank">Go</a> 
-                            <br>2. Device leak: <a href="https://www.deviceinfo.me/" target="_blank">Go</a> 
-                            <br>3. Webbkoll: <a href="https://webbkoll.dataskydd.net/" target="_blank">Go</a> 
-                            <br>
-                        </p>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-button w3-block w3-left-align w3-red">What is DNS-over-HTTPS (DoH)</button>
-                <div id="Demo1" class="w3-hide">
-                    <div class="w3-container w3-white">
-                        <p class="w3-left-align">DNS over HTTPS (DoH)
-                            <br>DNS over HTTPS is a new protocol designed to encrypt and secure DNS traffic over HTTPS.
-                            <br>It prevents DNS hijacking and ISPs from sniffing your traffic.
-                            <br>You can use will Infra on Android Phone, Mozilla firefox nightly, Chrome coming soon.
-                            <br>DNSCrypt v2 client does support DoH, see dnscrypt <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/dnscrypt/dnscrypt-proxy.toml"><strong>configuration
-                example</strong></a> on Windows, macOS, iOS (DNSCloak)</p>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-yellow w3-button w3-block w3-left-align">What is DNS-over-TLS</button>
-                <div id="Demo2" class="w3-hide">
-                    <div class="w3-container w3-white">
-                        <p class="w3-left-align">Encrypted DNS - DNS over TLS
-                            <br>DNS over TLS support is available on all our services through port 853 (standard port, some service may support 443).
-                            <br>DNS over TLS encrypts and authenticates all your DNS traffic to protect your privacy and prevent DNS hijacking and sniffing.
-                            <br>Client software: <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a> | <a href="https://www.nlnetlabs.nl/projects/unbound/about/"> Unbound </a>
-
-                            <br> <strong>How to get SPKI </strong>
-
-                            <br>Be sure you already install package <i>apt install gnutls-bin</i> 
-                            <br> <code>
-              gnutls-cli --print-cert -p 853 45.32.55.94 | grep "pin-sha256" | head -1
-            </code>
-
-                            <br>OR <code>
-                kdig -d @45.32.55.94 +tls-ca +tls-host=dot-jp.blahdns.com blahdns.com
-            </code>
-
-                            <br> <b>TLS1.3 support check</b> 
-                            <br> <code>
-            openssl s_client -connect 45.32.55.94:853
-            </code>
-
-                            <br> <i>Will return message: </i>
- <code>
-            New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
-            Server public key is 2048 bit
-            Secure Renegotiation IS NOT supported
-            Compression: NONE
-            Expansion: NONE
-            No ALPN negotiated
-            Early data was not sent
-            Verify return code: 0 (ok)
-            ---
-            ---
-            Post-Handshake New Session Ticket arrived:
-            SSL-Session:
-            Protocol  : TLSv1.3
-            Cipher    : TLS_AES_256_GCM_SHA384
-</code>
-For troubleshooting go <a href="https://getdnsapi.net/query/">HERE</a>
-
-                        </p>
-                    </div>
-                </div>
-                <button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-pale-red w3-button w3-block w3-left-align">What is DNS</button>
-                <div id="Demo3" class="w3-hide">
-                    <div class="w3-container">
-                        <p class="w3-left-align">The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses
-                            so browsers can load Internet resources.</p>
-                        <p class="w3-left-align">Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers eliminate the need for humans to memorize IP addresses such as 192.168.1.1 (in IPv4), or more complex newer alphanumeric IP addresses
-                            such as 2400:cb00:2048:1::c629:d7a2 (in IPv6).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-container">
-                 <h2 class="w3-center" style="text-shadow:1px 1px 0 #444">FAQ</h2>
-
-                <div class="w3-border">
-                    <div class="w3-bar w3-theme">
-                        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'TLS')">Common question</button>
-                        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'News')">News</button>
-                        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'troubleshooting')">Troubleshoot</button>
-                        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'block-method')">Block Method</button>
-                        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'donation')">Donation</button>
-                    </div>
-                    <div id="TLS" class="w3-container city w3-animate-opacity">
-                        <ul>
-                            <li>How to fix Chrome on Android phone leaking DNS, check <a href="https://github.com/ookangzheng/blahdns/blob/master/FAQ.md#prevent-dns-leaking-from-chrome-browser-on-android-phone">HERE</a>
-                            </li>
-                            <li>Supported TLS v1.3, 1.2</li>
-                            <li>We drop ANY type.</li>
-                            <li>Why you building this porject? I started this project around 2016. During that time, with my private dns, I need an easy way to filter ads and tracker, so I rent a server and learn how to achive this.</li>
-                            <li><del> Why you dont like huge traffic? I'm still a student. and I run this service with my pocket money and
-              spare time. Just as a hobby to learn somehting new. buying big server or Anti-DDOS service will cost lot.</del>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="News" class="w3-container city w3-animate-opacity">
-                        <ul>
-                            <li><a href="https://www.youtube.com/watch?v=eM8MWtNbcfc"> Testing Firefox DoH Without Cloudflare, pfblockerNG, DNS Filtering, and Site Blocking Discussion @ Lawrence Systems / PC Pickup
- </a>
-                            </li>
-                            <li><a href="https://techbeasts.com/block-ads-samsung-galaxy-without-third-party-applications-no-root/" target="_blank">Block Ads on Samsung Galaxy without third-party applications [No root required]</a>
-                            </li>
-                            <li><a href="https://www.reddit.com/r/GalaxyS8/comments/agoxl0/here_is_how_to_block_ads_on_android_pie_without/" target="_blank">Here is how to block Ads on Android Pie without root on the S8. NO APPS NEEDED! New option in Pie.</a>
-                            </li>
-                            <li><a href="https://www.reddit.com/r/GalaxyS9/comments/a94im7/blocking_ads_without_additional_software_in/" target="_blank">Blocking ads without additional software in Android 9.0 Pie (finally :D)</a>
-                            </li>
-                            <li><a href="https://www.androidsage.com/2018/12/25/how-to-block-ads-using-private-dns-dns-over-tls-feature/" target="_blank">How to Block Ads using Private DNS (DNS over TLS) Feature on Android 9.0 Pie or later without root https://www.androidsage.com/2018/12/25/how-to-block-ads-using-private-dns-dns-over-tls-feature/</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- troubleshooting -->
-                    <div id="troubleshooting" class="w3-container city w3-animate-opacity">
-                        <p>DNSSEC validation: https://dnssec.vs.uni-due.de</p>
-                        <p>curl -H 'content-type: application/dns-message' -vL -v 'https://doh-jp.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C</p>
-                        <p>kdig google.com @2001:19f0:7001:1ded:5400:1ff:fe90:945b +tls -p 443</p>
-                        <p>kdig google.com @45.32.55.94</p>
-                        <p>https://gist.github.com/meanevo/e70ca58e361fb4d1a9d262a8f12b173a (HAProxy) https://stuff-things.net/2016/11/30/haproxy-sni/ https://pre-prod.chown.me/blog/running-dot-on-openbsd.html https://www.haproxy.com/blog/introduction-to-haproxy-acls/</p>
-                    </div>
-                    <div id="block-method" class="w3-container city w3-animate-opacity">
-                        <p>Does Blahdns block CNAME Cloacking? Yes, click <a href="https://www.ookangzheng.com/how-do-cname-cloacking-track-you/">here</a> to read more.</p>
-                    </div>
-                    <!-- Donation -->
-                    <div id="donation" class="w3-container city w3-animate-opacity">
-                        <p>
-                            <ul>
-                                <li>Thanks for Adam Srxxx for 2 USD</li>
-                                <li>Thanks for Slawomir Mxxx for 5 USD</li>
-                                <li>Thanks for Giuseppe Macxxx for 5 USD</li>
-                                <li>Thanks for Austin Sarxxx for 25 USD</li>
-                                <li>Thanks for Jonni Rauhxxx for 25 USD</li>
-                                <li>Thanks for Regin Jaxxx for 50 EUR</li>
-                                <li>Thanks for Kristian NyXXXard JenXXXX for 5 USD and 10 EUR</li>
-                                <li>Thanks for Martin LohrXXXrg for 10 EUR</li>
-                                <li>Thanks for Ferdinand MuXXXch for 3 USD</li>
-                                <li>Thanks for MarsXXXn for 5 USD</li>
-                                <li>Thanks for Lawerence LeXXXng for 20 AUD</li>
-                                <li>Thanks for 優樹 XX下 for 3 USD</li>
-                                <li>Thanks for Ardi KaXXXin for 5 SGD</li>
-                                <li>Thanks for Kung JXXXe for 3 USD</li>
-                                <li>Thanks for Braian KapXXXan for 9 USD</li>
-                                <li>Thanks for Lorenzo OXXXi for 20 USD</li>
-                                <li>Thanks for Felix HungXXXberg for 3 USD</li>
-                                <li>Thanks for Marco GXXXze for 10 USD</li>
-                                <li>Thanks for mikXXXla for 10 EUR</li>
-                                <li>Thanks for Tim 331 for 20 TWD</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <title>Blahdns -- Dns service support DoH, DoT, DNSCrypt</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="small hobby adblocks DNS resolver with dot doh dnscrpyt">
+  <meta name="description" content="DNS, Adblock, dnscrypt, doh, dot, dns-over-https, dns-over-tls, Yggdrasil, EDNS, no-logs, dnssec">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="ookangzheng">
+  <link rel="stylesheet" href="https://cdn.blahdns.com/w3.css">
+  <link rel="stylesheet" href="https://cdn.blahdns.com/black.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <body>
+    <!-- Header -->
+    <header class="w3-container w3-sand w3-padding" style="height:90%" id="myHeader">
+      <div class=" w3-center">
+        <img src="https://cdn.blahdns.com/logo.png" style="max-width: 90%; margin-top: 15%; margin-bottom:10%;" />
+        <div class="w3-row w3-black w3-center w3-padding">
+          <h4 class="w3-text-white w3-center ">
+            A small hobby ads block DNS project with DoH, DoT, DNSCrypt support.
+          </h4>
         </div>
-        <!-- End padding -->
-        <!-- Footer -->
-        <footer class="w3-container w3-theme-dark w3-padding-16 w3-margin-top">
-            <div class="myPadding">
-                <p>
-                     <h3>Disclamier</h3>
-
-                    <p>Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss
-                        of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
-                        <br>The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. By using this website and service you consent to the disclaimer and agree to its terms and conditions.
-                        <br>By using <a href="https://www.cloudflare.com/">Cloudflare</a> this website stores a cookie, created and evaluated by Cloudflare.
-                        <br>This cookie is strictly necessary for Cloudflare's security features and cannot be turned off. <a href="https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-">More
-            information.</a>
-
-                    </p>
-                    <p>Copyright 2016 - 2020 blahdns.com</p>
-                    <p> <i class="fa fa-github" aria-hidden="true"></i>  <a href="https://github.com/ookangzheng/blahdns">Github</a> |
-                        <a name="donate"></a>
-                        <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'>
-                            <img height='36' style='border:0px;height:30px;' src='https://cdn.blahdns.com/kofi4.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-                        </a>|
-                        <script src="https://liberapay.com/ookangzheng/widgets/button.js"></script>
-                        <noscript>
-                            <a href="https://liberapay.com/ookangzheng/donate">
-                                <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
-                            </a>
-                        </noscript>
-                        <!--<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/elk6NqZhi">-->
-                        <!-- <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg">-->
-                        <!-- <span style="margin-left:5px">Buy me a coffee</span></a>-->
-                        <!-- hi@blahdns.com -->
-                        <a href="https://paypal.me/okz5289tw/100">
-                            <img style="height:40px" src="https://camo.githubusercontent.com/f896f7d176663a1559376bb56aac4bdbbbe85ed1/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" alt="Donate with PayPal button"
-                            />
-                        </a>
-                        <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
-                        <!--<input type="hidden" name="cmd" value="_s-xclick" />-->
-                        <!--<input type="hidden" name="hosted_button_id" value="KC33GK5CT2Q9Y" />-->
-                        <!--<input type="image" src="https://www.paypalobjects.com/en_US/TW/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />-->
-                        <!--<img alt="" border="0" src="https://www.paypal.com/en_TW/i/scr/pixel.gif" width="1" height="1" />-->
-                        <!--</form>-->
-                    </p>
-                    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right"> <span class="w3-text w3-theme-light w3-padding">Go To Top</span>  <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-              <i class="fa fa-chevron-circle-up"></i></span></a>
-
-                    </div>
+        <p id="status" class="w3-margin-top">You are not using Blahdns !!!</p>
+      </div>
+    </header>
+    <div class="w3-row myPadding">
+      <div class="w3-row-padding w3-center">
+        <!--Announcements area-->
+        <div class="w3-center">
+          <h4> <a href="#donate">Need some coffees (25 EUR/ per month) for servers to keep this project healthy.</a> </h4>
+        </div>
+        <div class="w3-indigo w3-center">
+          <h2>Announcements</h2>
+        </div>
+        No logs | No EDNS Client-Subnet | OpenNIC support | Ethereum Name Service | DNSSEC ready | Yggdrasil | Filtered ads, trackers, malware, prevent CNAME Cloacking
+        <br>
+        <ul class="w3-left-align">
+          <li>Germany server is move to a new server with new IP address ( 2020/11/1 19:15 CST) </li>
+          <li class="w3-text-red">Google Analytics tracking script url: www.google-analytics.com is blocked, but Admin panel for site admin is not blocked: analytics.google.</li>
+          <li class="w3-text-red">DoH CDN (adblock) <a href="https://doh1.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh1.blahdns.com/dns-query </a> | <a href="https://doh2.blahdns.com/dns-query?name=ssl.google-analytics.com">https://doh2.blahdns.com/dns-query</a> </li>
+          <li class="w3-text-red">DoH CDN (uncensor) <a href="https://doh1.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh1.blahdns.com/uncensor </a> | <a href="https://doh2.blahdns.com/uncensor?name=ssl.google-analytics.com">https://doh2.blahdns.com/uncensor</a> </li>
+          <li class="w3-text-red">Yggdrasil network DNS-over-TLS <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md">Github</a></li>
+          <li class="w3-text-red">DNS-over-TLS, DNS-over-HTTPS on PORT 443 will require strict SNI, without SNI will be dropped by default.</li>
+          <li><a href="https://stats.blahdns.com" target="_blank"><strong>Server status</strong></a></li>
+          <li>If you encounter a problem, please submit it on <a href="https://github.com/ookangzheng/blahdns/issues/new/choose" target="_blank">Github</a></li>
+        </ul>
+      </div>
+      <div class="w3-container">
+        <div class="w3-center">
+          <h2 style="text-shadow:1px 1px 0 #444">Our servers</h2>
+        </div>
+      </div>
+      <div class="w3-row-padding">
+        <!-- Japan Server-->
+        <div class="w3-half">
+          <div class="w3-card white">
+            <div class="w3-container w3-theme">
+              <h3>Japan 🇯🇵</h3>
             </div>
-        </footer>
-        <script defer src="https://cdn.blahdns.com/script.js"></script>
-    </body>
-
+            <ul class="w3-ul w3-border-top">
+              <li>
+                <h3>DNS-over-HTTPS</h3>
+                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-jp.blahdns.com/dns-query</textarea>
+                <p>IPv4-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
+                <p>IPv6-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
+                <h3>DNS-over-TLS</h3>
+                <p><strong>IP address:</strong>
+                  <br>45.32.55.94 
+                  <br>2001:19f0:7001:3259:5400:02ff:fe71:0bc9
+                <p>tls_auth_name:
+                  <br>
+                  <textarea readonly rows="1" cols="50" maxlength="50">dot-jp.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)
+                </p>
+                <h3>DNSCrypt v2</h3>
+                port: 8443
+                <p>IPv4 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
+                </p>
+                <p>IPv6 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Singapore Server-->
+        <div class="w3-half">
+          <div class="w3-card red">
+            <div class="w3-container w3-theme">
+              <h3>Singapore 🇸🇬</h3>
+            </div>
+            <ul class="w3-ul w3-border-top">
+              <li>
+                <h3>DNS-over-HTTPS</h3>
+                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-sg.blahdns.com/dns-query</textarea>
+                <p>IPv4-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAADjEzOS4xODAuMTQxLjU3ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
+                <p>IPv6-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV0AEmRvaC1zZy5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
+                <h3>DNS-over-TLS</h3>
+                <p><strong>IP address:</strong><br>
+                  139.180.141.57 <br>
+                  2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
+                  <br>
+                <p>tls_auth_name:
+                  <br>
+                  <textarea readonly rows="1" cols="50" maxlength="50">dot-sg.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)
+                </p>
+                <h3>DNSCrypt v2</h3>
+                port: 8443
+                <p>IPv4 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEzEzOS4xODAuMTQxLjU3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
+                </p>
+                <p>IPv6 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Germany Server -->
+        <div class="w3-half">
+          <div class="w3-card white">
+            <div class="w3-container w3-theme">
+              <h3>Germany 🇩🇪</h3>
+            </div>
+            <ul class="w3-ul w3-border-top">
+              <li>
+                <h3>DNS-over-HTTPS</h3>
+                <textarea readonly rows="1" cols="50" maxlength="50">https://doh-de.blahdns.com/dns-query</textarea>
+                <p>IPv4-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
+                <p>IPv6-stamp:</p>
+                <textarea readonly rows="3" cols="50" maxlength="50">sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5</textarea>
+                <h3>DNS-over-TLS</h3>
+                <p><strong>IP address:</strong><br>
+                  78.46.244.143 <br>
+                  2a01:4f8:c17:ec67::1<br>
+                <p>tls_auth_name:
+                  <br>
+                  <textarea readonly rows="1" cols="50" maxlength="50">dot-de.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)
+                </p>
+                <h3>DNSCrypt v2</h3>
+                port: 8443
+                <p>IPv4 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="3" cols="50" maxlength="50">sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
+                </p>
+                <p>IPv6 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="4" cols="50" maxlength="50">sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20</textarea>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Finland server -->
+        <div class="w3-half">
+          <div class="w3-card white">
+            <div class="w3-container w3-theme">
+              <h3>Finland 🇫🇮</h3>
+            </div>
+            <ul class="w3-ul w3-border-top">
+              <li>
+                <h3>DNS-over-HTTPS</h3>
+                <textarea readonly rows="1" cols="60" maxlength="60">https://doh-fi.blahdns.com/dns-query</textarea>
+                <p>IPv4-stamp:</p>
+                <textarea readonly rows="3" cols="60" maxlength="60">sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
+                <p>IPv6-stamp:</p>
+                <textarea readonly rows="3" cols="60" maxlength="60">sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ</textarea>
+                <h3>DNS-over-TLS</h3>
+                <p><strong>IP address:</strong>
+                  <br>
+                  95.216.212.177 <br>
+                  2a01:4f9:c010:43ce::1 <br>
+                <p>tls_auth_name:
+                  <br>
+                  <textarea readonly rows="1" cols="60" maxlength="60">dot-fi.blahdns.com</textarea>port: 853, 443 (Strict SNI, without SNI will drop)
+                </p>
+                <h3>DNSCrypt v2</h3>
+                port: 8443
+                <p>IPv4 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="3" cols="60" maxlength="60">sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
+                </p>
+                <p>IPv6 - DNSStamp:
+                  <br>
+                  <textarea readonly rows="4" cols="60" maxlength="60">sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t</textarea>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w3-container w3-center">
+        <h2 class="w3-center" style="text-shadow:1px 1px 0 #444">News</h2>
+        <button onclick="myAccFunc('Demo000')" class="w3-padding-16 w3-button w3-block w3-left-align w3-purple">Check Domain Status</button>
+        <a href="#check"></a>
+        <div id="Demo000" class="w3-hide">
+          <div class="w3-left-align w3-margin-top">
+            <label class="w3-text-blue"> <b>Domain Name</b>
+            </label>
+            <div class="w3-row">
+              <div class="w3-col m5">
+                <input class="w3-input w3-border" placeholder="...domainName" type="text" id="domainName">
+              </div>
+              <div class="w3-col m4 w3-margin-left">
+                <button class="w3-btn w3-blue" id="btnCheck">Check</button>
+              </div>
+            </div>
+            <div class="w3-row">
+              <p id="returnStatus"></p>
+            </div>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo0000')" class="w3-padding-16 w3-button w3-block w3-left-align w3-sand">DNS client</button>
+        <div id="Demo0000" class="w3-hide">
+          <div class="w3-left-align">
+            <div class="w3-row">
+              <div class="w3-col m4 l3">
+                <h3>DNSCrypt v2</h3>
+                <ul>
+                  <li><a href="https://simplednscrypt.org" target="_blank">Simple DNSCrypt (Windows)</a>
+                  </li>
+                  <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
+                    (macOS, Linux)</a>
+                  </li>
+                  <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
+                    (iOS)</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w3-col m4 l3">
+                <h3>DNS-over-TLS</h3>
+                <ul>
+                  <li><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby" target="_blank">Stubby (Linux, Windows, macOS)</a>
+                  </li>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen" target="_blank">Nebulo (DoT, DoH) -- Android</a>
+                  </li>
+                  <li><a href="https://www.nlnetlabs.nl/projects/unbound/about/" target="_blank">Unbound</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w3-col m4 l3">
+                <h3>DNS-over-HTTPS</h3>
+                <ul>
+                  <li><a href="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen" target="_blank">Nebulo (DoT, DoH) -- Android</a>
+                  </li>
+                  <li><a href="https://simplednscrypt.org/" target="_blank">Simple DNSCrypt (Windows)</a>
+                  </li>
+                  <li><a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">dnscrypt-proxy
+                    (macOS, Linux)</a>
+                  </li>
+                  <li><a href="https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351" target="_blank">DNSCloak
+                    (iOS)</a>
+                  </li>
+                  <li><a href="https://github.com/Jigsaw-Code/Intra" target="_blank">Intra (Android)</a>
+                  </li>
+                  <li><a href="https://www.mozilla.org/en-US/firefox/nightly/all/" target="_blank">Mozilla
+                    Firefox (v66 above)</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo00')" class="w3-padding-16 w3-button w3-block w3-left-align w3-orange">Composition of Blahdns</button>
+        <div id="Demo00" class="w3-hide">
+          <div class="w3-container w3-white">
+            <p class="w3-left-align">
+              Thanks to these great projects, Blahdns was born. <br>
+              1. knot-resolver: <a href="https://github.com/CZ-NIC/knot-resolver" target="_blank"> Go</a> 
+              <br>2. Dnsdist: <a href="https://dnsdist.org/" target="_blank">Go</a> 
+              <br>3. HAProxy: <a href="http://www.haproxy.org/" target="_blank">Go</a> 
+              <br>4. dns-over-https: <a href="https://github.com/m13253/dns-over-https" target="_blank">Go</a>
+            </p>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo0')" class="w3-padding-16 w3-button w3-block w3-left-align w3-blue">More tools</button>
+        <div id="Demo0" class="w3-hide">
+          <div class="w3-container w3-white">
+            <p class="w3-left-align">DNS leak verification
+              <br>1. DNSSEC validation: <a href="https://dnssec.vs.uni-due.de/" target="_blank"> Go</a> 
+              <br>2. Internet.nl: <a href="https://internet.nl/" target="_blank">Go</a> 
+              <br>3. DNSSEC resolver algorithm test: <a href="https://rootcanary.org/test.html" target="_blank">Go</a> 
+              <br>4. Cloudflare tools: <a href="https://www.cloudflare.com/cdn-cgi/tracepoof" target="_blank">Go</a> | <a href="https://cloudflare-dns.com/help/">Go</a> 
+              <br>5. Check my DNS: <a href="//cmdns.dev.dns-oarc.net/" target="_blank">Go</a>
+              <br>6. DNS randomness: <a href="//www.dns-oarc.net/oarc/services/dnsentropy" target="_blank">Go</a>
+              <br>7. DNS Spoofability test: <a href="https://www.grc.com/dns/dns.htm" target="_blank">Go</a>
+              <br>8. DNSTrace: <a href="https://dnsdumpster.com/" target="_blank">Go</a>
+              <br>9. Threats search: <a href="https://www.threatcrowd.org/">Go</a> 
+              <br>10. Whoer.net <a href="https://whoer.net/">Go</a> 
+              <br>11. EDNS test <a href="https://ednscomp.isc.org/ednscomp/">Go</a>
+              <br>12. Cloudflare SNI Test <a href="https://www.cloudflare.com/ssl/encrypted-sni/" target="_blank">Go .. You should have DNSSEC + TLS1.3 section in Green color.</a>
+              <br>Browser or Device privacy leaks test
+              <br>1. Browserleaks: <a href="https://browserleaks.com/" target="_blank">Go</a> 
+              <br>2. Device leak: <a href="https://www.deviceinfo.me/" target="_blank">Go</a> 
+              <br>3. Creepy JS: <a href="https://abrahamjuliot.github.io/creepjs/" target="_blank">Go</a>
+              <br>4. Webbkoll: <a href="https://webbkoll.dataskydd.net/" target="_blank">Go</a> 
+              <br>5. Hardenize Report: <a href="https://www.hardenize.com/" target= "_blank">Go</a>
+              <br>
+            </p>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-button w3-block w3-left-align w3-red">What is DNS-over-HTTPS (DoH)</button>
+        <div id="Demo1" class="w3-hide">
+          <div class="w3-container w3-white">
+            <p class="w3-left-align">DNS over HTTPS (DoH)
+              <br>DNS over HTTPS is a new protocol designed to encrypt and secure DNS traffic over HTTPS.
+              <br>It prevents DNS hijacking and ISPs from sniffing your traffic.
+              <br>You can use will Infra on Android Phone, Mozilla firefox nightly, Chrome coming soon.
+              <br>DNSCrypt v2 client does support DoH, see dnscrypt <a href="https://github.com/ookangzheng/blahdns/blob/master/client-conf/dnscrypt/dnscrypt-proxy.toml"><strong>configuration
+              example</strong></a> on Windows, macOS, iOS (DNSCloak)
+            </p>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-yellow w3-button w3-block w3-left-align">What is DNS-over-TLS</button>
+        <div id="Demo2" class="w3-hide">
+          <div class="w3-container w3-white">
+            <p class="w3-left-align">Encrypted DNS - DNS over TLS
+              <br>DNS over TLS support is available on all our services through port 853 (standard port, some service may support 443).
+              <br>DNS over TLS encrypts and authenticates all your DNS traffic to protect your privacy and prevent DNS hijacking and sniffing.
+              <br>Client software: <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a> | <a href="https://www.nlnetlabs.nl/projects/unbound/about/"> Unbound </a>
+              <br> <strong>How to get SPKI </strong>
+              <br>Be sure you already install package <i>apt install gnutls-bin</i> 
+              <br> <code>
+              gnutls-cli --print-cert -p 853 45.32.55.94 | grep "pin-sha256" | head -1
+              </code>
+              <br>OR <code>
+              kdig -d @45.32.55.94 +tls-ca +tls-host=dot-jp.blahdns.com blahdns.com
+              </code>
+              <br> <b>TLS1.3 support check</b> 
+              <br> <code>
+              openssl s_client -connect 45.32.55.94:853
+              </code>
+              <br> <i>Will return message: </i>
+              <code>
+              New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+              Server public key is 2048 bit
+              Secure Renegotiation IS NOT supported
+              Compression: NONE
+              Expansion: NONE
+              No ALPN negotiated
+              Early data was not sent
+              Verify return code: 0 (ok)
+              ---
+              ---
+              Post-Handshake New Session Ticket arrived:
+              SSL-Session:
+              Protocol  : TLSv1.3
+              Cipher    : TLS_AES_256_GCM_SHA384
+              </code>
+              For troubleshooting go <a href="https://getdnsapi.net/query/">HERE</a>
+            </p>
+          </div>
+        </div>
+        <button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-pale-red w3-button w3-block w3-left-align">What is DNS</button>
+        <div id="Demo3" class="w3-hide">
+          <div class="w3-container">
+            <p class="w3-left-align">The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses
+              so browsers can load Internet resources.
+            </p>
+            <p class="w3-left-align">Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers eliminate the need for humans to memorize IP addresses such as 192.168.1.1 (in IPv4), or more complex newer alphanumeric IP addresses
+              such as 2400:cb00:2048:1::c629:d7a2 (in IPv6).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-container">
+        <h2 class="w3-center" style="text-shadow:1px 1px 0 #444">FAQ</h2>
+        <div class="w3-border">
+          <div class="w3-bar w3-theme">
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'TLS')">Common question</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'News')">News</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'troubleshooting')">Troubleshoot</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'block-method')">Block Method</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'donation')">Donation</button>
+          </div>
+          <div id="TLS" class="w3-container city w3-animate-opacity">
+            <ul>
+              <li>How to fix Chrome on Android phone leaking DNS, check <a href="https://github.com/ookangzheng/blahdns/blob/master/FAQ.md#prevent-dns-leaking-from-chrome-browser-on-android-phone">HERE</a>
+              </li>
+              <li>Supported TLS v1.3, 1.2</li>
+              <li>We drop ANY type.</li>
+              <li>Why you building this porject? I started this project around 2016. During that time, with my private dns, I need an easy way to filter ads and tracker, so I rent a server and learn how to achive this.</li>
+              <li><del> Why you dont like huge traffic? I'm still a student. and I run this service with my pocket money and
+                spare time. Just as a hobby to learn somehting new. buying big server or Anti-DDOS service will cost lot.</del>
+              </li>
+            </ul>
+          </div>
+          <div id="News" class="w3-container city w3-animate-opacity">
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=eM8MWtNbcfc"> Testing Firefox DoH Without Cloudflare, pfblockerNG, DNS Filtering, and Site Blocking Discussion @ Lawrence Systems / PC Pickup
+                </a>
+              </li>
+              <li><a href="https://techbeasts.com/block-ads-samsung-galaxy-without-third-party-applications-no-root/" target="_blank">Block Ads on Samsung Galaxy without third-party applications [No root required]</a>
+              </li>
+              <li><a href="https://www.reddit.com/r/GalaxyS8/comments/agoxl0/here_is_how_to_block_ads_on_android_pie_without/" target="_blank">Here is how to block Ads on Android Pie without root on the S8. NO APPS NEEDED! New option in Pie.</a>
+              </li>
+              <li><a href="https://www.reddit.com/r/GalaxyS9/comments/a94im7/blocking_ads_without_additional_software_in/" target="_blank">Blocking ads without additional software in Android 9.0 Pie (finally :D)</a>
+              </li>
+              <li><a href="https://www.androidsage.com/2018/12/25/how-to-block-ads-using-private-dns-dns-over-tls-feature/" target="_blank">How to Block Ads using Private DNS (DNS over TLS) Feature on Android 9.0 Pie or later without root https://www.androidsage.com/2018/12/25/how-to-block-ads-using-private-dns-dns-over-tls-feature/</a>
+              </li>
+            </ul>
+          </div>
+          <!-- troubleshooting -->
+          <div id="troubleshooting" class="w3-container city w3-animate-opacity">
+            <p>DNSSEC validation: https://dnssec.vs.uni-due.de</p>
+            <p>curl -H 'content-type: application/dns-message' -vL -v 'https://doh-jp.blahdns.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C</p>
+            <p>kdig google.com @2001:19f0:7001:1ded:5400:1ff:fe90:945b +tls -p 443</p>
+            <p>kdig google.com @45.32.55.94</p>
+            <p>https://gist.github.com/meanevo/e70ca58e361fb4d1a9d262a8f12b173a (HAProxy) https://stuff-things.net/2016/11/30/haproxy-sni/ https://pre-prod.chown.me/blog/running-dot-on-openbsd.html https://www.haproxy.com/blog/introduction-to-haproxy-acls/</p>
+          </div>
+          <div id="block-method" class="w3-container city w3-animate-opacity">
+            <p>Does Blahdns block CNAME Cloacking? Yes, click <a href="https://www.ookangzheng.com/how-do-cname-cloacking-track-you/">here</a> to read more.</p>
+          </div>
+          <!-- Donation -->
+          <div id="donation" class="w3-container city w3-animate-opacity">
+            <p>
+            <ul>
+              <li>Thanks for Adam Srxxx for 2 USD</li>
+              <li>Thanks for Slawomir Mxxx for 5 USD</li>
+              <li>Thanks for Giuseppe Macxxx for 5 USD</li>
+              <li>Thanks for Austin Sarxxx for 25 USD</li>
+              <li>Thanks for Jonni Rauhxxx for 25 USD</li>
+              <li>Thanks for Regin Jaxxx for 50 EUR</li>
+              <li>Thanks for Kristian NyXXXard JenXXXX for 5 USD and 10 EUR</li>
+              <li>Thanks for Martin LohrXXXrg for 10 EUR</li>
+              <li>Thanks for Ferdinand MuXXXch for 3 USD</li>
+              <li>Thanks for MarsXXXn for 5 USD</li>
+              <li>Thanks for Lawerence LeXXXng for 20 AUD</li>
+              <li>Thanks for 優樹 XX下 for 3 USD</li>
+              <li>Thanks for Ardi KaXXXin for 5 SGD</li>
+              <li>Thanks for Kung JXXXe for 3 USD</li>
+              <li>Thanks for Braian KapXXXan for 9 USD</li>
+              <li>Thanks for Lorenzo OXXXi for 20 USD</li>
+              <li>Thanks for Felix HungXXXberg for 3 USD</li>
+              <li>Thanks for Marco GXXXze for 10 USD</li>
+              <li>Thanks for mikXXXla for 10 EUR</li>
+              <li>Thanks for Tim 331 for 20 TWD</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End padding -->
+    <!-- Footer -->
+    <footer class="w3-container w3-theme-dark w3-padding-16 w3-margin-top">
+      <div class="myPadding">
+        <p>
+        <h3>Disclamier</h3>
+        <p>Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss
+          of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
+          <br>The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. By using this website and service you consent to the disclaimer and agree to its terms and conditions.
+          <br>By using <a href="https://www.cloudflare.com/">Cloudflare</a> this website stores a cookie, created and evaluated by Cloudflare.
+          <br>This cookie is strictly necessary for Cloudflare's security features and cannot be turned off. <a href="https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-">More
+          information.</a>
+        </p>
+        <p>Copyright 2016 - 2020 blahdns.com</p>
+        <p>
+          <i class="fa fa-github" aria-hidden="true"></i>  <a href="https://github.com/ookangzheng/blahdns">Github</a> |
+          <a name="donate"></a>
+          <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'>
+          <img height='36' style='border:0px;height:30px;' src='https://cdn.blahdns.com/kofi4.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+          </a>|
+          <script src="https://liberapay.com/ookangzheng/widgets/button.js"></script>
+        <noscript>
+          <a href="https://liberapay.com/ookangzheng/donate">
+          <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+          </a>
+        </noscript>
+        <!--<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/elk6NqZhi">-->
+        <!-- <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg">-->
+        <!-- <span style="margin-left:5px">Buy me a coffee</span></a>-->
+        <!-- hi@blahdns.com -->
+        <a href="https://paypal.me/okz5289tw/100">
+        <img style="height:40px" src="https://camo.githubusercontent.com/f896f7d176663a1559376bb56aac4bdbbbe85ed1/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" alt="Donate with PayPal button"
+          />
+        </a>
+        <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
+        <!--<input type="hidden" name="cmd" value="_s-xclick" />-->
+        <!--<input type="hidden" name="hosted_button_id" value="KC33GK5CT2Q9Y" />-->
+        <!--<input type="image" src="https://www.paypalobjects.com/en_US/TW/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />-->
+        <!--<img alt="" border="0" src="https://www.paypal.com/en_TW/i/scr/pixel.gif" width="1" height="1" />-->
+        <!--</form>-->
+        </p>
+        <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right"> <span class="w3-text w3-theme-light w3-padding">Go To Top</span>  <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+          <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+      </div>
+    </footer>
+    <script defer src="https://cdn.blahdns.com/script.js"></script>
+  </body>
 </html>
