@@ -3,6 +3,7 @@
 
 # Postmark mail tracking unsubscribe link https://postmarkapp.com/support/article/1059-what-is-pstmrk-it
 subscriptions.pstmrk.it
+click.pstmrk.it
 
 # IPv4 arpa
 ipv4only.arpa
