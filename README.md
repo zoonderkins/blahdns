@@ -27,7 +27,7 @@
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 * Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
-## Beta DoH CDN
+## DoH CDN
 
 ```
 https://doh1.blahdns.com/uncensor 
@@ -75,6 +75,7 @@ Server (Germany, Finland, Japan, Singapore)
 ```
 
 ## Config file / Client
+* Collection of blocklist use in BlahDNS: [Source](https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt) 
 * Yggdrasil IPv6 Network: [Setup guide](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
 * Android DoH/DoT: [Nebulo App](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen) | [personalDNSfilter App](https://zenz-solutions.de/personaldnsfilter/) | [Intra](https://play.google.com/store/apps/details?id=app.intra)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
