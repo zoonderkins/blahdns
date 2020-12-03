@@ -1,6 +1,12 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# www.dripemails.com
+t.dripemail2.com
+
+# Godaddy
+www.godaddy.com
+
 # Postmark mail tracking unsubscribe link https://postmarkapp.com/support/article/1059-what-is-pstmrk-it
 subscriptions.pstmrk.it
 click.pstmrk.it
