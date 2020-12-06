@@ -1,10 +1,10 @@
 ## Blocklist use on BlahDNS
 
-* [Blacklist sources](https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt)
+* [Block list sources](https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt)
 
-* [xiaomi-blacklist-whitelist](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
+* [xiaomi-list](https://gist.github.com/232057d3562bffc31daa7739dfdb4469)
 
-## BlahDNS self generated block list (may different from BlahDNS server use)
+## Block list (may different from BlahDNS)
 
 * [domain only](https://oooo.b-cdn.net/blahdns/blahdns_domains.txt) `~25MB Dnscrypt`
 
@@ -18,9 +18,9 @@
 
 * Mobile Adblock clients: [Blokada](https://github.com/blokadaorg/blokada) | [DNS66](https://github.com/julian-klode/dns66) | [pDNSf](https://zenz-solutions.de/personaldnsfilter) | [Nebulo](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen&hl=en_US) | [Adhell](https://play.google.com/store/apps/details?id=com.getadhell.androidapp&hl=en_US) | [DNSCloak(ios)](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
 
-**Whitelist**
+**Allow list**
 
-* [Blockconvert whitelist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
+* [Blockconvert allowlist](https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/whitelist_domains.txt)
 
 ## Useful blocklist (not included) 
 1. https://github.com/blocklistproject/Lists
