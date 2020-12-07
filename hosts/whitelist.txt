@@ -1,6 +1,13 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Mailchimp
+mailchimp.com
+
+# fastcompany.com
+cname.tradepub.com
+fc-resources.fastcompany.com
+
 # www.dripemails.com
 t.dripemail2.com
 
