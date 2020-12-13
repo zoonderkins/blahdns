@@ -110,6 +110,10 @@ limited-prod.giphy.map.fastly.net
 api.giphy.com 
 
 # Alipay / Taobao
+clientsc.alipay.com
+mygw.alipay.com
+mobilegw.alipay.cn
+mobilecodec.alipay.com
 file.dingtalk.com
 files.alicdn.com
 down-cdn.dingtalk.com
