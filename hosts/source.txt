@@ -1,4 +1,4 @@
-https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
 
@@ -24,7 +24,6 @@ https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adb
 http://theantisocialengineer.com/AntiSocial_Blacklist_Community_V1.txt
 https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
-https://280blocker.net/files/280blocker_domain.txt
 
 https://orca.pet/notonmyshift/domains.txt
 https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
