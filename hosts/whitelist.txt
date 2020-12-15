@@ -572,6 +572,8 @@ api.jr.mi.com
 resolver.msg.xiaomi.ne
 
 # Amazon Web Services
+concierge.analytics.console.aws.a2z.com # Amazon Console unified search 
+pinpoint.us-east-1.amazonaws.com # Amazon console
 mas-ext.amazon.com # Amazon shopping on firetv stick
 s3.amazonaws.com #amazon S3 bucket
 s3-1.amazonaws.com #amazon S3 bucket
