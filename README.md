@@ -17,6 +17,8 @@
 
 ## Announcements
 
+* iOS14 and Big Sur native DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) 
+ * Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
 ## Our features
