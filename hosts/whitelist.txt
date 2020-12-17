@@ -1,6 +1,14 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Pornhub
+pornhub.com
+ci.phncdn.com
+cv-h.phncdn.com
+cw.phncdn.com
+ss.phncdn.com
+ew.phncdn.com
+
 # Google GKE
 cloudresourcemanager.googleapis.com
 container.googleapis.com 
