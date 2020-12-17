@@ -2,12 +2,14 @@
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
 # Pornhub
+www.pornhub.com
 pornhub.com
 ci.phncdn.com
 cv-h.phncdn.com
 cw.phncdn.com
 ss.phncdn.com
 ew.phncdn.com
+hubt.pornhub.com
 
 # Google GKE
 cloudresourcemanager.googleapis.com
