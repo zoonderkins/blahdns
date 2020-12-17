@@ -18,6 +18,15 @@ gkeconnect.googleapis.com
 gkehub.googleapis.com 
 serviceusage.googleapis.com 
 anthos.googleapis.com
+compute.googleapis.com
+monitoring.googleapis.com
+logging.googleapis.com 
+cloudtrace.googleapis.com
+meshca.googleapis.com
+meshtelemetry.googleapis.com
+meshconfig.googleapis.com
+iamcredentials.googleapis.com
+stackdriver.googleapis.com
 
 # Mailchimp
 mailchimp.com
