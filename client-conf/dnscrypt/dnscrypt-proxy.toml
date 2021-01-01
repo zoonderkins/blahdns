@@ -1,6 +1,5 @@
-# Updated on April 26, 2020
-
-server_names = ['blahdns-jp-doh']
+# Updated on Oct 25, 2019
+server_names = ['blahdns-ch-dnscrypt-v4', 'blahdns-ch-doh', 'blahdns-ch-dnscrypt-v6', 'blahdns-ch-doh-v6']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 250
 force_tcp = false
@@ -8,7 +7,7 @@ timeout = 2000
 keepalive = 30
 
 # Load-balancing strategy: 'p2' (default), 'ph', 'fastest' or 'random'
-lb_strategy = 'p2'
+lb_strategy = 'fastest'
 fallback_resolver = '1.0.0.2:53'
 ignore_system_dns = false
 netprobe_timeout = 30
@@ -21,7 +20,6 @@ cache_neg_max_ttl = 6
 
 [static]
 ## Publickey: 5384E8144314293E56DD1B140A1EF172AD47BDBA1799C8957294953D034EB5C7
-## Singapore
 [static.'blahdns-sg-doh']
 stamp = 'sdns://AgMAAAAAAAAADjEzOS4xODAuMTQxLjU3ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-sg-doh-v6']
@@ -30,7 +28,7 @@ stamp = 'sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6Zjlm
 stamp = 'sdns://AQMAAAAAAAAAEzEzOS4xODAuMTQxLjU3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-sg-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
-## Finland
+
 [static.'blahdns-fi-doh']
 stamp = 'sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-fi-doh-v6']
@@ -39,7 +37,7 @@ stamp = 'sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRu
 stamp = 'sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-fi-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-## Japan
+
 [static.'blahdns-jp-doh']
 stamp = 'sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-jp-doh-v6']
@@ -48,12 +46,21 @@ stamp = 'sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBi
 stamp = 'sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-jp-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-## Germany
+
 [static.'blahdns-de-doh']
-stamp = 'sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
+stamp = 'sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-de-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
+stamp = 'sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-de-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
+stamp = 'sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-de-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
+stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+
+[static.'blahdns-ch-doh']
+stamp = 'sdns://AgMAAAAAAAAAETQ1LjkwLjU3LjEyMTo0NDQzABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+[static.'blahdns-ch-doh-v6']
+stamp = 'sdns://AgMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjQ0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
+[static.'blahdns-ch-dnscrypt-v4']
+stamp = 'sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIMiY20kuCIE2P9ih9zVRhtAzSIAT8yxKn_K9NJwG3FMUGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
+[static.'blahdns-ch-dnscrypt-v6']
+stamp = 'sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
