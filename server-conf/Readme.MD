@@ -6,6 +6,19 @@ https://doh-jp.blahdns.com/uncensor ( uncensor )
 https://doh-jp.blahdns.com/dns-query ( censored )
 ```
 
+
+- Switzerland 🇨🇭(DoT,DoH,Dnscryptv2), Provider: ISPlevel
+
+  * IP: 45.90.57.121, 2a05:9406::175
+  * DNS-over-HTTPS (port 4443):
+    * https://doh-ch.blahdns.com:4443/dns-query
+    * IPv4: sdns://AgMAAAAAAAAAETQ1LjkwLjU3LjEyMTo0NDQzABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv6: sdns://AgMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjQ0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+  * DNS-over-TLS: dot-ch.blahdns.com, ports 853, 4443
+  * DNSCrypt v2, port 8443:
+    * IPv4: sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIMiY20kuCIE2P9ih9zVRhtAzSIAT8yxKn_K9NJwG3FMUGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+    * IPv6: sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+
 - Finland 🇫🇮(DoT,DoH,Dnscryptv2), Provider: Hetzner
   * IP: 95.216.212.177, 2a01:4f9:c010:43ce::1
   * DNS-over-HTTPS:
