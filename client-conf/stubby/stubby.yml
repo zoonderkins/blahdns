@@ -25,6 +25,9 @@ upstream_recursive_servers:
     
   - address_data: 95.216.212.177
     tls_auth_name: "dot-fi.blahdns.com"
+    
+  - address_data: 45.90.57.121
+    tls_auth_name: "dot-ch.blahdns.com"
         
   - address_data: 2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
     tls_auth_name: "dot-sg.blahdns.com"
@@ -37,3 +40,6 @@ upstream_recursive_servers:
     
   - address_data: 2a01:4f9:c010:43ce::1
     tls_auth_name: "dot-fi.blahdns.com"
+    
+  - address_data: 2a05:9406::175
+    tls_auth_name: "dot-ch.blahdns.com"
