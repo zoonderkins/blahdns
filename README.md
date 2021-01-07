@@ -3,7 +3,7 @@
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  Around 35 EUR per month 
+  <br> Around 35 EUR per month 
 </p> 
 
 
@@ -17,7 +17,7 @@
 ## Announcements
 
 * Switzerland server now in BETA (2021-01-01)
-* iOS14 and Big Sur native DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
+* iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
 ## Our features
@@ -64,7 +64,7 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 ## Server architecture
 
 ```bash
-Server (Germany, Finland, Japan, Singapore)
+Server (Switzerland, Germany, Finland, Japan, Singapore)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN, Yggdrasil, ETH)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
@@ -72,7 +72,7 @@ Server (Germany, Finland, Japan, Singapore)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
 
-## Japan, Singapore use Quad9 as upstream
+<del>Japan, Singapore use Quad9 as upstream</del>
 ```
 
 ## Config file / Client
@@ -92,7 +92,7 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 3. [DNSPrivacy.org](https://dnsprivacy.org)
 
 ## Disclaimer
-* This is an experimental service, I'm not responsible for any down-time.
+* This is an experimental + hobby service, I'm not responsible for any down-time.
 * Make sure to agree with our [POLICY](https://github.com/ookangzheng/blahdns/#policy) before using the service. 
 * This service is for PERSONAL use, huge traffic is not welcomed, will drop PTR, ANY by default.
 * We can't block some ads within Apps inside your phone (Youtube official app Ads, Facebook app Ads, Twitter app Ads... )
