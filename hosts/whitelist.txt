@@ -55,7 +55,7 @@ ipv4only.arpa
 surveys.twilio.com
 
 # Firebase
-firebaseinstallations.googleapis.com # will brake a lot of app, though it use to create an unique id.
+#firebaseinstallations.googleapis.com # will brake a lot of app, though it use to create an unique id.
 
 # Opera Mini Mobile
 opera-mini.net
