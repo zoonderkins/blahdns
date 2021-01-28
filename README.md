@@ -11,8 +11,10 @@
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KC33GK5CT2Q9Y&source=url"><img alt="Donate using Paypal" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
   &nbsp;&nbsp;
   <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
- <a href='#'> Monero(XMR) 49mfGwgLEUr9CNb2RFfz2f1v85n5VTkLiGEm8NoFqvmiJJnUE27DW15gBjXXCyzbRRYM29SnJTETsPLRdJu8fAVuSU7K6pN </a>
- <a href='#'> Lite Coin(LTC) 0x509357E9E06b2d200768D9E7A1Ff75291675aEe1 </a>
+ <br> Monero(XMR) 49mfGwgLEUr9CNb2RFfz2f1v85n5VTkLiGEm8NoFqvmiJJnUE27DW15gBjXXCyzbRRYM29SnJTETsPLRdJu8fAVuSU7K6pN
+ <br>
+ Lite Coin(LTC) 0x509357E9E06b2d200768D9E7A1Ff75291675aEe1
+ <br>
 </p>
 
 
