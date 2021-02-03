@@ -1,5 +1,7 @@
 
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
+https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 
 https://raw.githubusercontent.com/hezhijie0327/AdFilter/main/adfilter_domains.txt
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
@@ -10,20 +12,26 @@ https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
-https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
+https://raw.githubusercontent.com/joeylane/hosts/master/hosts
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/customblocklist
 
-https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt
 https://hostfiles.frogeye.fr/multiparty-only-trackers.txt
+https://badmojr.github.io/1Hosts/Lite/adblock.txt
 
 https://orca.pet/notonmyshift/domains.txt
 https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
