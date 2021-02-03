@@ -8,6 +8,7 @@
 
 ## Announcements
 
+* Germany server has increased connection limit due to rate limit per IP slowing down DNS resolution. (2021-02-03)
 * Switzerland server now in BETA (2021-01-01)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
