@@ -8,7 +8,7 @@
 
 ## Announcements
 
-* QUIC on Japan region, DNS-over-QUIC: `quic://dot-jp.blahdns.com:784`
+* QUIC on Japan region, DNS-over-QUIC: `quic://dot-jp.blahdns.com:784` (feedback needed)
 * Japan and Singapore(WIP) server gonna migrate from Vultr to Linode (2021-02-17), Old server gonna shutdown at the end of Feburary 2021
 * Germany server has increased connection limit due to rate limit per IP slowing down DNS resolution. (2021-02-03)
 * Switzerland server now in BETA (2021-01-01)
@@ -63,6 +63,7 @@ Server (Switzerland, Germany, Finland, Japan, Singapore)
 |-- Let's Encrypt SSL
 |-- Knot-resolver (OpenNIC, ICANN, Yggdrasil, ETH)
 |   |-- DNSCryptv2 (dnsdist, port 8443)
+|   |-- Dnsproxy (QUIC, port 784) *beta
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
