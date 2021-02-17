@@ -41,16 +41,16 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * IPv4: sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
     * IPv6: sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
-- Japan 🇯🇵(DoT, DoH, Dnscryptv2), Provider: Vultr
-  * IP: 45.32.55.94, 2001:19f0:7001:3259:5400:02ff:fe71:0bc9
+- Japan 🇯🇵(DoT, DoH, Dnscryptv2), Provider: Linode
+  * IP: 139.162.112.47, 2400:8902::f03c:92ff:fe27:344b
   * DNS-over-HTTPS: 
     * https://doh-jp.blahdns.com/dns-query
-    * IPv4: sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6: sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv4: sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv6: sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
   * DNS-over-TLS: dot-jp.blahdns.com, ports 853, 443
   * DNSCrypt v2, port 8443:
-    * IPv4: sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
-    * IPv6:  sdns://AQMAAAAAAAAALlsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+    * IPv4: sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+    * IPv6:  sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 - Singapore 🇸🇬(DoT, DoH, Dnscryptv2), Provider: Vultr
   * IP: 139.180.141.57, 2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
