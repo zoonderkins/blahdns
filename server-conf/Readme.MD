@@ -43,6 +43,7 @@ https://doh-jp.blahdns.com/dns-query ( censored )
 
 - Japan 🇯🇵(DoT, DoH, Dnscryptv2), Provider: Linode
   * IP: 139.162.112.47, 2400:8902::f03c:92ff:fe27:344b
+  * DNS-over-QUIC: `quic://dot-jp.blahdns.com:784`
   * DNS-over-HTTPS: 
     * https://doh-jp.blahdns.com/dns-query
     * IPv4: sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
