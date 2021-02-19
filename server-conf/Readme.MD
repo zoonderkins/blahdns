@@ -41,7 +41,7 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * IPv4: sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
     * IPv6: sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
-- Japan 🇯🇵(DoT, DoH, Dnscryptv2), Provider: Linode
+- Japan 🇯🇵(DoT, DoH, Dnscrypt, DoQ), Provider: Linode
   * IP: 139.162.112.47, 2400:8902::f03c:92ff:fe27:344b
   * DNS-over-QUIC: `quic://dot-jp.blahdns.com:784`
   * DNS-over-HTTPS: 
@@ -53,13 +53,14 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * IPv4: sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
     * IPv6: sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
-- Singapore 🇸🇬(DoT, DoH, Dnscryptv2), Provider: Vultr
-  * IP: 139.180.141.57, 2001:19f0:4400:6bed:5400:2ff:feb1:f9fa
+- Singapore 🇸🇬(DoT, DoH, Dnscrypt, DoQ), Provider: Linode
+  * IP: 192.53.175.149, 2400:8901::f03c:92ff:fe27:870a
+  * DNS-over-QUIC: `quic://dot-sg.blahdns.com:784`
   * DNS-over-HTTPS: 
     * https://doh-sg.blahdns.com/dns-query
-    * IPv4: sdns://AgMAAAAAAAAADjEzOS4xODAuMTQxLjU3ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6: sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV0AEmRvaC1zZy5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+    * IPv4: sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+    * IPv6: sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
   * DNS-over-TLS: dot-sg.blahdns.com, ports 853, 443
   * DNSCrypt v2, port 8443:
-    * IPv4: sdns://AQMAAAAAAAAAEzEzOS4xODAuMTQxLjU3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
-    * IPv6: sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+    * IPv4: sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+    * IPv6: sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
