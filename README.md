@@ -8,9 +8,8 @@
 
 ## Announcements
 
-* QUIC on Japan region, DNS-over-QUIC: `quic://dot-jp.blahdns.com:784` (feedback needed)
-* Japan and Singapore(WIP) server gonna migrate from Vultr to Linode (2021-02-17), Old server gonna shutdown at the end of Feburary 2021
-* Germany server has increased connection limit due to rate limit per IP slowing down DNS resolution. (2021-02-03)
+* DoQ ( DNS over QUIC) `quic://dot-jp.blahdns.com:784`, `quic://dot-sg.blahdns.com:784` (feedback needed)
+* Japan and Singapore server will be migrate from Vultr to Linode (2021-02-17), Old server gonna shutdown at the end of Feburary 2021
 * Switzerland server now in BETA (2021-01-01)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
