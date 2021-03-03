@@ -37,4 +37,5 @@ https://orca.pet/notonmyshift/domains.txt
 https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 http://npc.0am.jp/hosts.php?dl=1
-https://dbl.oisd.nl/basic
+
+https://dbl.oisd.nl/
