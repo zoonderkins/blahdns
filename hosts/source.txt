@@ -38,3 +38,7 @@ https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 http://npc.0am.jp/hosts.php?dl=1
 https://dbl.oisd.nl/basic
+
+# CNAME cloaking
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
+https://adzhosts.eu/privacy/cname.txt
