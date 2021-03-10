@@ -1,6 +1,14 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# branch.io
+api.branch.io
+api2.branch.io
+
+# braze.com | Marketing analytics on mobile
+api.appboy.eu
+sdk.api.appboy.eu
+
 # Macpaw
 api-lytics.macpaw.com
 
