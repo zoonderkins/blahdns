@@ -1,6 +1,12 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# hpplay.cn
+logu.hpplay.cn
+ssdkauth.hpplay.cn
+rp.hpplay.cn
+imdns.hpplay.cn
+
 # branch.io
 api.branch.io
 api2.branch.io
