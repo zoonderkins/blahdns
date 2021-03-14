@@ -29,6 +29,7 @@ https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAd
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/customblocklist
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 
 https://hostfiles.frogeye.fr/multiparty-only-trackers.txt
 https://badmojr.github.io/1Hosts/Lite/adblock.txt
@@ -42,3 +43,4 @@ https://dbl.oisd.nl/basic
 # CNAME cloaking
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
 https://adzhosts.eu/privacy/cname.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacyCNAME.txt
