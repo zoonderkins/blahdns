@@ -1,7 +1,8 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
-# Binance
+# Binance (Android)
+domain-config-1259603563.file.myqcloud.com
 sensors.binance.cloud
 goodusahost.cn
 www.goodusahost.cn
