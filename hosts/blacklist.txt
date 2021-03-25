@@ -1,6 +1,15 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Binance
+sensors.binance.cloud
+goodusahost.cn
+www.goodusahost.cn
+hanqiweb.net
+www.hanqiweb.net
+shyqxxy.com
+www.shyqxxy.com
+
 # hpplay.cn
 logu.hpplay.cn
 ssdkauth.hpplay.cn
