@@ -3,6 +3,7 @@
 
 # Binance (Android)
 domain-config-1259603563.file.myqcloud.com
+report.binance.im
 sensors.binance.cloud
 goodusahost.cn
 www.goodusahost.cn
