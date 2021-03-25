@@ -2,6 +2,13 @@
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
 # Binance (Android)
+cdngarenanow-a.akamaihd.net
+static-file-1259603563.file.myqcloud.com
+jpush.binance.im
+nbstream.binance.com
+fstream.binance.com
+launchpad.binance.com
+report.binance.gg
 domain-config-1259603563.file.myqcloud.com
 report.binance.im
 sensors.binance.cloud
