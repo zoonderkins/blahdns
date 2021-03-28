@@ -1,6 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Notion.so
+nexus-websocket-a.intercom.io
+api-iam.intercom.io
+js.intercomcdn.com
+widget.intercom.io
+analytics.pgncs.notion.so
+
 # Binance (Android)
 cdngarenanow-a.akamaihd.net
 static-file-1259603563.file.myqcloud.com
