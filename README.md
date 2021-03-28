@@ -3,12 +3,12 @@
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  <br> Around 35 EUR per month 
+  <br> Around 40 EUR per month 
 </p> 
 
 ## Announcements
 
-* DoQ ( DNS over QUIC) `quic://dot-jp.blahdns.com:784` | `quic://dot-sg.blahdns.com:784` | `quic://dot-ch.blahdns.com:784` | `quic://dot-fi.blahdns.com:784` | `quic://dot-de.blahdns.com:784` (feedback needed)
+* DNS over QUIC - Draft 2 `quic://dot-jp.blahdns.com:784` | `quic://dot-sg.blahdns.com:784` | `quic://dot-ch.blahdns.com:784` | `quic://dot-fi.blahdns.com:784` | `quic://dot-de.blahdns.com:784` (feedback needed)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
