@@ -1,6 +1,12 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# DeepL
+sentry.deepl.com
+
+# VS Code 
+default.exp-tas.com # https://www.reddit.com/r/vscode/comments/f0bh69/suspicious_connection_to_defaultexptascom/fkfeluz
+
 # WPS.cn (Android)
 activity.wps.com
 shuc-js.ksord.com
