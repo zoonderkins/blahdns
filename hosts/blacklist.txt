@@ -1,6 +1,17 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Shareit App (Android https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps)
+# reported by: What-Zit-Tooya
+receiver-metis.infeng.site
+adconf.rqmob.com
+tracker.hellay.net
+dt.beyla.site
+www.pullcm.com
+www.pullcf.com
+ascribe.rqmob.com
+cdn.shareitgames.com
+
 # DeepL
 sentry.deepl.com
 
