@@ -4,7 +4,6 @@
 # Line Messenger Android 
 torimochi.line-apps.com
 uts-front.line-apps.com
-profile.line-scdn.net
 graph.instagram.com
 
 # Shareit App (Android https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps)
