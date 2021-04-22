@@ -30,6 +30,10 @@
 5. https://github.com/ngosang/trackerslist/blob/master/blacklist.txt
 6. No google - https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google.txt
 7. https://github.com/blocklistproject/Lists
+8. https://github.com/Loyalsoldier/v2ray-rules-dat/
+  8.1 https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt (Full adblock list)
+  8.2 https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-spy.txt (Windows spyware / tracker list)
+  8.3 https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-extra.txt (Windows spyware extra list)
 
 ```
 Thanks a lot as well to everyone creating the original lists I am compiling together.
