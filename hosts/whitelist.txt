@@ -1,6 +1,17 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# MS Azure functionality, thanks to @mmwvh
+breeze.aimon.applicationinsights.io
+dc-ppe.trafficmanager.net # CNAME
+
+api.loganalytics.io
+api.monitor.azure.com # CNAME
+draftprodoms.trafficmanager.net #CNAME
+
+# Email service, thanks to @LinuxPanda
+cloudmail17.netcore.co.in
+
 # Loki network
 loki.network
 
