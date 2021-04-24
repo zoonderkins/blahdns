@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Goatcounter https://gc.zgo.at/count.js
+gc.zgo.at
+
 # MS Azure functionality, thanks to @mmwvh
 breeze.aimon.applicationinsights.io
 dc-ppe.trafficmanager.net # CNAME
