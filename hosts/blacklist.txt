@@ -1,6 +1,15 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# China Smart TV scan entire home wifi network and phone home
+# https://archive.is/x5CUC
+# https://archive.is/YQfn4
+gzads.com
+gozendata.com
+gz-data.com
+service.gz-data.com
+upgrade.gz-data.com
+
 # Line Messenger Android 
 torimochi.line-apps.com
 uts-front.line-apps.com
