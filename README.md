@@ -7,7 +7,7 @@
 </p> 
 
 ## Announcements
-
+* Starting from April 28th 2021 Switzerland VPS will migrate to hosthatch.com !!! IPv4, IPv6 address will be changed !!!
 * Bye Google Analytics, Welcome GoatCounter... BlahDNS site now use GoatCounter and we degoogled !!! (Google Analytics) 2021-04-24
 * DNS over QUIC - Draft 2 `quic://dot-jp.blahdns.com:784` | `quic://dot-sg.blahdns.com:784` | `quic://dot-ch.blahdns.com:784` | `quic://dot-fi.blahdns.com:784` | `quic://dot-de.blahdns.com:784` (feedback needed)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
