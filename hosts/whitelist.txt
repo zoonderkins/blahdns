@@ -1,6 +1,12 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# valimail.com 
+see.valimail.com
+valimail.actonservice.com
+ci61.actonsoftware.com
+forpci61.actonsoftware.com
+
 # Goatcounter https://gc.zgo.at/count.js
 gc.zgo.at
 
