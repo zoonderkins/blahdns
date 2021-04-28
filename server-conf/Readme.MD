@@ -7,18 +7,18 @@ https://doh-jp.blahdns.com/dns-query ( censored )
 ```
 
 
-- Switzerland 🇨🇭(DoT, DoH, Dnscrypt, DoQ), Provider: ISPlevel
-  * IP: 45.90.57.121, 2a05:9406::175
+- Switzerland 🇨🇭(DoT, DoH, Dnscrypt, DoQ), Provider: HostHatch.com
+  * IP: 45.91.92.121, 2a0e:dc0:6:23::2
   * DNS-over-QUIC: `quic://dot-ch.blahdns.com:784`
-  * DNS-over-HTTPS (port 4443):
-    * https://doh-ch.blahdns.com:4443/dns-query
-    * IPv4: sdns://AgMAAAAAAAAAETQ1LjkwLjU3LjEyMTo0NDQzABJkb2gtY2guYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-    * IPv6: sdns://AgMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjQ0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+  * DNS-over-HTTPS:
+    * https://doh-ch.blahdns.com/dns-query
+    * IPv4: sdns://AgMAAAAAAAAAEDQ1LjkxLjkyLjEyMTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+    * IPv6: sdns://AgMAAAAAAAAAFlsyYTBlOmRjMDo2OjIzOjoyXTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
   * DNS-over-TLS: dot-ch.blahdns.com, ports 853, 4443
   * DNSCrypt v2, port 8443:
-    * IPv4: sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
-    * IPv6: sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyBsLUgR09x3rDS0iSkbs8k-CwYbQ70Flf6B_SEnQT9ItRsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
-
+    * IPv4: sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+    * IPv6: sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+    * 
 - Finland 🇫🇮(DoT,DoH,Dnscryptv2), Provider: Hetzner
   * IP: 95.216.212.177, 2a01:4f9:c010:43ce::1
   * DNS-over-HTTPS:
