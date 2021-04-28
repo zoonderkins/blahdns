@@ -13,16 +13,12 @@ debug = err
 [blahdns-dns]
 client = yes
 accept = 127.0.0.1:5353
-connect = 45.32.55.94:853 #Japan
-# connect = 159.69.198.101:853 #Germany
-# connect = 95.216.212.177:853 #Finland
+connect = 139.162.112.47 #Japan
 
 verifyChain = yes
 CApath = /etc/ssl/certs
 
 checkHost = dot-jp.blahdns.com
-# checkHost = dot-de.blahdns.com 
-# checkHost = dot-fi.blahdns.com 
 ````
 
 ### Test
