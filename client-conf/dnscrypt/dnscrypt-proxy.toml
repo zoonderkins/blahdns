@@ -1,4 +1,3 @@
-# Updated on Oct 25, 2019
 server_names = ['blahdns-jp-doh']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 250
@@ -7,8 +6,8 @@ timeout = 2000
 keepalive = 30
 
 # Load-balancing strategy: 'p2' (default), 'ph', 'fastest' or 'random'
-lb_strategy = 'fastest'
-fallback_resolver = '1.0.0.2:53'
+lb_strategy = 'p2'
+fallback_resolver = '9.9.9.11:53'
 ignore_system_dns = false
 netprobe_timeout = 30
 cache = false
@@ -60,12 +59,12 @@ stamp = 'sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsG
 [static.'blahdns-de-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
-# ISPLevel, port 8443, 4443
+# HostHatch
 [static.'blahdns-ch-doh']
-stamp = 'sdns://AgMAAAAAAAAADDQ1LjkwLjU3LjEyMQAXZG9oLWNoLmJsYWhkbnMuY29tOjQ0NDMKL2Rucy1xdWVyeQ'
+stamp = 'sdns://AgMAAAAAAAAAEDQ1LjkxLjkyLjEyMTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
 [static.'blahdns-ch-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAEFsyYTA1Ojk0MDY6OjE3NV0AF2RvaC1jaC5ibGFoZG5zLmNvbTo0NDQzCi9kbnMtcXVlcnk'
+stamp = 'sdns://AgMAAAAAAAAAFlsyYTBlOmRjMDo2OjIzOjoyXTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
 [static.'blahdns-ch-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
+stamp = 'sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 [static.'blahdns-ch-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyBsLUgR09x3rDS0iSkbs8k-CwYbQ70Flf6B_SEnQT9ItRsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
+stamp = 'sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
