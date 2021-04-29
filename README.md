@@ -58,15 +58,15 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 
 ```bash
 Server (Switzerland, Germany, Finland, Japan, Singapore)
-|-- Let's Encrypt SSL
-|-- Knot-resolver (OpenNIC, ICANN, Yggdrasil, ETH)
-|   |-- DNSCryptv2 (dnsdist, port 8443)
-|   |-- Dnsproxy (QUIC, port 784) *beta
-|   |-- doh-server (DoH, GET, POST -- m13253)
-|   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
-|-- DoT (HAProxy, port 853, 443, TLS 1.3, require SNI)
 
-<del>Japan, Singapore use Quad9 as upstream</del>
+|-- Knot-resolver (DNS resolver, OpenNIC, ICANN, Yggdrasil, ETH)
+|-- Dnsdist (cache, loadbalance)
+|   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443)
+|   |   |-- Dnsproxy (DoQ, port 784)
+|   |-- doh-server (DoH, GET, POST -- m13253)
+|   |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
+|-- DoT (HAProxy, port 853, TLS 1.3, require SNI)
+
 ```
 
 ## Config file / Client
@@ -93,18 +93,9 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
   <a href='https://ko-fi.com/P5P4GPQ8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </p>
 
-* Monero(XMR) 49mfGwgLEUr9CNb2RFfz2f1v85n5VTkLiGEm8NoFqvmiJJnUE27DW15gBjXXCyzbRRYM29SnJTETsPLRdJu8fAVuSU7K6pN
-* Lite Coin(LTC) 0x509357E9E06b2d200768D9E7A1Ff75291675aEe1
-
-## Disclaimer
-* This is an experimental + hobby service, I'm not responsible for any down-time.
-* Make sure to agree with our [POLICY](https://github.com/ookangzheng/blahdns/#policy) before using the service. 
-* This service is for PERSONAL use, huge traffic is not welcomed, will drop PTR, ANY by default.
-* We can't block some ads within Apps inside your phone (Youtube official app Ads, Facebook app Ads, Twitter app Ads... )
-
-## Policy
+## DISCLAIMER
+* This is a HOBBY service. The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. 
 * Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
-* The operator does not guarantee in any way the access, availability and continuity of the functioning of this service. 
 * By using this website and service you consent to the disclaimer and agree to its terms and conditions.
 
 [![Stargazers over time](https://starchart.cc/ookangzheng/blahdns.svg)](https://starchart.cc/ookangzheng/blahdns)
