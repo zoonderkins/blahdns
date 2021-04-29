@@ -20,16 +20,19 @@ cache_neg_max_ttl = 90
 [static]
 ## Publickey: 5384E8144314293E56DD1B140A1EF172AD47BDBA1799C8957294953D034EB5C7
 
-# Linode
+# Singapore DoH
 [static.'blahdns-sg-doh']
 stamp = 'sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-sg-doh-v6']
 stamp = 'sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+
+# Singapore Dnscrypt
 [static.'blahdns-sg-dnscrypt-v4']
 stamp = 'sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-sg-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
+# Finland DoH
 [static.'blahdns-fi-doh']
 stamp = 'sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-fi-doh-v6']
