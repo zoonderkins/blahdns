@@ -58,7 +58,7 @@ widget.intercom.io
 analytics.pgncs.notion.so
 
 # Binance (Android)
-cdngarenanow-a.akamaihd.net
+www.hanqiweb.red
 static-file-1259603563.file.myqcloud.com
 jpush.binance.im
 nbstream.binance.com
