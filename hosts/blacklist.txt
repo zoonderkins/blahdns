@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Agora.io
+report-edge.agora.io
+
 # Scam fake android warning
 system-update-new-2021.com
 buildingdoodlesquare.com
