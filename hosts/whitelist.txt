@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# mihoyo.com
+log-upload-os.mihoyo.com
+
 # QQ Lemon
 guanjia.qq.com
 
