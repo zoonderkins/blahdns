@@ -283,13 +283,13 @@ statcounter.com
 www.statcounter.com
 
 # Xiaomi
+zhuti.xiaomi.com
 fr.app.chat.global.xiaomi.net
 metok-ccc.intl.xiaomi.com
 resolver.msg.global.xiaomi.net 
 weatherapi.market.xiaomi.com
 bgp.fe01.c3.xiaomi.com # Xiaomi login
 abroad.apilocate.amap.com # Miband 4 weather location
-#abtest.mistat.xiaomi.com
 api.io.mi.com
 app.chat.global.xiaomi.net
 data.mistat.intl.xiaomi.com
@@ -321,8 +321,6 @@ market.xiaomi.com
 micardapi.micloud.xiaomi.net
 micloud.xiaomi.net
 mis.migc.xiaomi.com
-miui.com
-miui.net
 mp.huangye.miui.com
 o2o.api.xiaomi.com
 pdc.micloud.xiaomi.net
@@ -341,8 +339,6 @@ update.intl.miui.com
 update.miui.com
 wallpaper.pandora.xiaomi.com
 wifiapi.micloud.xiaomi.net
-xiaomi.com
-xiaomi.net
 
 # Skype
 client-s.gateway.messenger.live.com #skype login
