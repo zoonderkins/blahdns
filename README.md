@@ -7,9 +7,7 @@
 </p> 
 
 ## Announcements
-* Dnscryptv2 `UDP` connection having performance issue though it has been fixed with new `KEYS`, make sure to check it out the [LATEST Configuration](https://github.com/ookangzheng/blahdns/blob/master/client-conf/dnscrypt/dnscrypt-proxy.toml) ... !!! 
-* Bye Google Analytics, Welcome GoatCounter... BlahDNS site now use GoatCounter and we degoogled !!! (Google Analytics) 2021-04-24
-* DNS over QUIC - Draft 2 `quic://dot-jp.blahdns.com:784` | `quic://dot-sg.blahdns.com:784` | `quic://dot-ch.blahdns.com:784` | `quic://dot-fi.blahdns.com:784` | `quic://dot-de.blahdns.com:784` (feedback needed)
+* DNS over Https/QUIC is now on Germany server. (port 443 UDP)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
@@ -52,7 +50,7 @@ The document has moved
 Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
 
 ## Server status
-* Server status [UpTimeRobot](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
+* Server status [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
 
 ## Server architecture
 
