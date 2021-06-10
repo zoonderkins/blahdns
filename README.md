@@ -3,11 +3,11 @@
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  <br> Around 40 EUR per month 
+  <br> Around 45 EUR per month 
 </p> 
 
 ## Announcements
-* DNS over Https/QUIC is now on Germany server. (port 443 UDP)
+* DNS over HTTPS (HTTP3) is now on all server in BETA stage. (port 443 UDP)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
