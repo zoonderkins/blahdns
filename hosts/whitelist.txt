@@ -1,6 +1,10 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Apple OCSP
+ocsp.apple.com
+ocsp2.apple.com
+
 # mihoyo.com
 log-upload-os.mihoyo.com
 
