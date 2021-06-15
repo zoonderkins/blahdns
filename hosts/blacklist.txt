@@ -104,10 +104,10 @@ kinesis.us-east-1.amazonaws.com
 self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
 
 ## Apple 
-ocsp.apple.com # Apple being evil, phone home, https://blog.jacopo.io/en/post/apple-ocsp/ & https://www.reddit.com/r/pihole/comments/jt3wyq/pihole_saves_the_day_ocspapplecom_outage/
-ocsp2.apple.com
-ocsp2.g.applimg.com
-ocsp.g.applimg.com
+#ocsp.apple.com # Apple being evil, phone home, https://blog.jacopo.io/en/post/apple-ocsp/ & https://www.reddit.com/r/pihole/comments/jt3wyq/pihole_saves_the_day_ocspapplecom_outage/
+o#csp2.apple.com
+#ocsp2.g.applimg.com
+#ocsp.g.applimg.com
 
 cu-cn-north00002.gala.convection.cn # Bogus upload in China (iPhone)
 cu-cn-north00001.gala.convection.cn 
