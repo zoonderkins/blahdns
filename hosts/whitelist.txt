@@ -290,6 +290,7 @@ statcounter.com
 www.statcounter.com
 
 # Xiaomi
+au.ff.avast.sec.miui.com # Xiaomi security app
 zhuti.xiaomi.com
 fr.app.chat.global.xiaomi.net
 metok-ccc.intl.xiaomi.com
