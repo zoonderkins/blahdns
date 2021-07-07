@@ -3,11 +3,11 @@
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  <br> Around 45 EUR per month 
+  <br> Around 60 EUR per month 
 </p> 
 
 ## Announcements
-* DNS over HTTPS (HTTP3) is now on all server in BETA stage. (port 443 UDP)
+
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
@@ -61,6 +61,7 @@ Server (Switzerland, Germany, Finland, Japan, Singapore)
 |-- Dnsdist (cache, loadbalance)
 |   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443)
 |   |   |-- Dnsproxy (DoQ, port 784)
+|   |-- DoH/http3 (port 443/udp)
 |   |-- doh-server (DoH, GET, POST -- m13253)
 |   |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
 |-- DoT (HAProxy, port 853, TLS 1.3, require SNI)
