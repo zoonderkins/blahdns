@@ -3,7 +3,7 @@
 <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  <br> Around 60 EUR per month 
+  <br> Around 65 EUR per month 
 </p> 
 
 ## Announcements
@@ -19,7 +19,7 @@
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
 * Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
-## DoH CDN
+## DoH CDN (provider: bunny.net)
 
 ```
 https://doh1.blahdns.com/uncensor 
@@ -28,7 +28,10 @@ https://doh1.blahdns.com/dns-query (censored)
 https://doh2.blahdns.com/dns-query (censored)
 ```
 
-## Curl with DoH for testing purpose
+## DNS-over-HTTPS example 
+
+`curl` DNS-over-HTTP/2 TCP
+
 ```
 // Censored 
 curl --doh-url https://doh-jp.blahdns.com/dns-query https://ssl.google-analytics.com
@@ -44,6 +47,43 @@ curl --doh-url https://doh-jp.blahdns.com/uncensor https://ssl.google-analytics.
 The document has moved
 <A HREF="https://www.google.com/analytics/">here</A>.
 </BODY></HTML>
+```
+
+`curl` DNS-over-HTTP/3 UDP with QUIC protocol example on Mac OSX 
+
+```
+curl --http3 -H 'accept: application/dns-message' -v 'https://doh-jp.blahdns.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 139.162.112.47:443...
+* Connect socket 5 over QUIC to 139.162.112.47:443
+* Sent QUIC client Initial, ALPN: h3,h3-29,h3-28,h3-27
+* Connected to doh-jp.blahdns.com () port 443 (#0)
+* h3 [:method: GET]
+* h3 [:path: /dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB]
+* h3 [:scheme: https]
+* h3 [:authority: doh-jp.blahdns.com]
+* h3 [user-agent: curl/7.78.0-DEV]
+* h3 [accept: application/dns-message]
+* Using HTTP/3 Stream ID: 0 (easy handle 0x7f9e6e00c200)
+> GET /dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB HTTP/3
+> Host: doh-jp.blahdns.com
+> user-agent: curl/7.78.0-DEV
+> accept: application/dns-message
+>
+< HTTP/3 200
+< content-type: application/dns-message
+<
+{ [75 bytes data]
+100    75    0    75    0     0    326      0 --:--:-- --:--:-- --:--:--   331
+* Connection #0 to host doh-jp.blahdns.com left intact
+00000000  ab cd 81 a0 00 01 00 01  00 00 00 01 03 77 77 77  |.............www|
+00000010  07 65 78 61 6d 70 6c 65  03 63 6f 6d 00 00 01 00  |.example.com....|
+00000020  01 03 77 77 77 07 65 78  61 6d 70 6c 65 03 63 6f  |..www.example.co|
+00000030  6d 00 00 01 00 01 00 00  34 a0 00 04 5d b8 d8 22  |m.......4...].."|
+00000040  00 00 29 10 00 00 00 80  00 00 00                 |..)........|
+0000004b
+
 ```
 
 ## How to setup / config DoH DoT Dnscrypt 👇
