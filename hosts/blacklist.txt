@@ -11,9 +11,6 @@ envyindebted.com
 audacitydipping.com
 derangemathsreply.com
 
-# Apple in-mail safebrowsing url check
-token.safebrowsing.apple
-safebrowsing.g.aaplimg.com
 
 # China Smart TV scan entire home wifi network and phone home
 # https://archive.is/x5CUC
@@ -27,7 +24,6 @@ upgrade.gz-data.com
 # Line Messenger Android 
 torimochi.line-apps.com
 uts-front.line-apps.com
-graph.instagram.com
 
 # Shareit App (Android https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps)
 # reported by: What-Zit-Tooya
