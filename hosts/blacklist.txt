@@ -506,3 +506,8 @@ picanalysis.vivo.com.cn
 ## Fraud chinese site
 wwtsg.xyz # fake chrome url let you download chrome.apk (Chinese)
 sfcxv.xyz # fake chrome url let you download chrome.apk (Chinese)
+
+## Google?
+adgoogle.net
+www.adgoogle.net
+clickserver.googleads.com
