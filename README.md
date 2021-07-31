@@ -1,6 +1,5 @@
- [![HitCount](http://hits.dwyl.io/ookangzheng/blahdns.svg)](http://hits.dwyl.io/ookangzheng/blahdns) 
- 
-<p align="center">
+
+ <p align="center">
   &nbsp;&nbsp;
   All donations are welcome and any amount of money will help me to maintain this project 🥰 
   <br> Around 65 EUR per month 
@@ -15,8 +14,8 @@
 
 * Block Trackers, Ads, Malwares
 * No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
-* Both trackers are blocked by default. 
-`data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com analytics.yahoo, doubleclick.net, hm.baidu.com, etc.. `
+* Here are blocked by default on BlahDNS service, dont ask for whitelist. 
+`data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com, analytics.yahoo, bugsnag, sentry, etc.. `
 * Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
 
 ## DoH CDN (provider: bunny.net)
