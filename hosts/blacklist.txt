@@ -57,6 +57,11 @@ widget.intercom.io
 analytics.pgncs.notion.so
 
 # Binance (Android)
+c.riskified.com
+stream.binance.me
+fstream.binance.me
+dstream.binance.me
+www.hanqiweb.co
 www.hanqiweb.red
 static-file-1259603563.file.myqcloud.com
 jpush.binance.im
