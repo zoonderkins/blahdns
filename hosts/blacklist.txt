@@ -149,6 +149,19 @@ toblog.ctobsnssdk.com.w.cdngslb.com
 track.adstack.co
 
 # Manhuaren.com - android comic app
+applog.uc.cn
+adsapi.manhuaren.com
+api.pubnative.net
+pangolin16.sgsnssdk.com
+check.rayjump.com
+lazy.rayjump.com
+pubnative.info
+ads.api.vungle.com
+policy.rayjump.com
+ad.sitemaji.com
+sf-tb-sg.ibytedtos.com
+logger.icolorfast.com
+bi.manhuaren.com
 setting.rayjump.com
 api.exc.mob.com
 ulogs.umeng.com
