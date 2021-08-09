@@ -132,6 +132,7 @@ f.shopee.sg
 cf.shopee.tw.whecloud.com
 tw.whecloud.com
 idfp.tongdun.net
+kingsoft34.s.llnwi.net
 
 # castbox.fm 
 # everest.castbox.fm (Too mush phone home
