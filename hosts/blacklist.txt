@@ -129,6 +129,9 @@ glassbox.aircanada.ca
 games.shopee.tw
 userstats.shopee.tw
 f.shopee.sg
+cf.shopee.tw.whecloud.com
+tw.whecloud.com
+idfp.tongdun.net
 
 # castbox.fm 
 # everest.castbox.fm (Too mush phone home
