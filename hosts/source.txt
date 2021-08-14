@@ -1,5 +1,6 @@
 
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
 https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 
@@ -27,8 +28,6 @@ https://raw.githubusercontent.com/joeylane/hosts/master/hosts
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/customblocklist
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 
 https://hostfiles.frogeye.fr/multiparty-only-trackers.txt
@@ -43,5 +42,4 @@ https://gitee.com/bigdataleaveme/dontcollectme/raw/master/dontcollectme.txt
 
 # CNAME cloaking
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
-https://adzhosts.eu/privacy/cname.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacyCNAME.txt
