@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+#CleanMyMac X
+api-lytics.macpaw.com
+
 # Agora.io
 report-edge.agora.io
 
