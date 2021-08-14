@@ -12,11 +12,12 @@
 
 ## Our features
 
-* Block Trackers, Ads, Malwares
+* Block Trackers, Ads, Malwares, Phishing
 * No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
-* Here are blocked by default on BlahDNS service, dont ask for whitelist. 
+* Here are blocked by default on BlahDNS
 `data.mob.com, google-analytics, googleadservices, amazon-adsystem, crashlytics.com, analytics.yahoo, bugsnag, sentry, etc.. `
 * Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
+* BlahDNS status [Status Page](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
 
 ## DoH CDN (provider: bunny.net)
 
@@ -88,8 +89,6 @@ curl --http3 -H 'accept: application/dns-message' -v 'https://doh-jp.blahdns.com
 ## How to setup / config DoH DoT Dnscrypt 👇
 Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
 
-## Server status
-* Server status [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
 
 ## Server architecture
 
