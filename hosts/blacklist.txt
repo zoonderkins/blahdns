@@ -315,6 +315,16 @@ wifi.ggsafe.com
 # 游族的公司投放页游广告
 v3m.youzu.com
 
+# Yahoo
+api.push.verizonmedia.com
+ads.yap.yahoo.com
+gemini.yahoo.com
+r.search.yahoo.com
+analytics.query.yahoo.com
+trk.vidible.tv
+bats.video.yahoo.com
+m.yap.yahoo.com
+
 # Unlisted
 adver7.clickmon.co.kr
 adver11.clickmon.co.kr
@@ -324,17 +334,9 @@ notify.zhushou.sogou.com
 i10c.net
 ad2iction.com
 adcl.pchome.com.tw
-ads.yap.yahoo.com
-appier.net
-appsflyer.com
-gemini.yahoo.com
-dable.io
 doublemax.net
 s.zimedia.com.tw
-popin.cc
-r.search.yahoo.com
 securegfm.com
-tenmax.io
 
 # Mostly Microsoft telemetry, spying smartTVs, IG/Facebook trackers, analytics, and mobile app analytics. Google Ads, Amazon Ads, and MoatAds
 mobiledataplansharing.googleapis.com
