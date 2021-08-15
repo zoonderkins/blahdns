@@ -1,12 +1,14 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Google Photos
+people-pa.googleapis.com
+
 # Whitelist from user @What-Zit-Tooya
 pagead2.googlesyndication.com
 crunchyroll.adtrackers.net
 serve.adtrackers.net
 crunchyroll.bannertrack.net
-crunchyroll.adnetasia.com
 cst.cstwpush.com
 yahoo.adnetasia.com
 
