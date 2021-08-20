@@ -310,6 +310,8 @@ www.statcounter.com
 
 # Xiaomi
 au.ff.avast.sec.miui.com # Xiaomi security app
+update.miui.com
+connect.rom.miui.com # captive_portal
 zhuti.xiaomi.com
 fr.app.chat.global.xiaomi.net
 metok-ccc.intl.xiaomi.com
