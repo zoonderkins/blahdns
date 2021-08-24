@@ -5,17 +5,17 @@ force_tcp = false
 timeout = 3000
 keepalive = 30
 
-# Load-balancing strategy: 'p2' (default), 'ph', 'fastest' or 'random'
 lb_strategy = 'p2'
-fallback_resolver = '9.9.9.9:53'
+bootstrap_resolvers = '1.0.0.2:53'
+# This has been changed from client version 2.1.0
 ignore_system_dns = true
 netprobe_timeout = 30
-cache = false
+cache = true
 cache_size = 512
-cache_min_ttl = 90
-cache_max_ttl = 1800
+cache_min_ttl = 60
+cache_max_ttl = 900
 cache_neg_min_ttl = 10
-cache_neg_max_ttl = 90
+cache_neg_max_ttl = 300
 
 [static]
 ## Publickey: 5384E8144314293E56DD1B140A1EF172AD47BDBA1799C8957294953D034EB5C7
