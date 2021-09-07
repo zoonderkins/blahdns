@@ -11,6 +11,9 @@ ws-eu.pusher.com
 # Ethermine.org (found on GoodbyeAds)
 ethermine.org
 
+# Google GCP
+pubsub.googleapis.com
+
 # Google Photos
 people-pa.googleapis.com
 
