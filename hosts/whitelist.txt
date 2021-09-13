@@ -1071,6 +1071,7 @@ redsky.target.com # target.com
 profile.target.com # target.com
 e1151.e12.akamaiedge.net
 money.yandex.ru
+avatars.mds.yandex.net
 down.sandai.net
 google.qualtrics.com
 cf.hamreus.com
