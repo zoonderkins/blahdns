@@ -37,6 +37,7 @@ https://phishing.army/download/phishing_army_blocklist_extended.txt
 http://npc.0am.jp/hosts.php?dl=1
 https://abp.oisd.nl/
 https://gitee.com/bigdataleaveme/dontcollectme/raw/master/dontcollectme.txt
+https://warui.intaa.net/adhosts/hosts.txt
 
 # CNAME cloaking
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
