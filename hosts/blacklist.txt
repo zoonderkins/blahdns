@@ -500,10 +500,12 @@ m.zhaibei112.top
 www.khlgauqt2000.com
 m.fexiaen.com
 e.oul78c.cn
+logger.suibyuming.com
+
+# Ireader Android app
 abs.ireaderm.net
 api.ireaderm.net
-app.adjust.com
-logger.suibyuming.com
+sys.ireaderm.net 
 
 # Report from user 
 ## by Eden
