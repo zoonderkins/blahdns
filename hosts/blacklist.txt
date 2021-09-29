@@ -541,3 +541,14 @@ sfcxv.xyz # fake chrome url let you download chrome.apk (Chinese)
 adgoogle.net
 www.adgoogle.net
 clickserver.googleads.com
+
+## Crowdstrike
+ts01-gyr-maverick.cloudsink.net 
+
+## Jamf spyware
+a3bwx220ks5p1x-ats.iot.ap-northeast-1.amazonaws.com
+prod-apne1-jamf-jpt-configs.s3.amazonaws.com
+prod-apne1-jamf-jpt-configs.s3.amazonaws.com
+shared-jamf-jpt-generic-packages.s3.amazonaws.com
+a3bwx220ks5p1x-ats.iot.ap-northeast-1.amazonaws.com
+jamfcloud.com
