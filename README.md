@@ -7,7 +7,7 @@
 
 ## Announcements
 
-* Let's Encrypt Root X1 has been expired, all Servers SSL CA provider has been switch to ZeroSSL. [more_information](https://community.letsencrypt.org/t/android-devices-with-dot-configured-interaction-with-new-default-chain/161020/13)
+* Let's Encrypt DST Root CA X3 has been expired, all Servers SSL CA provider has been switch to ZeroSSL. [more_information](https://community.letsencrypt.org/t/android-devices-with-dot-configured-interaction-with-new-default-chain/161020/13)
 * iOS 14 and Big Sur native DoT / DoH config file, check out [https://encrypted-dns.party/](https://encrypted-dns.party/) | Credit to: [@nitrohorse](https://gitlab.com/nitrohorse/ios14-encrypted-dns-mobileconfigs/-/tree/master)
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
