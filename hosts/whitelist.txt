@@ -1073,6 +1073,8 @@ e1151.e12.akamaiedge.net
 money.yandex.ru
 avatars.mds.yandex.net
 storage.mds.yandex.net
+clck.yandex.ru
+r.mail.ru
 down.sandai.net
 google.qualtrics.com
 cf.hamreus.com
