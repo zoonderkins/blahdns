@@ -10,6 +10,8 @@ ws-eu.pusher.com
 
 # Ethermine.org (found on GoodbyeAds)
 ethermine.org
+unmineable.com
+2miners.com
 
 # Google GCP
 pubsub.googleapis.com
