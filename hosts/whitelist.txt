@@ -8,8 +8,10 @@ media-expl1.licdn.com # Linkedin app avatar
 # Wirex.com
 ws-eu.pusher.com
 
-# Ethermine.org (found on GoodbyeAds)
+# Respectable Crypto
 ethermine.org
+unmineable.com
+2miners.com
 
 # Google GCP
 pubsub.googleapis.com
