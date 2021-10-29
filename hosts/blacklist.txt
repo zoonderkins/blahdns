@@ -1,7 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
-#CleanMyMac X
+# Etoro
+apptest.etoro.com
+prod-clientlogs-w.westeurope.cloudapp.azure.com
+prod-client-logs.trafficmanager.net
+x8o64ufr-ios.mobile-messenger.intercom.com
+
+# CleanMyMac X
 api-lytics.macpaw.com
 
 # Agora.io
