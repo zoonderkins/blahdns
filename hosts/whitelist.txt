@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Clickhouse
+clickhouse.com
+
 # Linkedin
 media-expl1.licdn.com # Linkedin app avatar 
 2-01-2c3e-005c.cdx.cedexis.net # CNAME
