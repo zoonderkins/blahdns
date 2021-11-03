@@ -48,6 +48,12 @@ log-upload-os.mihoyo.com
 # QQ Lemon
 guanjia.qq.com
 
+# Wei Xin IM
+shminorshort.weixin.qq.com
+minorshort.weixin.qq.com # Will break user unable to join group
+support.weixin.qq.com
+weixin.qq.com
+
 # valimail.com 
 see.valimail.com
 valimail.actonservice.com
