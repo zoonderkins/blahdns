@@ -625,12 +625,17 @@ error.facebook.com
 h.beta.facebook.com
 lookaside.facebook.com
 
+## Facebook 
+
+# Fb lite
 snaptu-mini.facebook.com # facebook lite
 snaptu-mini.c10r.facebook.com # facebook lite
 b-api.facebook.com # facebook lite / messenger lite login required
 b-graph.facebook.com # facebook lite / messenger lite login required
 rupload.facebook.com # tested on mobile messenger while sending voice clip
 api.facebook.com # needed while viewing previous voice clip on mobile messenger
+mqtt-mini.facebook.com
+
 graph.facebook.com # it may break login and developer tool
 scontent-ort2-2.xx.fbcdn.net
 scontent-nrt1-1.xx.fbcdn.net
@@ -644,7 +649,7 @@ ct-m-fbx.fbsbx.com
 z-m.facebook.com
 z-m.c10r.facebook.com
 lm.facebook.com
-m.facebookcom
+m.facebook.com
 static.xx.fbcdn.net
 cdn.fbsbx.com
 edge-chat.facebook.com
@@ -660,7 +665,6 @@ scontent.xx.fbcdn.net
 edge-mqtt.facebook.com # get online and showing messenger current online status
 star.c10r.facebook.com
 mqtt.c10r.facebook.com
-mqtt-mini.facebook.com
 
 # Mozilla
 detectportal.firefox.com # is used to detect captive portals on public wifi networks to be able to redirect you to their logon screen
