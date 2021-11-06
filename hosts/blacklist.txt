@@ -108,7 +108,6 @@ api-lytics.macpaw.com
 ## Udemy android 
 mobile-http-intake.logs.datadoghq.com
 crashlyticsreports-pa.googleapis.com
-kinesis.us-east-1.amazonaws.com
 
 ## Mozilla
 self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
@@ -223,6 +222,8 @@ click.dl-now.app
 adserver-prod-1937829349.us-east-2.elb.amazonaws.com
 cdn.krxd.net
 dz9qn8fh4jznm.cloudfront.net
+analyticsengine.s3.amazonaws.com
+affiliationjs.s3.amazonaws.com
 
 # 蘋果日報
 useg.nextdigital.com.hk
@@ -380,7 +381,6 @@ z.moatads.com
 settings.crashlytics.com
 v10.events.data.microsoft.com
 combine.urbanairship.com
-mads.amazon.com
 secure-dcr-cert.imrworldwide.com
 app.adjust.com
 graph.accountkit.com
