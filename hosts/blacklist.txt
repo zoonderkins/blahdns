@@ -73,20 +73,17 @@ dstream.binance.me
 www.hanqiweb.co
 www.hanqiweb.red
 static-file-1259603563.file.myqcloud.com
-jpush.binance.im
-nbstream.binance.com
-fstream.binance.com
 launchpad.binance.com
 report.binance.gg
 domain-config-1259603563.file.myqcloud.com
-report.binance.im
-sensors.binance.cloud
 goodusahost.cn
 www.goodusahost.cn
 hanqiweb.net
 www.hanqiweb.net
 shyqxxy.com
 www.shyqxxy.com
+log.bntrace.com
+www.bnappzh.com
 
 # hpplay.cn
 logu.hpplay.cn
