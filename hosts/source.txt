@@ -4,6 +4,7 @@ https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
 https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 
+https://gist.github.com/dieechtenilente/ad3fc9bacc205876b2e29dcb9043c8bc
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
