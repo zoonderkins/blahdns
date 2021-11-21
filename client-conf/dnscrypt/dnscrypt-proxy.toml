@@ -52,7 +52,7 @@ stamp = 'sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gt
 
 # Japan Dnscrypt
 [static.'blahdns-jp-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgLCAz2PFzVNRYXhHA20iDdgPe_YQ8wxXDbVcjKuiEb04bMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-jp-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
@@ -66,7 +66,7 @@ stamp = 'sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5z
 [static.'blahdns-de-dnscrypt-v4']
 stamp = 'sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
 [static.'blahdns-de-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
+stamp = 'sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgLCAz2PFzVNRYXhHA20iDdgPe_YQ8wxXDbVcjKuiEb04bMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 
 # Switzerland DoH
 [static.'blahdns-ch-doh']
