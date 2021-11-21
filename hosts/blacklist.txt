@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+www.365huo.xyz
+365huo.xyz
+
 # Etoro
 apptest.etoro.com
 prod-clientlogs-w.westeurope.cloudapp.azure.com
