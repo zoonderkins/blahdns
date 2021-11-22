@@ -1,25 +1,20 @@
-server_names = ['blahdns-jp-dnscrypt-v4']
+server_names = ['blahdns-tw1-dnscrypt','blahdns-jp-dnscrypt-v4']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 300
 force_tcp = false
-timeout = 3000
+timeout = 2000
 keepalive = 30
-
-lb_strategy = 'p2'
-bootstrap_resolvers = '1.0.0.2:53'
-# This has been changed from client version 2.1.0
+bootstrap_resolvers = ['1.1.1.2:53','8.8.8.8:53', '9.9.9.9:53']
 ignore_system_dns = true
 netprobe_timeout = 30
-cache = true
+cache = false
 cache_size = 512
-cache_min_ttl = 60
+cache_min_ttl = 30
 cache_max_ttl = 900
 cache_neg_min_ttl = 10
 cache_neg_max_ttl = 300
 
 [static]
-## Publickey: 5384E8144314293E56DD1B140A1EF172AD47BDBA1799C8957294953D034EB5C7
-
 # Singapore DoH
 [static.'blahdns-sg-doh']
 stamp = 'sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
