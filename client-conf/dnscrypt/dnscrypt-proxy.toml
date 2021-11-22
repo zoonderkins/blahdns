@@ -1,4 +1,4 @@
-server_names = ['blahdns-tw1-dnscrypt','blahdns-jp-dnscrypt-v4']
+server_names = ['blahdns-jp-dnscrypt-v4']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 300
 force_tcp = false
