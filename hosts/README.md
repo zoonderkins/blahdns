@@ -31,6 +31,13 @@
 6. [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat/): [Full adblock list](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt) | [Windows spyware / tracker list](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-spy.txt) | [Windows spyware extra list](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-extra.txt)
 
 ```
+https://airvpn.org/api/dns_lists/?code=air_malware&block=0.0.0.0&style=domains
+https://airvpn.org/api/dns_lists/?code=air_cryptojacking&block=0.0.0.0&style=domains
+https://airvpn.org/api/dns_lists/?code=air_ads&block=0.0.0.0&style=domains
+
+```
+
+```
 Thanks a lot as well to everyone creating the original lists I am compiling together.
 Origin source: https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt
 ```
