@@ -6,15 +6,27 @@
 
 ## Block list (may different from BlahDNS)
 
-* [domain only](https://oooo.b-cdn.net/blahdns/blahdns_domains.txt) `~25MB Dnscrypt`
+* [DonaminName](https://oooo.b-cdn.net/blahdns/blahdns_domains.txt) `DNSCrypt`
 
-* [BlahDNS rpz](https://oooo.b-cdn.net/blahdns/blahdns_rpz.txt) `~ 35M Knot, Bind9, Pdns`
+* [RPZ](https://oooo.b-cdn.net/blahdns/blahdns_rpz.txt) `Knot-resolver, Bind9, PowerDNS`
 
-* [BlahDNS host w Ipv4/v6](https://oooo.b-cdn.net/blahdns/blahdns_hosts.txt) `~ 60M, Desktop`
+* [Unbound](https://oooo.b-cdn.net/blahdns/blahdns_unbound.conf) 
 
-* [BlahDNS lite host w Ipv4](https://oooo.b-cdn.net/blahdns/lite_host.txt) `~ 12M, Mobile friendly`
+* [DNSmasq](https://oooo.b-cdn.net/blahdns/blahdns_dnsmasq.conf)
 
-* [BlahDNS lite adblocker](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) `~ 10M Adguard, uBlock`
+* [Adguard Home](https://oooo.b-cdn.net/blahdns/blahdns_unbound.conf)
+
+* [SmartDNS](https://oooo.b-cdn.net/blahdns/blahdns_smartdns.conf)
+
+* [Clash](https://oooo.b-cdn.net/blahdns/blahdns_clash.yaml)
+
+* [Surge](https://oooo.b-cdn.net/blahdns/surge.txt)
+
+* [BlahDNS host w Ipv4/v6](https://oooo.b-cdn.net/blahdns/blahdns_adguardhome.txt)
+
+* [lite host w Ipv4](https://oooo.b-cdn.net/blahdns/lite_host.txt) `~ 5.5MB, Mobile friendly`
+
+* [lite adblocker](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) `~ 5MB Adguard, uBlock`
 
 * Mobile Adblock clients: [Adhell](https://play.google.com/store/apps/details?id=com.getadhell.androidapp&hl=en_US) | [Blokada](https://github.com/blokadaorg/blokada) | [DNSCloak(ios)](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351) | [DNS66](https://github.com/julian-klode/dns66) | [pDNSf](https://zenz-solutions.de/personaldnsfilter) | [Nebulo](https://github.com/Ch4t4r/Nebulo) | [RethinkDNS + Firewall](https://github.com/celzero/rethink-app)
 
