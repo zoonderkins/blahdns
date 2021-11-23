@@ -1,6 +1,11 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Mailjet Short url for Email tracking 
+xqqyu.mjt.lu
+mjt.lu
+mljt.tech
+
 # a.run.app
 auth-relay-pqj6ndd4jq-uc.a.run.app
 a.run.app
