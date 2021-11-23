@@ -6,7 +6,6 @@ https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 
 https://gist.githubusercontent.com/dieechtenilente/ad3fc9bacc205876b2e29dcb9043c8bc/raw/946b18ef170fa028067d8a3f135fe6c06ec30fa6/pihole.list
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
@@ -36,9 +35,10 @@ https://orca.pet/notonmyshift/domains.txt
 https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 http://npc.0am.jp/hosts.php?dl=1
-https://abp.oisd.nl/
+https://abp.oisd.nl/basic
 https://gitee.com/bigdataleaveme/dontcollectme/raw/master/dontcollectme.txt
 https://warui.intaa.net/adhosts/hosts.txt
+https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
 
 # CNAME cloaking
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
