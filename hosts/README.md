@@ -18,8 +18,6 @@
 
 * [SmartDNS](https://oooo.b-cdn.net/blahdns/blahdns_smartdns.conf)
 
-* [Clash](https://oooo.b-cdn.net/blahdns/blahdns_clash.yaml)
-
 * [Surge](https://oooo.b-cdn.net/blahdns/blahdns_surge.txt)
 
 * [BlahDNS host w Ipv4/v6](https://oooo.b-cdn.net/blahdns/blahdns_adguardhome.txt)
