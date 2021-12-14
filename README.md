@@ -7,7 +7,6 @@
 
 ## Announcements
 
-* I plan to buy non American SSL CA provider. 
 * Let's Encrypt DST Root CA X3 has been expired, all Servers SSL CA provider has been switch to ZeroSSL. [more_information](https://community.letsencrypt.org/t/android-devices-with-dot-configured-interaction-with-new-default-chain/161020/13)
 
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
