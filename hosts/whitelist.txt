@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Crypto.com app customer support
+ruozuwky-android.mobile-messenger.intercom.com
+
 # svmaudio.com
 k8s-jena.schneevonmorgen.com
 
