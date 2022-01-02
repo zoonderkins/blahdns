@@ -1,6 +1,10 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Tunein 
+traffic.megaphone.fm # stream fix
+traffic.eks.megaphone.cloud
+
 # Crypto.com app customer support
 ruozuwky-android.mobile-messenger.intercom.com
 
