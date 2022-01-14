@@ -1,8 +1,9 @@
 
  <p align="center">
   &nbsp;&nbsp;
-  All donations are welcome and any amount of money will help me to maintain this project 🥰 
-  <br> Around 100 EUR per month 
+  <br> All donations are welcome and any amount of money will help me to maintain this project 🥰 
+  <br> If you feel BlahDNS project is helpful pls consider to support this project.
+  <br> URGENT !! Need around USD 350 for server renting fees during Februray 2022. !!
 </p> 
 
 ## Announcements
