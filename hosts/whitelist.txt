@@ -1,6 +1,10 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Jeuxvideo.com french video game site @lgianina
+jvc.gg
+static.jvc.gg
+
 # Pionex user login bot test
 api.geetest.com
 
