@@ -4,6 +4,7 @@
 # Jeuxvideo.com french video game site @lgianina
 jvc.gg
 static.jvc.gg
+sdk.privacy-center.org
 
 # Pionex user login bot test
 api.geetest.com
