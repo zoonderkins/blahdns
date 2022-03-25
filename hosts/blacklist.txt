@@ -33,7 +33,6 @@ gzads.com
 gozendata.com
 gz-data.com
 service.gz-data.com
-upgrade.gz-data.com
 
 # Line Messenger Android 
 torimochi.line-apps.com
@@ -79,11 +78,9 @@ launchpad.binance.com
 report.binance.gg
 domain-config-1259603563.file.myqcloud.com
 goodusahost.cn
-www.goodusahost.cn
 hanqiweb.net
 www.hanqiweb.net
 shyqxxy.com
-www.shyqxxy.com
 log.bntrace.com
 www.bnappzh.com
 
@@ -128,7 +125,6 @@ widget.uservoice.com
 appstatico.electronic.us
 
 # Glassbox screen record
-report-anf.glassboxcloud.com
 glassbox.aircanada.ca
 
 # Shopee.tw
@@ -176,17 +172,14 @@ net.rayjump.com
 sdk.adtiming.com
 plbslog.umeng.com
 f.gm.mob.com
-logger.c1oudmobi.net
 tkup.uparpu.com
 searchhtt.com
-api.c1oudmobi.net
 api.icolorfast.com
 uparpu.com
 api.uparpu.com
 daup.uparpu.com
 tkup.uparpu.com
 bi.manhuaren.com
-video.manhuaren.com
 
 # luckyorange.net -- Dynamic web recording user heat map and behaviour
 settings.luckyorange.net # https://www.editage.com.tw/inquire.html use it to track user
@@ -205,7 +198,6 @@ clk.cpi.leapmobs.com
 analytics.samsungknox.com
 
 # Vizio.com 
-rlog_sem.vizio.com #https://www.reddit.com/r/pihole/comments/aytpge/excessive_dns_queries_to_rlog_semviziocom/
 
 # www.bostonglobe.com
 meter.bostonglobe.com
@@ -256,7 +248,6 @@ wpad.example.com
 discuz.gtimg.cn
 hao.360.cn
 ip.ia22.com
-l.ad4.com.cn
 log.sina.cn
 log.tbs.qq.com
 main.exoclick.com
@@ -307,7 +298,6 @@ wahaha.work
 notify.zhushou.sogou.com
 i10c.net
 ad2iction.com
-adcl.pchome.com.tw
 doublemax.net
 s.zimedia.com.tw
 securegfm.com
@@ -337,11 +327,9 @@ ssl.google-analytics.com
 video-stats.l.google.com
 # cdn-content.ampproject.org
 googleads.g.doubleclick.net
-e.crashlytics.com
 www.googleadservices.com
 nexus.officeapps.live.com
 z.moatads.com
-settings.crashlytics.com
 v10.events.data.microsoft.com
 combine.urbanairship.com
 secure-dcr-cert.imrworldwide.com
@@ -350,12 +338,10 @@ graph.accountkit.com
 pagead2.googlesyndication.com
 pubads.g.doubleclick.net
 secure-dcr.imrworldwide.com
-reports.crashlytics.com
 watson.telemetry.microsoft.com
 control2.tvinteractive.tv
 i10c.net
 ad2iction.com
-adcl.pchome.com.tw
 ads.yap.yahoo.com
 appier.net
 appsflyer.com
@@ -383,17 +369,9 @@ ads.exdynsrv.com
 bj1110.online
 wpad.example.com
 2ip.ru
-sky.2ip.ru
 syndication.twitter.com
 sp2.baidu.com
-m.henxg.cn
-m.lsiwd.cn
-photo.0234408.cn
 # staticxx.facebook.com
-photo.yingtaiboli.cn
-yingtaiboli.cn
-m.syxsa.cn
-m.sdfvk.cn
 
 # Akamai DNS tools
 # https://developer.akamai.com/blog/2018/05/10/introducing-new-whoami-tool-dns-resolver-information
@@ -403,18 +381,13 @@ m.sdfvk.cn
 log.quora.com
 count-server.sharethis.com
 data.sharethis.com
-ead.sharethis.com
 edge.sharethis.com
-emu.sharethis.com
-engineering.sharethis.com
-kiwi.sharethis.com
 l.sharethis.com
 platform-api.sharethis.com
 px.sharethis.com
 pxcel.sharethis.com
 rest.sharethis.com
 s.sharethis.com
-sad.sharethis.com
 sd.sharethis.com
 seg.sharethis.com
 t.sharethis.com
@@ -429,13 +402,9 @@ my.trackjs.com
 usage.trackjs.com
 trackjs.com
 hcs084epsepa004.som.ad.state.mi.us
-mx-gw.floraa.wales
-bv4p.xgx3f3588.com
-xgx3f3588.com
 a9v8.cn
 c.y.qq.com
 play.aniview.com
-ssp.lkgd.net
 ads.stickyadstv.com
 algovid.com
 ssp.streamrail.net
@@ -445,30 +414,19 @@ predictionai.com
 duologinsupersdk.ewan.cn
 engagethepower.org
 analytics.localytics.com
-dr.sg.baidu.com
 useg.nextdigital.com.hk
 lptag.liveperson.net
 imp.appledaily.com
 meter.bostonglobe.com
 dz9qn8fh4jznm.cloudfront.net
-rlog_sem.vizio.com
 analytics.samsungknox.com
 clk.cpi.leapmobs.com
 a6709203f34992a5095d2bc7ceaf2ec504f651a8.cws.conviva.com
 lap-click.tr.line.me
 vj.quanjingpay.com
 www.r1oman.com
-kenzz9.xyz
-m.bchchk.cn
-m.drrcns.cn
-drrcns.cn
-api.zhy333.com
 m.yyfymj.com
 m.bihutg.com
-m.zhaibei112.top
-www.khlgauqt2000.com
-m.fexiaen.com
-e.oul78c.cn
 logger.suibyuming.com
 
 # Ireader Android app
@@ -480,9 +438,7 @@ sys.ireaderm.net
 ## by Eden
 appgiftwall.oss-us-west-1.aliyuncs.com
 www.bjhdrx.com
-www.qcoldtui1999.com
 www.victory1999.com
-www.tuigang1999.com
 dartmotif.net
 ssv.admost.com
 mobile.admost.com
