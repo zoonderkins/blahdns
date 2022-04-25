@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Email tracking moengage.com
+api-02.moengage.com
+
 # goplay.be
 message.sp-prod.net # Cname viervijf-be.goplay.be
 
