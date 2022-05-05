@@ -6,6 +6,7 @@
 
 ## Announcements
 
+* Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Temporary disable uncensored and CDN DoH, will spin another machine to handle those request
 
@@ -26,7 +27,7 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 ```bash
 Server (Switzerland, Germany, Finland, Japan, Singapore)
 
-|-- Knot-resolver (DNS resolver, OpenNIC, ICANN, Yggdrasil, ETH, Cache)
+|-- Knot-resolver (DNS resolver, OpenNIC, ICANN, Alfis)
 |-- Dnsdist (cache)
 |   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443)
 |   |   |-- Dnsproxy (DoQ, port 784)
