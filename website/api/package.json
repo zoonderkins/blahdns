@@ -24,6 +24,6 @@
   "dependencies": {
     "abort-controller": "^2.0.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.18.1"
   }
 }
