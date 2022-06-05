@@ -48,6 +48,7 @@ gz-data.com
 service.gz-data.com
 
 # Line Messenger iOS/Android
+relay-sentry-fp.line-apps.com
 sentry-uit.line-apps.com
 sentry-tw.line-apps.com
 legy-jp-addr.line.naver.jp
