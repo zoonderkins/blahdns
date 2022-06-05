@@ -48,6 +48,7 @@ gz-data.com
 service.gz-data.com
 
 # Line Messenger iOS/Android
+sentry-uit.line-apps.com
 sentry-tw.line-apps.com
 legy-jp-addr.line.naver.jp
 # gw.line.naver.jp # will break line pay, line points
