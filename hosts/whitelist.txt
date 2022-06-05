@@ -89,8 +89,8 @@ platform.sharethis.com
 wownero.herominers.com
 
 # Apple OCSP
-ocsp.apple.com
-ocsp2.apple.com
+#ocsp.apple.com
+#ocsp2.apple.com
 token.safebrowsing.apple
 safebrowsing.g.aaplimg.com
 
