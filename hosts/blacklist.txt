@@ -1,6 +1,10 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Shopback
+mobileapi.usebutton.com
+usebutton.com
+
 # Instagram
 graph.instagram.com
 geo.instagram.com
