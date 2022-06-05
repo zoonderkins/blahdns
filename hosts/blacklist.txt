@@ -1,6 +1,14 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Instagram
+graph.instagram.com
+geo.instagram.com
+
+# boosters.company
+api.panda.boosters.company
+
+# Baidu
 dusee.baidu.com
 
 # Apecoin
@@ -39,7 +47,14 @@ gozendata.com
 gz-data.com
 service.gz-data.com
 
-# Line Messenger Android 
+# Line Messenger iOS/Android
+sentry-tw.line-apps.com
+legy-jp-addr.line.naver.jp
+gw.line.naver.jp
+nelo2-col.linecorp.com
+crs-event.line.me
+line-apps.com
+ingress-public.brown.line-apps.com
 torimochi.line-apps.com
 uts-front.line-apps.com
 
@@ -116,8 +131,9 @@ self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
 ## Apple 
 #ocsp.apple.com # Apple being evil, phone home, https://blog.jacopo.io/en/post/apple-ocsp/ & https://www.reddit.com/r/pihole/comments/jt3wyq/pihole_saves_the_day_ocspapplecom_outage/
 #ocsp2.apple.com
-#ocsp2.g.applimg.com
-#ocsp.g.applimg.com
+ocsp2.g.applimg.com
+ocsp.g.applimg.com
+amp-api-edge.apps.apple.com
 #cu-cn-north00002.gala.convection.cn # https://github.com/StevenBlack/hosts/pull/1643#issuecomment-962885895
 #cu-cn-north00001.gala.convection.cn # https://github.com/StevenBlack/hosts/pull/1643#issuecomment-962885895
 
@@ -322,15 +338,10 @@ ichnaea.netflix.com
 mss.handmark.com
 scribe.logs.roku.com
 cooper.logs.roku.com
-e.reddit.com
 mobile.pipe.aria.microsoft.com
 cdn.samsungcloudsolution.com
 mobile-collector.newrelic.com
 log-ingestion.samsungacr.com
-graph.instagram.com
-ssl.google-analytics.com
-video-stats.l.google.com
-# cdn-content.ampproject.org
 googleads.g.doubleclick.net
 www.googleadservices.com
 nexus.officeapps.live.com
