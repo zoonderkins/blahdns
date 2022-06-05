@@ -50,10 +50,9 @@ service.gz-data.com
 # Line Messenger iOS/Android
 sentry-tw.line-apps.com
 legy-jp-addr.line.naver.jp
-gw.line.naver.jp
+# gw.line.naver.jp # will break line pay, line points
 nelo2-col.linecorp.com
 crs-event.line.me
-line-apps.com
 ingress-public.brown.line-apps.com
 torimochi.line-apps.com
 uts-front.line-apps.com
