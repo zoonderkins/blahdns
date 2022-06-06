@@ -139,7 +139,6 @@ self-repair.mozilla.org # https://spyware.neocities.org/articles/firefox.html
 #ocsp2.apple.com
 ocsp2.g.applimg.com
 ocsp.g.applimg.com
-amp-api-edge.apps.apple.com
 #cu-cn-north00002.gala.convection.cn # https://github.com/StevenBlack/hosts/pull/1643#issuecomment-962885895
 #cu-cn-north00001.gala.convection.cn # https://github.com/StevenBlack/hosts/pull/1643#issuecomment-962885895
 
