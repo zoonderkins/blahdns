@@ -56,7 +56,7 @@ icp-logs.line.me
 relay-sentry-fp.line-apps.com
 sentry-uit.line-apps.com
 sentry-tw.line-apps.com
-legy-jp-addr.line.naver.jp
+# legy-jp-addr.line.naver.jp
 # gw.line.naver.jp # will break line pay, line points
 # nelo2-col.linecorp.com # break line message loading
 crs-event.line.me
