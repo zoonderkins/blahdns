@@ -1,6 +1,9 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Fathom
+usefathom.com
+
 # Flex
 click.justwatch.com
 
