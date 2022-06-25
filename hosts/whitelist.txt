@@ -108,8 +108,10 @@ wownero.herominers.com
 # Apple OCSP
 #ocsp.apple.com
 #ocsp2.apple.com
-token.safebrowsing.apple
-safebrowsing.g.aaplimg.com
+amp-api-edge.apps.apple.com
+amp-api-edge.apps.apple.com.edgekey.net
+#token.safebrowsing.apple
+#safebrowsing.g.aaplimg.com
 
 # mihoyo.com
 log-upload-os.mihoyo.com
