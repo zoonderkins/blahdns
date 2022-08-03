@@ -1,6 +1,24 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# UnityAd
+ws.tapjoyads.com
+configv2.unityads.unity3d.com
+init.supersonicads.com
+teleport.soom.la
+networksdk.ssacdn.com
+api.vungle.com
+int.akisinn.site
+connect.tapjoy.com
+pm-gateway.supersonicads.com
+publisher-config.unityads.unity3d.com
+events.mz.unity3d.com
+auction-load.unityads.unity3d.com
+nginx-auction7-prd.unityads.unity3d.com
+auiopt.unityads.unity3d.com
+cdn2.inner-active.mobi
+cdn-creatives-akamaistls-prd.acquire.unity3dusercontent.com
+
 # Wondershare
 www.98w.com
 98w.com
