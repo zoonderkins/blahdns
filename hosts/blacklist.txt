@@ -1,6 +1,12 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Camscanner App Ios
+inapps.appsflyer-cn.com
+sf3-fe-tos.pglstatp-toutiao.com
+skadsdk.appsflyer-cn.com
+firebase-settings.crashlytics.com
+
 # UnityAd
 ws.tapjoyads.com
 configv2.unityads.unity3d.com
@@ -296,12 +302,17 @@ static.youappi.com
 # CERT Vulnerability (#598349)
 wpad.example.com 
 
+# QQ.com
+tpstelemetry.tencent.com
+access.toggle.qq.com
+event.toggle.qq.com
+log.tbs.qq.com
+
 # Chinese tracker
 discuz.gtimg.cn
 hao.360.cn
 ip.ia22.com
 log.sina.cn
-log.tbs.qq.com
 main.exoclick.com
 mathtype.cn
 sa.tuisong.baidu.com
@@ -415,10 +426,8 @@ sb.scorecardresearch.com
 ads.exdynsrv.com
 bj1110.online
 wpad.example.com
-2ip.ru
 syndication.twitter.com
 sp2.baidu.com
-# staticxx.facebook.com
 
 # Akamai DNS tools
 # https://developer.akamai.com/blog/2018/05/10/introducing-new-whoami-tool-dns-resolver-information
@@ -450,7 +459,6 @@ usage.trackjs.com
 trackjs.com
 hcs084epsepa004.som.ad.state.mi.us
 a9v8.cn
-c.y.qq.com
 play.aniview.com
 ads.stickyadstv.com
 algovid.com
