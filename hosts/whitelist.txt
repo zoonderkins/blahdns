@@ -1,6 +1,8 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Fraud protection
+telephonyspamprotect-pa.googleapis.com
 # Antutu.com
 www.antutu.com.bsgslb.cn 
 zcmglobal.v.bsgslb.cn
