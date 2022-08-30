@@ -3,6 +3,8 @@
 
 # Fraud protection
 telephonyspamprotect-pa.googleapis.com
+device-provisioning.googleapis.com
+
 # Antutu.com
 www.antutu.com.bsgslb.cn 
 zcmglobal.v.bsgslb.cn
