@@ -1,6 +1,8 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+tag.aticdn.net
+
 # CDN
 cn.wswebcdn.com
 
