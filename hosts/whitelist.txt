@@ -924,6 +924,7 @@ github.hubspot.com
 hubspot.com
 
 # Apple
+amp-api-search-edge.apps.apple.com # App store app search
 dzc-metrics.mzstatic.com # Itunes desktop sync
 iadsdk.apple.com
 cf.iadsdk.apple.com
