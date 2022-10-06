@@ -13,7 +13,6 @@ jp-col-tcp.nelo.linecorp.com
 api.today.line.me
 cac-obs-line-scdn.net.line-zero.akadns.net
 e6555.a.akamaiedge.net
-e673.dscx.akamaiedge.net
 e3998.dscv.akamaiedge.net
 
 # Taiwan Covid Scam
