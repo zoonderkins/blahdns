@@ -11,8 +11,6 @@ liffsdk.line-scdn.net
 ios.rqd.qq.com
 api.today.line.me
 cac-obs-line-scdn.net.line-zero.akadns.net
-e6555.a.akamaiedge.net
-e3998.dscv.akamaiedge.net
 
 # Taiwan Covid Scam
 www.gsmgov.com
