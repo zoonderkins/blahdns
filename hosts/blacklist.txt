@@ -9,7 +9,6 @@ asia-east2-cresclab.cloudfunctions.net
 cdn.maac.app
 liffsdk.line-scdn.net
 ios.rqd.qq.com
-jp-col-tcp.nelo.linecorp.com
 api.today.line.me
 cac-obs-line-scdn.net.line-zero.akadns.net
 e6555.a.akamaiedge.net
