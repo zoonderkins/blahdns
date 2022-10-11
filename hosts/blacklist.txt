@@ -7,9 +7,7 @@
 # Feedback needed (Android Too)
 asia-east2-cresclab.cloudfunctions.net
 cdn.maac.app
-liffsdk.line-scdn.net
 ios.rqd.qq.com
-api.today.line.me
 cac-obs-line-scdn.net.line-zero.akadns.net
 sentry.line.dev
 sentry-tw.line-apps.com
