@@ -11,6 +11,12 @@ liffsdk.line-scdn.net
 ios.rqd.qq.com
 api.today.line.me
 cac-obs-line-scdn.net.line-zero.akadns.net
+sentry.line.dev
+sentry-tw.line-apps.com
+maac.io
+
+# Third-party Line api 漸強實驗室Crescendo Lab
+cresclab.com
 
 # Taiwan Covid Scam
 www.gsmgov.com
