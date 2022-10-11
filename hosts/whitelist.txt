@@ -4,6 +4,8 @@
 # Line
 # Report ads website not loading
 liffsdk.line-scdn.net
+# Line chat official account bottom message select form content
+obs.line-scdn.net
 
 # 90min.com
 images2.minutemediacdn.com
