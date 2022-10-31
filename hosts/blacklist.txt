@@ -5,10 +5,9 @@
 # Block dancing or unhealthy video  (Line Voom)
 # Block Ads inside Line Today, also break picture (thumbnail)
 # Feedback needed (Android Too)
-asia-east2-cresclab.cloudfunctions.net
+
 cdn.maac.app
 ios.rqd.qq.com
-cac-obs-line-scdn.net.line-zero.akadns.net
 sentry.line.dev
 sentry-tw.line-apps.com
 maac.io
