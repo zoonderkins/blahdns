@@ -1,8 +1,8 @@
 ## Configuration details 
 
 **If you need uncensored DoH, please use `/uncensor` instead of `/dns-query`**
+
 ```
-https://doh-jp.blahdns.com/uncensor ( uncensor )
 https://doh-jp.blahdns.com/dns-query ( censored )
 ```
 
@@ -25,8 +25,8 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * https://doh-de.blahdns.com/dns-query
   * DNS-over-TLS: dot-de.blahdns.com, ports 853, 443
 
-- Japan 🇯🇵(DoT, DoH, Dnscrypt, DoQ), Provider: Linode
-  * IP: 139.162.112.47, 2400:8902::f03c:92ff:fe27:344b
+- Japan 🇯🇵(DoT, DoH, Dnscrypt, DoQ), Provider: HostHatch
+  * IP: 212.52.0.122, 2406:ef80:4:1537::1
   * DNS-over-QUIC: `quic://dot-jp.blahdns.com:784`
   * DNS-over-HTTPS: 
     * https://doh-jp.blahdns.com/dns-query
