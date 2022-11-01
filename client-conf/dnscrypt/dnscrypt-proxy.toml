@@ -41,15 +41,15 @@ stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMghROpa8Tgg0uV
 
 # Japan DoH
 [static.'blahdns-jp-doh']
-stamp = 'sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+stamp = 'sdns://AgMAAAAAAAAADDIxMi41Mi4wLjEyMgASZG9oLWpwLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
 [static.'blahdns-jp-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+stamp = 'sdns://AgMAAAAAAAAAFVsyNDA2OmVmODA6NDoxNTM3OjoxXQASZG9oLWpwLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
 
 # Japan Dnscrypt
 [static.'blahdns-jp-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAETIxMi41Mi4wLjEyMjo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 [static.'blahdns-jp-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAGlsyNDA2OmVmODA6NDoxNTM3OjoxXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 
 # Gearmany DoH
 [static.'blahdns-de-doh']
