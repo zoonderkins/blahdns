@@ -6,6 +6,7 @@
 
 ## Announcements
 
+* Japan server has been migrate to HostHatch. (2022-11-01)
 * Japan and Singapore region currently unstable due to network congestion. We try to migrate to other provider soon. (Infra donation needed) 
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
