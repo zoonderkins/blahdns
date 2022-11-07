@@ -32,8 +32,8 @@ https://doh-jp.blahdns.com/dns-query ( censored )
     * https://doh-jp.blahdns.com/dns-query
   * DNS-over-TLS: dot-jp.blahdns.com, ports 853, 443
 
-- Singapore 🇸🇬(DoT, DoH, Dnscrypt, DoQ), Provider: Linode
-  * IP: 192.53.175.149, 2400:8901::f03c:92ff:fe27:870a
+- Singapore 🇸🇬(DoT, DoH, Dnscrypt, DoQ), Provider: HostHatch
+  * IP: 103.167.150.45, 2406:ef80:2:5ee4::1
   * DNS-over-QUIC: `quic://dot-sg.blahdns.com:784`
   * DNS-over-HTTPS: 
     * https://doh-sg.blahdns.com/dns-query
