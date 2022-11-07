@@ -17,15 +17,15 @@ cache_neg_max_ttl = 300
 [static]
 # Singapore DoH
 [static.'blahdns-sg-doh']
-stamp = 'sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+stamp = 'sdns://AgMAAAAAAAAADjEwMy4xNjcuMTUwLjQ1ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
 [static.'blahdns-sg-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+stamp = 'sdns://AgMAAAAAAAAAFVsyNDA2OmVmODA6Mjo1ZWU0OjoxXQASZG9oLXNnLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
 
 # Singapore Dnscrypt
 [static.'blahdns-sg-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAEzEwMy4xNjcuMTUwLjQ1Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
 [static.'blahdns-sg-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+stamp = 'sdns://AQMAAAAAAAAAGlsyNDA2OmVmODA6Mjo1ZWU0OjoxXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 
 # Finland DoH
 [static.'blahdns-fi-doh']
