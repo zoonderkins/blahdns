@@ -6,10 +6,9 @@
 
 ## Announcements
 
+* Happy New Year 2023 ~
 * Singapore server has been migrate to HostHatch (2022-11-07)
 * Finland server will be discontinue at 2022-11-30 (Due to Hetzner price increase)
-* Japan server has been migrate to HostHatch. (2022-11-01)
-* Japan and Singapore region currently unstable due to network congestion. We try to migrate to other provider soon. (Infra donation needed) 
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 * Temporary disable uncensored and CDN DoH, will spin another machine to handle those request
