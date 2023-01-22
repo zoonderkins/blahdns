@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# optimizely.com
+logx.optimizely.com
+
 # Line iOS 
 # Block dancing or unhealthy video  (Line Voom)
 # Block Ads inside Line Today, also break picture (thumbnail)
