@@ -1,6 +1,16 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# torrentmac popup
+affelseaeinera.org
+my-entertainments.com
+num1search.xyz
+celebsporntube.xyz
+a-data.xyz
+crypto-currency-converter.com
+getsmartyapp.com
+www.getsmartyapp.com
+
 # optimizely.com
 logx.optimizely.com
 
