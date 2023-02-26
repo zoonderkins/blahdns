@@ -20,7 +20,6 @@ logx.optimizely.com
 # Block Ads inside Line Today, also break picture (thumbnail)
 # Feedback needed (Android Too)
 
-cdn.maac.app
 ios.rqd.qq.com
 sentry.line.dev
 sentry-tw.line-apps.com
