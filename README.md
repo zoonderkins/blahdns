@@ -6,6 +6,7 @@
 
 ## Announcements
 
+* DoH with Apple.com XD `curl -H 'content-type: application/dns-message' -vL -v 'https://doh.dns.apple.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C` 
 * Happy New Year 2023 ~
 * Singapore server has been migrate to HostHatch (2022-11-07)
 * Finland server will be discontinue at 2022-11-30 (Due to Hetzner price increase)
