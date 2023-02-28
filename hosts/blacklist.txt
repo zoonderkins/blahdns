@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# akaquill.net
+v1.akaquill.net
+
 # torrentmac popup
 drctcldfa.com
 affelseaeinera.org
