@@ -75,6 +75,7 @@ www.pcwatch.com
 eus-recoverit-data-collect.oss-us-west-1.aliyuncs.com
 api.300624.com
 analytics.wondershare.cc
+www.bugsplatsoftware.com
 
 # Shopback
 mobileapi.usebutton.com
