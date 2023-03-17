@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# ente.io
+sentry-reporter.ente.io
+
 # Autoking Navigator ios, android
 ad.localking.com.tw
 
