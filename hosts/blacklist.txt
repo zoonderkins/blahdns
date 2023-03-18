@@ -3,6 +3,9 @@
 
 #set app
 stats.setapp.com
+o36975.ingest.sentry.io
+www.downiestatistics.com
+software.charliemonroe.net
 
 # ente.io
 sentry-reporter.ente.io
