@@ -82,7 +82,7 @@ openssl s_client -state -debug -msg -connect doh-jp.blahdns.com:443 -tls1_3
 ## DNSSEC validation test
 
 1. [https://www.dnssec.cz/](https://www.dnssec.cz/)
-2. [https://dnssec.vs.uni-due.de/](https://dnssec.vs.uni-due.de/)
+2. [https://wander.science/projects/dns/dnssec-resolver-test/](https://wander.science/projects/dns/dnssec-resolver-test/)
 
 Use `dig` to test, this will return with header `AD`
 
