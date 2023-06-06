@@ -1,6 +1,10 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# iRent
+ssidentityserverprod.azurewebsites.net
+analytics-alv.google.com
+
 # Phishing
 onlineservicetec.com
 www.onlineservicetec.com
