@@ -47,6 +47,10 @@ ios.rqd.qq.com
 sentry.line.dev
 sentry-tw.line-apps.com
 maac.io
+lss-oal.line-scdn.net
+obs-jp2-addr-ds.line-apps.com
+jp-col-tcp.nelo.linecorp.com
+
 
 # Third-party Line api 漸強實驗室Crescendo Lab
 cresclab.com
