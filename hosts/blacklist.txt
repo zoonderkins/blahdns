@@ -1,6 +1,10 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# 4ddig.tenorshare.com
+analytics.afirstsoft.cn
+afirstsoft.cn
+
 # iRent
 ssidentityserverprod.azurewebsites.net
 analytics-alv.google.com
