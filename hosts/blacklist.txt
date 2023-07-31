@@ -1,6 +1,19 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)#
 
+# sentry
+sentry.io
+
+# irent taiwan
+matomo.ai-rent.net
+ssregisterserverprod.azurewebsites.net
+himsbg.servicebus.windows.net
+www.googletagmanager.com
+app.adjust.net.in
+adjust.net.in
+cfg.flurry.com
+data.flurry.com
+
 # Android Multiple accounts
 alt1-mtalk.google.com
 
