@@ -1,5 +1,8 @@
 ## This blacklist maintaince by @ookangzheng
-## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
+## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)#
+
+# Android Multiple accounts
+alt1-mtalk.google.com
 
 # ente.io
 sentry-reporter.ente.io
@@ -21,9 +24,6 @@ stats.setapp.com
 o36975.ingest.sentry.io
 www.downiestatistics.com
 software.charliemonroe.net
-
-# ente.io
-sentry-reporter.ente.io
 
 # Autoking Navigator ios, android
 ad.localking.com.tw
@@ -55,6 +55,15 @@ sentry.line.dev
 sentry-tw.line-apps.com
 maac.io
 lss-oal.line-scdn.net
+
+adservice.google.com
+liffsdk.line-scdn.net
+liffsdk.verda.akadns.net
+vos.line-scdn.net
+cix.line-apps.com
+torimochi.line-apps.com
+sentry-uit.line-apps.com
+
 
 # Third-party Line api 漸強實驗室Crescendo Lab
 cresclab.com
