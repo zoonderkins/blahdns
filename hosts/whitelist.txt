@@ -37,6 +37,10 @@ pixeldrain.com
 # LINE
 gw.line.naver.jp # will break line pay, line points
 nelo2-col.linecorp.com # break line message loading
+today.line.me.edgekey.net # Line Today
+e1102.a.akamaiedge.net
+liffsdk.line-scdn.net # Line Taxi
+api.line.me # Line reward point
  
 # app.github.media
 s88570519.t.en25.com
