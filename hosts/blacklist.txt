@@ -1,16 +1,18 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Smartmail
+usage.readdle.com
+stats.gcp.smartmailcloud.com
+
 # tianxing.com
 tianxing.com
 open.tianxing.com
 conf.open.tianxing.com
 
-# sentry
-sentry.io
-
-# irent taiwan
+# Irent taiwan
 matomo.ai-rent.net
+analytics-alv.google.com
 ssregisterserverprod.azurewebsites.net
 himsbg.servicebus.windows.net
 www.googletagmanager.com
@@ -29,15 +31,11 @@ sentry-reporter.ente.io
 analytics.afirstsoft.cn
 afirstsoft.cn
 
-# iRent
-ssidentityserverprod.azurewebsites.net
-analytics-alv.google.com
-
 # Phishing
 onlineservicetec.com
 www.onlineservicetec.com
 
-#set app
+# set-app
 stats.setapp.com
 o36975.ingest.sentry.io
 www.downiestatistics.com
@@ -73,15 +71,13 @@ sentry.line.dev
 sentry-tw.line-apps.com
 maac.io
 lss-oal.line-scdn.net
-
 adservice.google.com
-liffsdk.line-scdn.net
 liffsdk.verda.akadns.net
 vos.line-scdn.net
 cix.line-apps.com
 torimochi.line-apps.com
 sentry-uit.line-apps.com
-
+e14293.a.akamaiedge.net
 
 # Third-party Line api 漸強實驗室Crescendo Lab
 cresclab.com
