@@ -1,6 +1,10 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Metro Taipei
+api.metro.taipei
+ws.metro.taipei
+
 # Slack
 slackb.com
 
