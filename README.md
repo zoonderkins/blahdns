@@ -20,7 +20,7 @@
 * Block Trackers, Ads, Malwares, Phishing
 * No ECS, DNSSEC ready, No logs, OpenNIC, Eth TLD, Yggdrasil 
 * Support http://matoken.eth/ | http://mesh.ygg/ | http://i2pd.ygg/ | http://blahdns.oss/ | https://i❤.ws/
-* BlahDNS status [Status Page](https://stats.blahdns.com) | [Dnsprivacy.org](https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/)
+* BlahDNS status [Status Page](https://stats.blahdns.com) | [Dnsprivacy.org]([https://dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/](https://monitor.dnsprivacy.org/jenkins/job/dnsprivacy-monitoring/))
 
 
 ## How to setup / config DoH DoT Dnscrypt 👇
