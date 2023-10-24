@@ -1,9 +1,3 @@
-
-https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
-
-https://gist.githubusercontent.com/dieechtenilente/ad3fc9bacc205876b2e29dcb9043c8bc/raw/946b18ef170fa028067d8a3f135fe6c06ec30fa6/pihole.list
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
@@ -16,7 +10,6 @@ https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hos
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/joeylane/hosts/master/hosts
