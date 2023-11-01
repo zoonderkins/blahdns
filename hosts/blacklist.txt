@@ -1,6 +1,9 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# localstack
+analytics.production.aws.localstack.cloud
+
 # Smartmail
 usage.readdle.com
 stats.gcp.smartmailcloud.com
