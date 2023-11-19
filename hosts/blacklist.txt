@@ -29,6 +29,7 @@ alt1-mtalk.google.com
 
 # ente.io
 sentry-reporter.ente.io
+sentry.ente.io
 
 # 4ddig.tenorshare.com
 analytics.afirstsoft.cn
