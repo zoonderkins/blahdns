@@ -1,6 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# sdk-toutiao.com
+pangolin-sdk-toutiao.com
+api-access.pangolin-sdk-toutiao.com
+
+# Appsflyer
+inapps.appsflyer-cn.com
+
 # localstack
 analytics.production.aws.localstack.cloud
 
@@ -94,6 +101,16 @@ www.ijnb.cn
 ijnb.cn
 
 # Camscanner App Ios
+d.applovin.com
+csbase-web-offline-pkg.camscanner.com.653a71ef.cdnhwcjkl10.cn
+sf16-static.i18n-pglstatp.com
+appsflyer-cn.edgekey.net
+appsflyer-cn.edgekey.net.globalredir.akadns.net
+e13624.dscb.akamaiedge.net
+gw-outra-4c6f2c7b36ade8b8.elb.cn-northwest-1.amazonaws.com.cn
+tnc16-alisg.isnssdk.com
+cdn-settings.appsflyer-cn.com
+d1w4qo6covcdtw.cloudfront.net
 inapps.appsflyer-cn.com
 sf3-fe-tos.pglstatp-toutiao.com
 skadsdk.appsflyer-cn.com
