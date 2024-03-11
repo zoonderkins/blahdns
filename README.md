@@ -6,6 +6,7 @@
 
 ## Announcements
 
+* As of March 1, 2024, DoT can no longer be accessed via port 443. Please use the standard port 853 instead.
 * DoH and DoT downtime issue has been solved (2024-01-21). Sorry for the delay. ;)
 * DoH with Apple.com XD `curl -H 'content-type: application/dns-message' -vL -v 'https://doh.dns.apple.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C` 
 * Happy New Year 2023 ~
@@ -34,12 +35,10 @@ Server (Switzerland, Germany, Japan, Singapore)
 
 |-- Knot-resolver (DNS resolver, OpenNIC, ICANN, Alfis)
 |-- Dnsdist (cache)
-|   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443)
-|   |   |-- Dnsproxy (DoQ, port 784)
-|   |-- DoH/http3 (port 443/udp)
-|   |-- doh-server (DoH, GET, POST -- m13253)
-|   |   |-- |-- DoH (HAProxy, port 443, TLS 1.3, require SNI)
-|-- DoT (HAProxy, port 853, TLS 1.3, require SNI)
+|   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443 TCP/UDP)
+|   |   |-- DoQ, port 784
+|   |-- DoH/http3 (port 443/TCP/UDP port 443, tls version >= 1.2, require SNI)
+|-- DoT (HAProxy, port 853, tls version >=1.2, require SNI)
 
 ```
 
