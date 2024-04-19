@@ -27,32 +27,7 @@ policy.add(policy.all(policy.TLS_FORWARD({{'139.162.112.47@853', hostname='dot-j
 
 ## Unbound 
 
-```bash
-# /etc/unbound/unbound.conf
-
-    include: "/etc/unbound/unbound.conf.d/*.conf"
-    verbosity: 1
-    tls-cert-bundle: "/etc/ssl/certs/ca-certificates.crt"
-    interface: 127.0.0.1@53
-    interface: 0::1@53
-    harden-dnssec-stripped: no # disable DNSSEC
-    do-not-query-localhost: no
-
-forward-zone:
-  name: "."
-  forward-tls-upstream: yes
-  forward-addr: 95.216.212.177@443#dot-fi.blahdns.com
-  forward-addr: 2a01:4f9:c010:43ce::1@853#dot-fi.blahdns.com
-  forward-addr: 139.162.112.47@853#dot-jp.blahdns.com
-  forward-addr: 2001:19f0:7001:3259:5400:02ff:fe71:0bc9@443#dot-jp.blahdns.com
-  forward-addr: 78.46.244.143@853#dot-de.blahdns.com
-  forward-addr: 2a01:4f8:c17:ec67::1@853#dot-de.blahdns.com
-  forward-addr: 45.91.92.121@853#dot-ch.blahdns.com
-  forward-addr: 2a0e:dc0:6:23::2@853#dot-ch.blahdns.com
-  forward-addr: 192.53.175.149@853#dot-sg.blahdns.com
-  forward-addr: 2400:8901::f03c:92ff:fe27:870a@853#dot-sg.blahdns.com
-  
-```
+Go [HERE](https://github.com/zoonderkins/blahdns/blob/master/client-conf/unbound.conf)
 
 ## Stubby
 
