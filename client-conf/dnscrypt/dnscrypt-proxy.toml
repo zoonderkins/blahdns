@@ -1,10 +1,10 @@
-server_names = ['blahdns-jp-dnscrypt-v4']
+server_names = ['blahdns-de-dnscrypt-v4']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 300
 force_tcp = false
 timeout = 2000
 keepalive = 30
-bootstrap_resolvers = ['1.1.1.2:53','8.8.8.8:53', '9.9.9.9:53']
+bootstrap_resolvers = ['8.8.8.8:53', '9.9.9.9:53']
 ignore_system_dns = true
 netprobe_timeout = 30
 cache = false
@@ -15,41 +15,6 @@ cache_neg_min_ttl = 10
 cache_neg_max_ttl = 300
 
 [static]
-# Singapore DoH
-[static.'blahdns-sg-doh']
-stamp = 'sdns://AgMAAAAAAAAADjEwMy4xNjcuMTUwLjQ1ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
-[static.'blahdns-sg-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAFVsyNDA2OmVmODA6Mjo1ZWU0OjoxXQASZG9oLXNnLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
-
-# Singapore Dnscrypt
-[static.'blahdns-sg-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzEwMy4xNjcuMTUwLjQ1Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-[static.'blahdns-sg-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAGlsyNDA2OmVmODA6Mjo1ZWU0OjoxXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
-
-# Finland DoH
-[static.'blahdns-fi-doh']
-stamp = 'sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
-[static.'blahdns-fi-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
-
-# Finland Dnscrypt
-[static.'blahdns-fi-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-[static.'blahdns-fi-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
-
-# Japan DoH
-[static.'blahdns-jp-doh']
-stamp = 'sdns://AgMAAAAAAAAADDIxMi41Mi4wLjEyMgASZG9oLWpwLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
-[static.'blahdns-jp-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAFVsyNDA2OmVmODA6NDoxNTM3OjoxXQASZG9oLWpwLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
-
-# Japan Dnscrypt
-[static.'blahdns-jp-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAETIxMi41Mi4wLjEyMjo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
-[static.'blahdns-jp-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAGlsyNDA2OmVmODA6NDoxNTM3OjoxXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
 
 # Gearmany DoH
 [static.'blahdns-de-doh']
@@ -62,15 +27,3 @@ stamp = 'sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5z
 stamp = 'sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
 [static.'blahdns-de-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
-
-# Switzerland DoH
-[static.'blahdns-ch-doh']
-stamp = 'sdns://AgMAAAAAAAAAEDQ1LjkxLjkyLjEyMTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
-[static.'blahdns-ch-doh-v6']
-stamp = 'sdns://AgMAAAAAAAAAFlsyYTBlOmRjMDo2OjIzOjoyXTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
-
-# Switzerland Dnscrypt
-[static.'blahdns-ch-dnscrypt-v4']
-stamp = 'sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
-[static.'blahdns-ch-dnscrypt-v6']
-stamp = 'sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
