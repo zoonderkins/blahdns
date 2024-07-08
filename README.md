@@ -6,15 +6,10 @@
 
 ## Announcements
 
-* As of March 1, 2024, DoT can no longer be accessed via port 443. Please use the standard port 853 instead.
-* DoH and DoT downtime issue has been solved (2024-01-21). Sorry for the delay. ;)
-* DoH with Apple.com XD `curl -H 'content-type: application/dns-message' -vL -v 'https://doh.dns.apple.com/dns-query?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB' | hexdump -C` 
-* Happy New Year 2023 ~
-* Singapore server has been migrate to HostHatch (2022-11-07)
-* Finland server will be discontinue at 2022-11-30 (Due to Hetzner price increase)
+**We will discotinue Japan, Singapore, Switzerland, Finland by Jul 15, 2024** | Thanks again for all supporters and users 🥰🙏
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
-* Temporary disable uncensored and CDN DoH, will spin another machine to handle those request
+
 
 ## Our features
 
