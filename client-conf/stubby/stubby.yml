@@ -13,33 +13,8 @@ listen_addresses:
   - 0::1@5353
 
 upstream_recursive_servers:
-  # BlahDNS servers both with `tls_port: 853` and `tls_port: 443`
-  - address_data: 103.167.150.45
-    tls_auth_name: "dot-sg.blahdns.com"
-    
-  - address_data: 212.52.0.122
-    tls_auth_name: "dot-jp.blahdns.com"
-
   - address_data: 78.46.244.143
     tls_auth_name: "dot-de.blahdns.com"
     
-  - address_data: 95.216.212.177
-    tls_auth_name: "dot-fi.blahdns.com"
-    
-  - address_data: 45.91.92.121
-    tls_auth_name: "dot-ch.blahdns.com"
-        
-  - address_data: 2406:ef80:2:5ee4::1
-    tls_auth_name: "dot-sg.blahdns.com"
-    
-  - address_data: 2406:ef80:4:1537::1
-    tls_auth_name: "dot-jp.blahdns.com"
-
   - address_data: 2a01:4f8:c17:ec67::1
     tls_auth_name: "dot-de.blahdns.com"
-    
-  - address_data: 2a01:4f9:c010:43ce::1
-    tls_auth_name: "dot-fi.blahdns.com"
-    
-  - address_data: 2a0e:dc0:6:23::2
-    tls_auth_name: "dot-ch.blahdns.com"
