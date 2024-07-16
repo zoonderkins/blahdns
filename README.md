@@ -6,7 +6,7 @@
 
 ## Announcements
 
-**We will discotinue Japan, Singapore, Switzerland, Finland by Jul 15, 2024** | Thanks again for all supporters and users 🥰🙏
+**We will discotinue Japan, Switzerland, Finland by Jul 15, 2024** | Thanks again for all supporters and users 🥰🙏
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
 
