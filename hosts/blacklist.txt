@@ -1,6 +1,19 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+ap-northeast-1.prod.pr.analytics.console.aws.a2z.com
+us-east-1.prod.pr.analytics.console.aws.a2z.com
+us-east-2.prod.pr.analytics.console.aws.a2z.com
+us-west-1.prod.pr.analytics.console.aws.a2z.com
+us-west-2.prod.pr.analytics.console.aws.a2z.com
+eu-west-1.prod.pr.analytics.console.aws.a2z.com
+us-west-2.prod.pr.analytics.console.aws.a2z.com
+telemetry.cell-0.us-east-1.prod.tangerinebox.console.aws.a2z.com
+telemetry.cell-0.ap-northeast-1.prod.tangerinebox.console.aws.a2z.com
+prod.tools.shortbread.analytics.console.aws.a2z.com
+prod.log.shortbread.analytics.console.aws.a2z.com
+analytics.console.aws.a2z.com
+
 # sdk-toutiao.com
 pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao.com
