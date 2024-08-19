@@ -16,6 +16,9 @@ cache_neg_max_ttl = 300
 
 [static]
 
+# Provider public key: 7b8bf43c61a5207cecf803627e2497d327557585837a85b87e8700e8d989ad87
+# Provider name: 2.dnscrypt-cert.blahdns.com
+
 # Gearmany DoH
 [static.'blahdns-de-doh']
 stamp = 'sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5'
@@ -27,3 +30,16 @@ stamp = 'sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5z
 stamp = 'sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
 [static.'blahdns-de-dnscrypt-v6']
 stamp = 'sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20'
+
+
+# Singapore DoH
+[static.'blahdns-sg-doh']
+stamp = 'sdns://AgMAAAAAAAAADjQ2LjI1MC4yMjYuMjQyABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ'
+[static.'blahdns-sg-doh-v6']
+stamp = 'sdns://AgMAAAAAAAAAGFsyNDA3OjM2NDA6MjIwNToxNjY4OjoxXQASZG9oLXNnLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk'
+
+# Singapore Dnscrypt
+[static.'blahdns-sg-dnscrypt-v4']
+stamp = 'sdns://AQMAAAAAAAAAEzQ2LjI1MC4yMjYuMjQyOjg0NDMge4v0PGGlIHzs-ANifiSX0ydVdYWDeoW4focA6NmJrYcbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t'
+[static.'blahdns-sg-dnscrypt-v6']
+stamp = 'sdns://AQMAAAAAAAAAHVsyNDA3OjM2NDA6MjIwNToxNjY4OjoxXTo4NDQzIHuL9DxhpSB87PgDYn4kl9MnVXWFg3qFuH6HAOjZia2HGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ'
