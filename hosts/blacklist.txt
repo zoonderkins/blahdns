@@ -117,7 +117,12 @@ twpytr.com
 www.ijnb.cn
 ijnb.cn
 
-# Camscanner App Ios
+# Camscanner App iOS
+dsp-material.brainx.tech
+brainx-dsp-sg.tec-do.cn
+tec-do.cn
+adx-event-server.tec-do.cn
+click.tracksummer.com
 d.applovin.com
 csbase-web-offline-pkg.camscanner.com.653a71ef.cdnhwcjkl10.cn
 sf16-static.i18n-pglstatp.com
