@@ -99,7 +99,8 @@ today-obs.line-scdn.net
 ad.line-scdn.net
 sentry-uit.line-apps.com
 ly.my.sentry.io
-legy.line-apps.com
+# legy.line-apps.com
+# legy-backup.line-apps.com
 d.line-scdn.net
 ios.rqd.qq.com
 sentry.line.dev
