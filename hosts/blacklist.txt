@@ -94,6 +94,12 @@ logx.optimizely.com
 # Block Ads inside Line Today, also break picture (thumbnail)
 # Feedback needed (Android Too)
 
+# grafana alloy track user frontend 
+alloy-gw.line.dev
+line.dev
+# line k8s ingress controller
+contour.brown.line-apps.com
+
 voom-obs.line-scdn.net
 today-obs.line-scdn.net
 ad.line-scdn.net
