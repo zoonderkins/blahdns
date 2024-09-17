@@ -23,6 +23,7 @@ pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao.com
 
 # Appsflyer
+0sak8o-cdn-settings.appsflyersdk.com
 inapps.appsflyer-cn.com
 
 # localstack
