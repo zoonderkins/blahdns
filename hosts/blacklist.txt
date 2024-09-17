@@ -1,6 +1,12 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Shopback ios app
+api3.branch.io
+api2.branch.io
+app-2eb14b23959e2b5d.mobileapi.usebutton.com
+mobileapi.usebutton.com
+
 mu-pl.lemnisk.co
 api.cooladata.com
 li.protechts.net
