@@ -95,12 +95,14 @@ logx.optimizely.com
 # Block Ads inside Line Today, also break picture (thumbnail)
 # Feedback needed (Android Too)
 
+
 # grafana alloy track user frontend 
 alloy-gw.line.dev
 line.dev
 # line k8s ingress controller
 contour.brown.line-apps.com
 # Line taxi
+adc.tamedia.com.tw
 car-plus-datasink.sensorsdata.com
 sensorsdata.com
 
