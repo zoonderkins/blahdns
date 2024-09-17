@@ -99,6 +99,9 @@ alloy-gw.line.dev
 line.dev
 # line k8s ingress controller
 contour.brown.line-apps.com
+# Line taxi
+car-plus-datasink.sensorsdata.com
+sensorsdata.com
 
 voom-obs.line-scdn.net
 today-obs.line-scdn.net
