@@ -1,6 +1,10 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Line pay
+cloud.v-key.com
+v-key.com
+
 # Shopback ios app
 api3.branch.io
 api2.branch.io
