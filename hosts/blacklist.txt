@@ -1,6 +1,11 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Spark Mail
+o439196.ingest.sentry.io
+api.amplitude.com
+in.appcenter.ms
+
 # Macpaw
 api-lytics.macpaw.com
 o36975.ingest.sentry.io
