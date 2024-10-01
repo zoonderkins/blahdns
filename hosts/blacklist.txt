@@ -130,6 +130,7 @@ today-obs.line-scdn.net
 ad.line-scdn.net
 sentry-uit.line-apps.com
 ly.my.sentry.io
+# leygy will break outside app share file or picture to Line app on iOS
 # legy.line-apps.com
 # legy-backup.line-apps.com
 d.line-scdn.net
