@@ -16,6 +16,8 @@ ws.metro.taipei
 slackb.com
 
 # Line
+# Line Taxi voucher redeem
+app.data-di.com
 # Report ads website not loading
 liffsdk.line-scdn.net
 # Line chat official account bottom message select form content
