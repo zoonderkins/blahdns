@@ -4,6 +4,11 @@
 # tw openpoint
 # Aotter 電獺 | 出現在兌換頁面 video 廣告
 c3po.aotter.net
+tkvideo.aottercdn.com
+aottercdn.com
+aotter.net
+pic-ilake-rmn-r.pic.net.tw
+static.ottercdn.com
 
 # Spark Mail
 o439196.ingest.sentry.io
