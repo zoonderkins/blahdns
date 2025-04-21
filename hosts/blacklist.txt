@@ -1,8 +1,24 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+
+# Insta360 mobile
+thinkingdata.cn
+apmplus.volces.com
+log.zijieapi.com
+log-klink.zijieapi.com
+mssdk-bu.bytedance.com
+ali.wosms.cn
+httpdns.yunxinfw.com
+abt-online.netease.im
+enrichgw.10010.com
+
 # tw openpoint
 # Aotter 電獺 | 出現在兌換頁面 video 廣告
+ocsp.digicert.com
+status.rapidssl.com
+sdk-02.moengage.com
 c3po.aotter.net
 tkvideo.aottercdn.com
 aottercdn.com
