@@ -1,7 +1,7 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
-jnn-pa.googleapis.com
+ocsp.digicert.com
 
 # picsart.com
 api.picsart.com
@@ -1011,6 +1011,7 @@ cvp1.cdn.turner.com
 z.cdn.turner.com
 
 # OCSP-Servers 
+ocsp.digicert.com
 ocsp.verisign.com
 #a652.dscb.akamai.net # CNAME of ocsp.comodoca.com
 ocsp.int-x3.letsencrypt.org
@@ -1020,7 +1021,6 @@ ocsp.int-x1.letsencrypt.org
 #ocsp.apple.com
 ocsp.comodoca.com
 ocsp.comodoca4.com
-ocsp.digicert.com
 ocsp.globalsign.com
 ocsp.godaddy.com
 ocsp.pki.goog
