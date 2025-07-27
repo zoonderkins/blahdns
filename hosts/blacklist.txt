@@ -1,7 +1,24 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# TouchnGo mobile app
+ilog-sea-aliyun.alipayplus.com
+sg1.clevertap-prod.com
+ocsp.digicert.cn
+0j55i2vci4m0ly4f.aliyunddos0027.com
 
+# Cathay asia miles app
+cdn.optimizely.com
+cathaypacific.quantummetric.com
+dns.alidns.com
+apps.pingone.com
+tags.tiqcdn.com
+datacloud.tealiumiq.com
+eligibility.wootric.com
+c.us.heap-api.com
+tags.cathaypacific.com.greylabeldelivery.com
+tags.cathaypacific.com
+c.go-mpulse.net
 
 # Insta360 mobile
 thinkingdata.cn
