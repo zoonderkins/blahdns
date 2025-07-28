@@ -6,12 +6,12 @@ ilog-sea-aliyun.alipayplus.com
 sg1.clevertap-prod.com
 ocsp.digicert.cn
 0j55i2vci4m0ly4f.aliyunddos0027.com
-
-# Cathay asia miles app
 cdn.optimizely.com
 cathaypacific.quantummetric.com
 dns.alidns.com
 apps.pingone.com
+
+# Cathay asia miles app
 tags.tiqcdn.com
 datacloud.tealiumiq.com
 eligibility.wootric.com
@@ -200,6 +200,15 @@ www.ijnb.cn
 ijnb.cn
 
 # Camscanner App iOS
+api16-log-sg2.pangle.io
+api16-access-ttp.tiktokpangle.us
+p16-ttam-va.ibyteimg.com
+engagements.appsflyer.com
+init-p01md.apple.com
+ss-static.intsig.net
+ep2.facebook.com
+cgi.connect.qq.com
+0sak8o-launches.appsflyersdk.com
 dsp-material.brainx.tech
 brainx-dsp-sg.tec-do.cn
 tec-do.cn
