@@ -6,8 +6,9 @@
 
 ## Announcements
 
+* We had migrated DNS Stack to Knot-resolver + dnsdist
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
-* For more old announcements, go [here](https://github.com/ookangzheng/blahdns/issues/36)
+* For more old announcements, go [here](https://github.com/zoonderkins/blahdns/issues/36)
 
 
 ## Our features
@@ -19,7 +20,7 @@
 
 
 ## How to setup / config DoH DoT Dnscrypt 👇
-Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/master/server-conf)
+Config: [HERE for more details](https://github.com/zoonderkins/blahdns/tree/master/server-conf)
 
 
 ## Server architecture
@@ -28,29 +29,28 @@ Config: [HERE for more details](https://github.com/ookangzheng/blahdns/tree/mast
 Server
 
 |-- Knot-resolver (DNS resolver, OpenNIC, ICANN, Alfis)
-|-- Dnsdist (cache)
+|-- Dnsdist
 |   |   |-- DNSCryptv2 (encrypted-dns-server, port 8443 TCP/UDP)
 |   |   |-- DoQ, port 784
-|   |-- DoH/http3 (port 443/TCP/UDP port 443, tls version >= 1.2, require SNI)
-|-- DoT (HAProxy, port 853, tls version >=1.2, require SNI)
+|   |   |-- DoH/2, DoH/3 UDP port 443 (Post, Get)
+|   |   |-- DoT, port 853 TCP
 
 ```
 
 ## Config file / Client
-* Collection of blocklist use in BlahDNS: [Source](https://github.com/ookangzheng/blahdns/raw/master/hosts/source.txt) 
-* Yggdrasil IPv6 Network: [Setup guide](https://github.com/ookangzheng/blahdns/blob/master/client-conf/yggdrasil.md)
+* Collection of blocklist use in BlahDNS: [Source](https://github.com/zoonderkins/blahdns/raw/master/hosts/source.txt) 
+* Yggdrasil IPv6 Network: [Setup guide](https://github.com/zoonderkins/blahdns/blob/master/client-conf/yggdrasil.md)
 * Android DoH/DoT: [Nebulo App](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen) | [personalDNSfilter App](https://zenz-solutions.de/personaldnsfilter/) | [Intra](https://play.google.com/store/apps/details?id=app.intra)
 * iOS Dnscryptv2/DoH: [Dnscloak](https://itunes.apple.com/app/dnscloak-secure-dns-client/id1452162351)
 * Dnscryptv2: [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
-* Config files: [ Client config example ](https://github.com/ookangzheng/blahdns/tree/master/client-conf)
+* Config files: [ Client config example ](https://github.com/zoonderkins/blahdns/tree/master/client-conf)
 
 ## Awesome dns-resolver
-https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
+https://gist.github.com/zoonderkins/c8fba46fe1dbcc8152e3231f53f91e86
 
 ## Huge thanks to those OSS and ORG
 1. [Knot-resolver](https://github.com/CZ-NIC/knot-resolver)
-2. [m13253](https://github.com/m13253/dns-over-https)
-3. [DNSPrivacy.org](https://dnsprivacy.org)
+2. [DNSPrivacy.org](https://dnsprivacy.org)
 
 ## Buy me some coffee :coffee: 
 
@@ -65,4 +65,4 @@ https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 * Use at your own risk. Under no circumstances will the operator be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from accessing or otherwise using this service (Blahdns server).
 * By using this website and service you consent to the disclaimer and agree to its terms and conditions.
 
-[![Stargazers over time](https://starchart.cc/ookangzheng/blahdns.svg)](https://starchart.cc/ookangzheng/blahdns)
+[![Stargazers over time](https://starchart.cc/zoonderkins/blahdns.svg)](https://starchart.cc/zoonderkins/blahdns)
