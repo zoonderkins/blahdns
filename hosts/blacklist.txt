@@ -1,6 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# https://stillcarol.tw/secretary/
+adblock.static-01.workers.dev
+static-01.workers.dev
+unblock.ad-block.shop
+ad-block.shop
+pagead2.googlesyndication.com
+
 # TouchnGo mobile app
 ilog-sea-aliyun.alipayplus.com
 sg1.clevertap-prod.com
