@@ -1,6 +1,8 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+## digicert
 ocsp.digicert.com
 
 # picsart.com
@@ -172,10 +174,20 @@ amp-api-edge.apps.apple.com.edgekey.net
 # mihoyo.com
 log-upload-os.mihoyo.com
 
+# Sogo Input
+pgdt.gtimg.cn
+cdn-go.cn
+
 # QQ Lemon
 guanjia.qq.com
+qq-web.cdn-go.cn
+appcfg.v.qq.com
+tangram-config.gdt.qq.com
 
-# Wei Xin IM
+# QQ 
+static-res.qq.com
+
+# Wechat
 shminorshort.weixin.qq.com
 minorshort.weixin.qq.com # Will break user unable to join group
 support.weixin.qq.com
