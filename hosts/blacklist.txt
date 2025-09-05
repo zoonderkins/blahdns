@@ -1,6 +1,12 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+# Apex One Security Agent
+icrc.trendmicro.com
+url.trendmicro.com
+tmsm35.icrc.trendmicro.com
+tmsm3-5-en.url.trendmicro.com
+
 # AirAsia app
 airasia.gw-dv.vip
 airasia.ck123.io
