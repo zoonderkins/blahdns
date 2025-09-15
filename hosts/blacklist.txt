@@ -1,6 +1,10 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+smooch.io
+api.smooch.io
+cf-main.smooch.io
+
 # Apex One Security Agent
 api-us1.xbc.trendmicro.com
 api-us2.xbc.trendmicro.com
