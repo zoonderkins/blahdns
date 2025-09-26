@@ -6,6 +6,7 @@
 
 ## Announcements
 
+* We had migrated SSL CA from Buypass GO to Google CA. (2025/09/27)
 * We had migrated DNS Stack to Knot-resolver + dnsdist
 * Beta support `alfis.name` tld. `.anon, .btn, .conf, .index, .merch, .mirror, .mob, .screen, .srv, .ygg`
 * For more old announcements, go [here](https://github.com/zoonderkins/blahdns/issues/36)
