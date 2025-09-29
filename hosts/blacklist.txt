@@ -1,6 +1,13 @@
 ## This blacklist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+# scam invesment in chinese, taiwan
+## agw-ms 投資
+ascend-code.com
+6g93jh.com
+
+
 smooch.io
 api.smooch.io
 cf-main.smooch.io
