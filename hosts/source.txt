@@ -1,33 +1,30 @@
+# Last update 2025-10-01
+# General
+
+https://abp.oisd.nl
 https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/quad9_blocklist.txt
-https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
-https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
-https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
-https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
-https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt
-https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
-https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://raw.githubusercontent.com/joeylane/hosts/master/hosts
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
-https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
+https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/pro.txt
 
 https://hostfiles.frogeye.fr/multiparty-only-trackers.txt
 https://badmojr.github.io/1Hosts/Lite/adblock.txt
-https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
 http://npc.0am.jp/hosts.php?dl=1
-https://abp.oisd.nl
-https://gitee.com/bigdataleaveme/dontcollectme/raw/master/dontcollectme.txt
+
 https://warui.intaa.net/adhosts/hosts.txt
 https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
+
+# Scam
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/tif-compressed.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt
 
 # CNAME cloaking
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt
