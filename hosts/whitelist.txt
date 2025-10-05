@@ -1,6 +1,8 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+# youtube
 jnn-pa.googleapis.com
 
 ## digicert
@@ -185,8 +187,13 @@ qq-web.cdn-go.cn
 appcfg.v.qq.com
 tangram-config.gdt.qq.com
 
-# QQ 
+# QQ messenger
 static-res.qq.com
+d3g.qq.com
+v.gdt.qq.com
+rpt.gdt.qq.com
+tangram-config.gdt.qq.com
+vv.video.qq.com
 
 # Wechat
 shminorshort.weixin.qq.com
