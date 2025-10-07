@@ -40,3 +40,35 @@ https://airvpn.org/api/dns_lists/?code=air_malware&block=0.0.0.0&style=domains
 https://airvpn.org/api/dns_lists/?code=air_cryptojacking&block=0.0.0.0&style=domains
 https://airvpn.org/api/dns_lists/?code=air_ads&block=0.0.0.0&style=domains
 ```
+
+## Personal
+```
+# Web browser ABP style, uBlock Origin
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt # Recommend
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt
+
+# ABP for Adguard, Adguard home
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt # Lite
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt # Recommend
+https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt # Host style
+https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/adblock.txt
+
+# Pihole | Hosts
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhosts.txt # Recommend
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
+
+# Mobile + Browser (ios adguard, android adguard)
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt # Recommend
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini-onlydomains.txt # Host style
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini-onlydomains.txt # Host style
+
+# Adguard home (others)
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt # Recommend
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt # Recommend
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt # Hosts style
+
+```
+
+
