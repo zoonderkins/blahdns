@@ -2,6 +2,7 @@
 
 # Allowlist
 https://raw.githubusercontent.com/217heidai/adblockfilters/refs/heads/main/rules/white.txt
+https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_whitelist.txt
 
 # Blocklist
 ## General
