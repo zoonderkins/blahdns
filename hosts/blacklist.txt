@@ -12,6 +12,7 @@ api.smooch.io
 cf-main.smooch.io
 
 # Apex One Security Agent
+
 api-us1.xbc.trendmicro.com
 api-us2.xbc.trendmicro.com
 xlogr-ue1.xdr.trendmicro.com
@@ -27,6 +28,8 @@ tmsm35.icrc.trendmicro.com
 tmsm3-5-en.url.trendmicro.com
 a1bz7u2flvp09t-ats.iot.us-east-1.amazonaws.com
 support-connector-service.manage.trendmicro.com
+# Python trendmicro
+edc2munki02.trendmicro.com
 # Nudge trendmicro
 edc2mdmdep01.trendmicro.com
 # CET Agent trendmicro
