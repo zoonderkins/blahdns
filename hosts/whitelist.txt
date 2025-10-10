@@ -23,6 +23,7 @@ ws.metro.taipei
 slackb.com
 
 # Line
+api.line.me
 # Line Taxi voucher redeem
 app.data-di.com
 # Report ads website not loading
