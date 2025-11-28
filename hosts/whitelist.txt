@@ -1,6 +1,8 @@
 ## This whitelist maintaince by @ookangzheng
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
+
+
 # apple.com
 ## ios app store
 tr.iadsdk.apple.com
@@ -297,6 +299,7 @@ opera.software
 op-cdn.net
 
 # Microsoft
+substrate.office.com # Teams internal search webpage
 activity.windows.com # brake Authenticator backup function
 continuum.dds.microsoft.com # Connect your phone to Microsoft windows
 
