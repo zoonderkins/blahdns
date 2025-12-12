@@ -52,7 +52,6 @@ https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt
 https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt # Lite
 https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt # Recommend
 https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt # Host style
-https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/adblock.txt
 
 # Pihole | Hosts
 https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhosts.txt # Recommend
