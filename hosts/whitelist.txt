@@ -2,6 +2,8 @@
 ## Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0)
 
 
+# GLM z.ai
+chat.z.ai
 
 # apple.com
 ## ios app store
